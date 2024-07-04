@@ -3,28 +3,11 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
-      links: [
-        {
-          text: 'SaaS',
-          href: getPermalink('/homes/saas'),
-        },
-        {
-          text: 'Startup',
-          href: getPermalink('/homes/startup'),
-        },
-        {
-          text: 'Mobile App',
-          href: getPermalink('/homes/mobile-app'),
-        },
-        {
-          text: 'Personal',
-          href: getPermalink('/homes/personal'),
-        },
-      ],
+      text: 'Hem',
+      href: '/'
     },
     {
-      text: 'Pages',
+      text: 'Engagera_dig',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -57,7 +40,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Verksamhet',
       links: [
         {
           text: 'Lead Generation',
@@ -86,8 +69,9 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
-      links: [
+      text: 'Kontakta_oss',
+      href: getPermalink('/contact'),
+      /*links: [
         {
           text: 'Blog List',
           href: getBlogPermalink(),
@@ -108,14 +92,14 @@ export const headerData = {
           text: 'Tag Page',
           href: getPermalink('astro', 'tag'),
         },
-      ],
+      ],*/
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Om_oss',
+      href: getPermalink('/about'),
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Anmäl dig!', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
