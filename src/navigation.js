@@ -99,7 +99,7 @@ export const headerData = {
       href: getPermalink('/about'),
     },
   ],
-  actions: [{ text: 'Anmäl dig!', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Anmäl dig', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
 };
 
 export const footerData = {
