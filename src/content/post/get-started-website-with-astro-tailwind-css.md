@@ -1,17 +1,13 @@
 ---
-excerpt: Start your web journey with AstroWind – harness Astro and Tailwind CSS
-  for a stunning site. Explore our guide now.
-author: John Smith
+excerpt: Häng med oss till Skelefteå på MR-dagarna 2024 i november!
+author: turpelurpeluren
 metadata:
   canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
-title: Get started with AstroWind to create a website using Astro and Tailwind CSS
-category: Tutorials
-tags:
-  - astro
-  - tailwind css
-  - test
-image: https://images.unsplash.com/photo-1516996087931-5ae405802f9f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80
-publishDate: 2023-08-12T00:00:00.000Z
+title: Mänsliga rättigheter-dagarna 2024
+category: test
+tags: []
+image: https://usercontent.one/wp/www.mrdagarna.se/wp-content/uploads/2022/05/Mrdagarna-Foto-evelina_ronnback174.jpg?media=1715163714
+publishDate: 2024-11-13T01:00:00.000Z
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
