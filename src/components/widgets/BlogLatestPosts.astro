@@ -2,6 +2,7 @@
 import { APP_BLOG } from 'astrowind:config';
 
 import Grid from '~/components/blog/Grid.astro';
+import List from '~/components/blog/List.astro';
 
 import { getBlogPermalink } from '~/utils/permalinks';
 import { findLatestPosts } from '~/utils/blog';
@@ -19,7 +20,7 @@ export interface Props extends Widget {
 
 const {
   title = await Astro.slots.render('title'),
-  linkText = 'View all posts',
+  linkText = 'Hela kalendern',
   linkUrl = getBlogPermalink(),
   information = await Astro.slots.render('information'),
   count = 4,
@@ -55,7 +56,7 @@ const posts = APP_BLOG.isEnabled ? await findLatestPosts({ count }) : [];
         {information && <p class="text-muted dark:text-slate-400 lg:text-sm lg:max-w-md" set:html={information} />}
       </div>
 
-      <Grid posts={posts} />
+      <List posts={posts} />
     </WidgetWrapper>
   ) : (
     <Fragment />

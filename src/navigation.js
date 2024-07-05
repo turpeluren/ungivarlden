@@ -7,8 +7,14 @@ export const headerData = {
       href: '/'
     },
     {
-      text: 'Engagera_dig',
+      text: 'Engagera dig',
       links: [
+        {
+          text: 'Kommande event',
+          href: getPermalink('/#upcoming'),
+        },
+      ]
+      /*links: [
         {
           text: 'Features (Anchor Link)',
           href: getPermalink('/#features'),
@@ -37,11 +43,12 @@ export const headerData = {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
         },
-      ],
+      ],*/
     },
     {
       text: 'Verksamhet',
-      links: [
+      href: getPermalink('/services'),
+      /*links: [
         {
           text: 'Lead Generation',
           href: getPermalink('/landing/lead-generation'),
@@ -66,10 +73,10 @@ export const headerData = {
           text: 'Subscription',
           href: getPermalink('/landing/subscription'),
         },
-      ],
+      ],*/
     },
     {
-      text: 'Kontakta_oss',
+      text: 'Kontakt',
       href: getPermalink('/contact'),
       /*links: [
         {
@@ -95,7 +102,7 @@ export const headerData = {
       ],*/
     },
     {
-      text: 'Om_oss',
+      text: 'Om oss',
       href: getPermalink('/about'),
     },
   ],
