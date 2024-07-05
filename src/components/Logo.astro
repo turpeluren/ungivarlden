@@ -1,10 +1,11 @@
 ---
 import { SITE } from 'astrowind:config';
+import Image from '~/components/common/Image.astro';
 ---
 
 <span
   class="justify-baseline self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >
-  <img class="h-8 md:h-8 inline" src="src/assets/images/ung-i-varlden.png"> 
+  <Image class="h-8 md:h-8 inline" alt="logo" src="~/assets/images/ung-i-varlden.png" crossorigin="anonymous" referrerpolicy="no-referrer"></Image> 
   <!--{SITE?.name}-->
 </span>
