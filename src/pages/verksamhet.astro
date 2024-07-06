@@ -3,8 +3,11 @@ import CallToAction from '~/components/widgets/CallToAction.astro';
 import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Hero from '~/components/widgets/Hero.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
 import Testimonials from '~/components/widgets/Testimonials.astro';
+import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'Services',
@@ -14,7 +17,7 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
 
-  <Hero
+  <!--Hero
     tagline="Services"
     title="Elevate your projects with our stunning templates"
     subtitle="Explore our meticulously crafted templates tailored to various industries and purposes. From captivating presentations to functional website designs, we offer the tools you need to succeed."
@@ -23,11 +26,11 @@ const metadata = {
       src: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80',
       alt: 'AstroWind Hero Image',
     }}
-  />
+  /-->
 
   <!-- Features2 Widget ************** -->
 
-  <Features2
+  <!--Features2
     title="Explore our diverse templates"
     subtitle="Discover our selection below to streamline and elevate your projects."
     columns={3}
@@ -85,47 +88,17 @@ const metadata = {
         icon: 'tabler:tie',
       },
     ]}
+  /-->
+
+  <HeroText
+    title="Vår verksamhet"
+    subtitle=`Hej test på dig.`
+    content=`With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.
+              With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.
+          With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.
+      mksmk
+      asd`
   />
-
-  <!-- Content Widget **************** -->
-
-  <Content
-    isReversed
-    items={[
-      {
-        title: 'High-Quality Designs',
-        description:
-          'Our templates feature top-tier designs that ensure a professional and polished appearance for your projects.',
-        icon: 'tabler:wand',
-      },
-      {
-        title: 'Customization Tools',
-        description:
-          'Tailor each template to your unique needs with user-friendly customization tools that let you personalize colors, fonts, and content.',
-        icon: 'tabler:settings',
-      },
-      {
-        title: 'Pre-Designed Elements',
-        description:
-          'Save time and effort with our ready-to-use elements, including graphics, icons, and layouts that enhance the visual appeal of your creations.',
-        icon: 'tabler:presentation',
-      },
-      {
-        title: 'Preview and Mockup Views',
-        description:
-          'Visualize the final outcome before making any changes using our preview and mockup views, ensuring your projects meet your expectations.',
-        icon: 'tabler:carousel-horizontal',
-      },
-    ]}
-    image={{
-      src: 'https://images.unsplash.com/photo-1525909002-1b05e0c869d8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80',
-      alt: 'Features Image',
-    }}
-  >
-    <Fragment slot="content">
-      <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Main Features</h3>
-    </Fragment>
-  </Content>
 
   <!-- Content Widget **************** -->
 
@@ -214,11 +187,11 @@ const metadata = {
     actions={[
       {
         variant: 'primary',
-        text: 'Start exploring',
-        href: '/',
+        text: 'Eventkalender',
+        href: getPermalink('/eventkalender'),
       },
     ]}
-    title="Dive into our template collection"
+    title="Häng med på nästa event!"
     subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
   />
 </Layout>

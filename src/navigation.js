@@ -7,8 +7,14 @@ export const headerData = {
       href: '/'
     },
     {
-      text: 'Engagera_dig',
+      text: 'Engagera dig',
       links: [
+        {
+          text: 'Kommande event',
+          href: getPermalink('/#upcoming'),
+        },
+      ]
+      /*links: [
         {
           text: 'Features (Anchor Link)',
           href: getPermalink('/#features'),
@@ -37,11 +43,12 @@ export const headerData = {
           text: 'Privacy policy',
           href: getPermalink('/privacy'),
         },
-      ],
+      ],*/
     },
     {
       text: 'Verksamhet',
-      links: [
+      href: getPermalink('/verksamhet'),
+      /*links: [
         {
           text: 'Lead Generation',
           href: getPermalink('/landing/lead-generation'),
@@ -66,11 +73,11 @@ export const headerData = {
           text: 'Subscription',
           href: getPermalink('/landing/subscription'),
         },
-      ],
+      ],*/
     },
     {
-      text: 'Kontakta_oss',
-      href: getPermalink('/contact'),
+      text: 'Kontakt',
+      href: getPermalink('/kontakt'),
       /*links: [
         {
           text: 'Blog List',
@@ -95,11 +102,11 @@ export const headerData = {
       ],*/
     },
     {
-      text: 'Om_oss',
-      href: getPermalink('/about'),
+      text: 'Om oss',
+      href: getPermalink('/om'),
     },
   ],
-  actions: [{ text: 'Anmäl dig', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Anmäl dig', href: getPermalink('/anmalan') }],
 };
 
 export const footerData = {
