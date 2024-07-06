@@ -12,6 +12,7 @@ module.exports = {
         quaternary: 'var(--aw-color-purple)',
         accent: 'var(--aw-color-accent)',
         default: 'var(--aw-color-text-default)',
+        inverted: 'var(--aw-color-text-inverted)',
         muted: 'var(--aw-color-text-muted)',
       },
       fontFamily: {
