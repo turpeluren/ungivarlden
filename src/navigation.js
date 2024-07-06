@@ -1,3 +1,4 @@
+import { getStaticPaths } from './pages/[...blog]/[...page].astro';
 import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 
 export const headerData = {
@@ -144,22 +145,26 @@ export const footerData = {
       ],
     },*/
     {
-      title: 'Company',
+      title: 'Organisation',
       links: [
-        { text: 'About', href: '#' },
-        { text: 'Blog', href: '#' },
-        { text: 'Careers', href: '#' },
+        { text: 'Om oss', href: getPermalink('/om') },
+        { text: 'Värderingar', href: '/om#values' },
+        { text: 'Verksamhet', href: getPermalink('/verksamhet') },
+        { text: 'Kontakt', href: getPermalink('/kontakt') },
+        { text: 'Kommande event', href: getPermalink('/eventkalender') },
+        { text: 'Engagera dig', href: getPermalink('/anmalan') },
+        /*{ text: 'Careers', href: '#' },
         { text: 'Press', href: '#' },
         { text: 'Inclusion', href: '#' },
         { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },
+        { text: 'Shop', href: '#' },*/
       ],
     },
   ],
-  secondaryLinks: [
+  /*secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
     { text: 'Privacy Policy', href: getPermalink('/privacy') },
-  ],
+  ],*/
   socialLinks: [
     { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },

@@ -33,6 +33,7 @@ const metadata = {
     textarea={{
       label: 'Ditt meddelande',
     }}
+    button="Skicka"
     description="Vi svarar ofta inom 24 timmar"
   />
 
@@ -41,24 +42,34 @@ const metadata = {
   <Features2
     title="Nå oss här"
     subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
-    columns={3}
+    columns={4}
     items={[
       {
         title: 'Instagram',
         description:
           'Länk till vår insta här',
         icon: 'tabler:brand-instagram',
+        href: new URL("https://instagram.com"),
       },
       {
         title: 'Facebook',
         description:
           'Länk till vår facebook här',
         icon: 'tabler:brand-facebook',
+        href: new URL("https://facebook.com"),
+      },
+      {
+        title: 'X',
+        description:
+          'Länk till vår X här',
+        icon: 'tabler:brand-x',
+        href: new URL("https://x.com"),
       },
       {
         title: 'Email',
-        description: `Vi går alltid att nå på mail på <a href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>`,
+        description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
         icon: 'tabler:mail',
+        href: new URL('mailto:ungivarlden.org@gmail.com'),
       },
       /*{
         title: 'Blog',
