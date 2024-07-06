@@ -1,14 +1,15 @@
 ---
-excerpt: Häng med oss till Skelefteå på MR-dagarna 2024 i november!
-author: turpelurpeluren
+excerpt: Häng med oss till Skellefteå på MR-dagarna 2024 i november!
 metadata:
   canonical: https://astrowind.vercel.app/get-started-website-with-astro-tailwind-css
 title: Mänsliga rättigheter-dagarna 2024
-category: test
 tags: []
 image: https://i.imgur.com/5WzIWGB.jpeg
 #image: src/assets/images/mrdagarna-foto-evelina_ronnback174.jpg
 publishDate: 2024-11-13T01:00:00.000Z
+endDate: 2024-11-14T01:00:00.000Z
+location: Skellefteå
+facebookLink: https://www.facebook.com/events/709755297786986
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

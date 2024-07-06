@@ -1,0 +1,72 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Kontakt',
+};
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText tagline="Kontakt" title="Kontakta oss här!" />
+
+  <ContactUs
+    id="form"
+    title="Meddela oss nedan!"
+    subtitle="Bla bla - För specifika kontaktuppgifter till vår styrelse finns kontakterna -här-"
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Namn',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email/@',
+      },
+    ]}
+    textarea={{
+      label: 'Ditt meddelande',
+    }}
+    description="Vi svarar ofta inom 24 timmar"
+  />
+
+  <!-- Features2 Widget ************** -->
+
+  <Features2
+    title="Nå oss här"
+    subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
+    columns={3}
+    items={[
+      {
+        title: 'Instagram',
+        description:
+          'By harmonizing instructional design and visual appeal, templates streamline content creation for varied materials, expediting development and cultivating engaging educational spaces.',
+        icon: 'tabler:brand-instagram',
+      },
+      {
+        title: 'Facebook',
+        description:
+          'Crafting functional, visually appealing spaces for residential and commercial use. Templates emphasize layout, colors, and furniture setups, offering a versatile toolkit for your design vision.',
+        icon: 'tabler:brand-facebook',
+      },
+      {
+        title: 'Email',
+        description: `Vi går alltid att nå på mail på <a href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>`,
+        icon: 'tabler:mail',
+      },
+      /*{
+        title: 'Blog',
+        description:
+          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
+        icon: 'tabler:article',
+      },*/
+    ]}
+  />
+  
+</Layout>

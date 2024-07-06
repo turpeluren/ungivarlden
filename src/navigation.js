@@ -47,7 +47,7 @@ export const headerData = {
     },
     {
       text: 'Verksamhet',
-      href: getPermalink('/services'),
+      href: getPermalink('/verksamhet'),
       /*links: [
         {
           text: 'Lead Generation',
@@ -77,7 +77,7 @@ export const headerData = {
     },
     {
       text: 'Kontakt',
-      href: getPermalink('/contact'),
+      href: getPermalink('/kontakt'),
       /*links: [
         {
           text: 'Blog List',
@@ -103,10 +103,10 @@ export const headerData = {
     },
     {
       text: 'Om oss',
-      href: getPermalink('/about'),
+      href: getPermalink('/om'),
     },
   ],
-  actions: [{ text: 'Anmäl dig', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'Anmäl dig', href: getPermalink('/anmalan') }],
 };
 
 export const footerData = {
