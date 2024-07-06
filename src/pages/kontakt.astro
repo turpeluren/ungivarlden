@@ -3,6 +3,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
 
 const metadata = {
   title: 'Kontakt',
@@ -12,12 +13,14 @@ const metadata = {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText tagline="Kontakt" title="Kontakta oss här!" />
+  <HeroText title="Kontakta oss här!" />
 
   <ContactUs
     id="form"
+    tagline="Meddelande"
     title="Meddela oss nedan!"
-    subtitle="Bla bla - För specifika kontaktuppgifter till vår styrelse finns kontakterna -här-"
+    subtitle=`Bla bla - För specifika kontaktuppgifter till vår styrelse finns kontakterna 
+              <a class="underline" href='#individual'>här</a>`
     inputs={[
       {
         type: 'text',
@@ -40,43 +43,69 @@ const metadata = {
   <!-- Features2 Widget ************** -->
 
   <Features2
-    title="Nå oss här"
-    subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
+  tagline="Kanaler"
+  subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
+  columns={4}
+  items={[
+    {
+      description:
+        'Länk till vår insta här',
+      icon: 'tabler:brand-instagram',
+      callToAction: {variant: 'primary', text: 'Instagram', href: new URL("https://instagram.com")}
+    },
+    {
+      description:
+        'Länk till vår facebook här',
+      icon: 'tabler:brand-facebook',
+      href: new URL("https://facebook.com"),
+      callToAction: {variant: 'primary', text: 'Facebook', href: new URL("https://facebook.com")}
+    },
+    {
+      description:
+        'Länk till vår X här',
+      icon: 'tabler:brand-x',
+      href: new URL("https://x.com"),
+      callToAction: {variant: 'primary', text: 'X', href: new URL("https://x.com")}
+    },
+    {
+      description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
+      icon: 'tabler:mail',
+      href: new URL('mailto:ungivarlden.org@gmail.com'),
+      callToAction: {variant: 'primary', text: 'Maila oss', href: 'mailto:ungivarlden.org@gmail.com'}
+    },
+    /*{
+      title: 'Blog',
+      description:
+        'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
+      icon: 'tabler:article',
+    },*/
+  ]}
+/>
+
+<Features3
+    id="individual"
+    title="Kontaktuppgifter"
+    subtitle=`Styrelsens individuella kontaktuppgifter. För generella frågor hänvisar vi till formuläret ovan eller maila till 
+            <a class='underline' href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>``
     columns={4}
+    defaultIcon="tabler:mail"
     items={[
       {
-        title: 'Instagram',
-        description:
-          'Länk till vår insta här',
-        icon: 'tabler:brand-instagram',
-        href: new URL("https://instagram.com"),
+        title: 'Anonymous',
+        description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
       },
       {
-        title: 'Facebook',
-        description:
-          'Länk till vår facebook här',
-        icon: 'tabler:brand-facebook',
-        href: new URL("https://facebook.com"),
+        title: 'Anonymous',
+        description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
       },
       {
-        title: 'X',
-        description:
-          'Länk till vår X här',
-        icon: 'tabler:brand-x',
-        href: new URL("https://x.com"),
+        title: 'Anonymous',
+        description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
       },
       {
-        title: 'Email',
-        description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
-        icon: 'tabler:mail',
-        href: new URL('mailto:ungivarlden.org@gmail.com'),
+        title: 'Anonymous',
+        description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
       },
-      /*{
-        title: 'Blog',
-        description:
-          'With attention to typography, these templates empower effective content presentation for writers at any stage, ensuring visually engaging and user-friendly blogs.',
-        icon: 'tabler:article',
-      },*/
     ]}
   />
   

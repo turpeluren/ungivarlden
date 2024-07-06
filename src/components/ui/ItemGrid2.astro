@@ -16,7 +16,6 @@ const {
   href: link = '',
 } = classes;
 ---
-
 {
   items && (
     <div
@@ -34,9 +33,7 @@ const {
       )}
     >
       {items.map(({ title, description, icon, href, callToAction, classes: itemClasses = {} }) => (
-        
-        <a class={twMerge('relative flex flex-col transition-colors hover:bg-secondary dark:hover:bg-secondary', panelClass, itemClasses?.panel)}
-          href={ href }
+        <div class={twMerge('relative flex flex-col transition-colors', panelClass, itemClasses?.panel)}
         >
           {(icon || defaultIcon) && (
             <Icon name={icon || defaultIcon} class={twMerge('mb-2 w-10 h-10', defaultIconClass, itemClasses?.icon)} />
@@ -50,7 +47,7 @@ const {
               <Button {...callToAction} />
             </div>
           )}
-        </a>
+        </div>
       ))}
     </div>
   )
