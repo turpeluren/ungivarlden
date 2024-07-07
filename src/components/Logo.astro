@@ -1,11 +1,24 @@
 ---
 import { SITE } from 'astrowind:config';
 import Image from '~/components/common/Image.astro';
+
+const {
+  class: classList = '',
+  variant = 'right',
+} = Astro.props;
+
+const variants = {
+  plain: 'logo.png',
+  black: 'logo-black.png',
+  right: 'logo-text-right.png',
+  vertical: 'logo-text-bottom-v.png',
+  horizontal: 'logo-text-bottom-h.png',
+}
 ---
 
 <span
   class="justify-baseline self-center ml-2 rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"
 >
-  <Image class="h-8 w-8 md:h-12 md:w-12 inline" alt="logo" src="~/assets/images/logo-text-right.png" crossorigin="anonymous" referrerpolicy="no-referrer"></Image> 
+  <Image class={classList} alt="logo" src={"~/assets/images/"+variants[variant]} crossorigin="anonymous" referrerpolicy="no-referrer"></Image> 
   <!--{SITE?.name}-->
 </span>

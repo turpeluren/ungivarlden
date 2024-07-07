@@ -160,6 +160,13 @@ export const footerData = {
         { text: 'Shop', href: '#' },*/
       ],
     },
+    {
+      title: 'Kontakt',
+      links: [
+        { text: 'Besöksadress: Vägenvägen 00, 123 45 Ort'},
+        { text: 'Mail: <a class="underline text-muted" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>', href: '/om#values' },
+      ],
+    },
   ],
   /*secondaryLinks: [
     { text: 'Terms', href: getPermalink('/terms') },
@@ -175,7 +182,7 @@ export const footerData = {
   footNote: `
     Ung i världen · 
     2024 · 
-    Sida av <a class="text-blue-600 underline dark:text-muted" href="https://turpelurpeluren.online">turpelurpeluren</a>
-    baserat på <a class="text-blue-600 underline dark:text-muted" href="https://github.com/onwidget/astrowind">AstroWind</a>.
+    Sida av <a class="underline dark:text-muted" href="https://turpelurpeluren.online">turpelurpeluren</a>
+    baserat på <a class="underline dark:text-muted" href="https://github.com/onwidget/astrowind">AstroWind</a>.
   `,
 };
