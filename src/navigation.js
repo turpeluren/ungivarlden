@@ -164,7 +164,7 @@ export const footerData = {
       title: 'Kontakt',
       links: [
         { text: 'Besöksadress: Vägenvägen 00, 123 45 Ort'},
-        { text: 'Mail: <a class="underline text-muted" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>', href: '/om#values' },
+        { text: 'Mail: <a class="underline text-muted" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>' },
       ],
     },
   ],

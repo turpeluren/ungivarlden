@@ -40,13 +40,22 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
               <ul class="text-sm">
                 {links.map(({ text, href, ariaLabel }) => (
                   <li class="mb-2">
-                    <a
-                      class="text-muted hover:text-gray-700 hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
+                    {href ? (
+                      <a
+                      class="text-muted hover:text-gray-700 underline md:no-underline hover:underline dark:text-gray-400 transition duration-150 ease-in-out"
                       href={href}
                       aria-label={ariaLabel}
-                    >
-                      <Fragment set:html={text} />
-                    </a>
+                      >
+                        <Fragment set:html={text} />
+                      </a>
+                    ) : (
+                      <p
+                      class="text-muted hover:text-gray-700 dark:text-gray-400 transition duration-150 ease-in-out"
+                      aria-label={ariaLabel}
+                      >
+                        <Fragment set:html={text} />
+                      </p>
+                    )}
                   </li>
                 ))}
               </ul>
@@ -58,7 +67,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <div class="">
         <a class="flex flex-center justify-end font-bold text-xl" href={getHomePermalink()}>
           <!--{SITE?.name}-->
-          <Logo variant="vertical" class="h-48"/>
+          <Logo variant="vertical" class="h-24 md:h-48"/>
         </a>
       </div>
       <div class="text-sm text-muted flex gap-1">
