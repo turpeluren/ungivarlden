@@ -9,12 +9,13 @@ export const headerData = {
     },
     {
       text: 'Engagera dig',
-      links: [
+      href: getPermalink('/anmalan'),
+      /*links: [
         {
           text: 'Kommande event',
           href: getPermalink('/#upcoming'),
         },
-      ]
+      ]*/
       /*links: [
         {
           text: 'Features (Anchor Link)',
@@ -48,8 +49,15 @@ export const headerData = {
     },
     {
       text: 'Verksamhet',
-      href: getPermalink('/verksamhet'),
-      /*links: [
+      links: [
+        {
+          text: 'Verksamhet',
+          href: getPermalink('/verksamhet'),
+        },
+        {
+          text: 'Kommande event',
+          href: getPermalink('/#upcoming'),
+        },/*
         {
           text: 'Lead Generation',
           href: getPermalink('/landing/lead-generation'),
@@ -73,8 +81,8 @@ export const headerData = {
         {
           text: 'Subscription',
           href: getPermalink('/landing/subscription'),
-        },
-      ],*/
+        },*/
+      ],
     },
     {
       text: 'Kontakt',
