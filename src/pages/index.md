@@ -1,22 +1,26 @@
 ---
 layout: ../layouts/index.astro
-title: index
-undertext: >-
-  Hej på dig! Under text: Bla bla bla vad vi står för bla bla Redigerad av ture
-  via /admin
-
-
-  # heading
-
-
-  tetst
+title: Ung i världen
+undertext: En introducerande text
 valuesTitle: Ung I Världens värdegrunder
-valuesSubtitle: >- 
-  Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhen
+valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
+  eftersträvar att uppnå genom vår verksamhen
 values:
-  - { title: 'Gemenskap?', description: 'A seamless integration between two great frameworks that offer high productivity, performance and versatility.', icon: 'tabler:heart-handshake' }
-  - { title: 'Inkludering', description: 'A seamless integration between two great frameworks that offer high productivity, performance and versatility.', icon: 'tabler:users-group' }
-  - { title: 'Mänskliga rättigheter', description: 'A seamless integration between two great frameworks that offer high productivity, performance and versatility.', icon: 'tabler:empathize' }
-  - { title: 'Miljö', description: 'A seamless integration between two great frameworks that offer high productivity, performance and versatility.', icon: 'tabler:plant' }
+  - title: Gemenskap?
+    description: A seamless integration between two great frameworks that offer high
+      productivity, performance and versatility.
+    icon: tabler:heart-handshake
+  - title: Inkludering
+    description: A seamless integration between two great frameworks that offer high
+      productivity, performance and versatility.
+    icon: tabler:users-group
+  - title: Mänskliga rättigheter
+    description: A seamless integration between two great frameworks that offer high
+      productivity, performance and versatility.
+    icon: tabler:empathize
+  - title: Miljö
+    description: A seamless integration between two great frameworks that offer high
+      productivity, performance and versatility.
+    icon: tabler:plant
 eventText: Alla är välkomna på våra event =)
 ---
