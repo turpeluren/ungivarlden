@@ -5,6 +5,11 @@ backend:
 media_folder: 'src/assets/images'
 public_folder: '/_astro'
 
+site_url: https://ungivarlden.netlify.app
+display_url: https://bartotal.netlify.app
+logo_url: https://i.imgur.com/Z7DSFCm.png
+locale: 'sv'
+
 collections:
   - name: 'post'
     label: 'Events'
@@ -89,4 +94,3 @@ collections:
           - { label: 'Namn', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
           - { label: 'Mail', name: 'mail', widget: 'string' }
-
