@@ -2,7 +2,7 @@ site:
   name: Ung i världen
   site: 'https://ungivarlden.netlify.app'
   base: '/'
-  trailingSlash: true
+  trailingSlash: false
 
   googleSiteVerificationId: orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M
 

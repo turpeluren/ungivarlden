@@ -6,7 +6,6 @@ media_folder: 'src/assets/images'
 public_folder: '/_astro'
 
 site_url: https://ungivarlden.netlify.app
-display_url: https://bartotal.netlify.app
 logo_url: https://i.imgur.com/Z7DSFCm.png
 locale: 'sv'
 
