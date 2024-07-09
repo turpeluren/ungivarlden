@@ -14,7 +14,14 @@ export interface Post {
   /**  */
   publishDate: Date;
   /**  */
+  endDate?: Date;
+  /**  */
   updateDate?: Date;
+
+  /**  */
+  location?: string;
+  /**  */
+  facebookLink?: string;
 
   /**  */
   title: string;

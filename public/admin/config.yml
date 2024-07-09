@@ -7,7 +7,7 @@ public_folder: '/_astro'
 
 collections:
   - name: 'post'
-    label: 'Post'
+    label: 'Events'
     folder: 'src/content/post'
     create: true
     fields:
@@ -30,9 +30,9 @@ collections:
       - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Vidare information fritext'}
       - { label: 'Location', name: 'location', widget: 'string', required: false, hint: 'Behövs ej' }
       - { label: 'Fb-länk', name: 'facebookLink', widget: 'string', required: false, hint: 'Länk till event på facebook. Behövs ej' }
-  - name: 'pages'
-    label: 'Sidor'
-    folder: 'src/pages'
+  - name: 'index.md'
+    label: 'Index'
+    folder: 'src/pages/index.md'
     create: false
     fields:
       - { label: 'Undertext', name: 'undertext', widget: 'markdown', hint: 'Den första texten under "Ung i världen"' }

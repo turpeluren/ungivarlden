@@ -48,12 +48,16 @@ const metadataDefinition = () =>
 const postCollection = defineCollection({
   schema: z.object({
     publishDate: z.date().optional(),
+    endDate: z.date().optional().optional(),
     updateDate: z.date().optional(),
     draft: z.boolean().optional(),
 
     title: z.string(),
     excerpt: z.string().optional(),
     image: z.string().optional(),
+
+    location: z.string().optional(),
+    facebookLink: z.string().optional(),
 
     category: z.string().optional(),
     tags: z.array(z.string()).optional(),

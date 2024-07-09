@@ -9,13 +9,16 @@ export const headerData = {
     },
     {
       text: 'Engagera dig',
-      href: getPermalink('/anmalan'),
-      /*links: [
+      links: [
         {
           text: 'Kommande event',
           href: getPermalink('/#upcoming'),
         },
-      ]*/
+        {
+          text: 'Anmäl dig? Bli medlem?',
+          href: getPermalink('/anmalan'),
+        }
+      ]
       /*links: [
         {
           text: 'Features (Anchor Link)',
@@ -49,15 +52,13 @@ export const headerData = {
     },
     {
       text: 'Verksamhet',
-      links: [
+      href: getPermalink('/verksamhet'),
+
+      /*links: [
         {
           text: 'Verksamhet',
           href: getPermalink('/verksamhet'),
         },
-        {
-          text: 'Kommande event',
-          href: getPermalink('/#upcoming'),
-        },/*
         {
           text: 'Lead Generation',
           href: getPermalink('/landing/lead-generation'),
@@ -81,8 +82,8 @@ export const headerData = {
         {
           text: 'Subscription',
           href: getPermalink('/landing/subscription'),
-        },*/
-      ],
+        },
+      ],*/
     },
     {
       text: 'Kontakt',
@@ -115,7 +116,7 @@ export const headerData = {
       href: getPermalink('/om'),
     },
   ],
-  actions: [{ text: 'Anmäl dig', href: getPermalink('/anmalan') }],
+  actions: [{ text: 'Anmäl dig? Bli medlem?', href: getPermalink('/anmalan') }],
 };
 
 export const footerData = {
