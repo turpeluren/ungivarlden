@@ -36,8 +36,13 @@ const {
     ]}
     image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}
   >
+  <!--
+    <Fragment slot="image">
+      <span><Image src={frontmatter.image.src} alt={frontmatter.image.alt}></span>
+    </Fragment>-->
+
     <Fragment slot="title">
-      Ung i världen
+      <span>{frontmatter.title}</span>
     </Fragment>
 
     <Fragment slot="subtitle">
@@ -101,10 +106,10 @@ const {
   <Features2
     id="values"
     tagline="Våra grunder"
-    title="Ung I Världens värdegrunder"
-    subtitle="Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhen"
     columns={4}
-    items={[
+    items={frontmatter.values}
+  >
+  <!--items={[
       {
       title: 'Gemenskap?',
         description:
@@ -130,8 +135,19 @@ const {
         icon: 'tabler:plant',
       },
       
-    ]}
-  >
+    ]} -->
+    <Fragment slot="title">
+      <span>{frontmatter.valuesTitle}</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span>{frontmatter.valuesSubtitle}</span>
+    </Fragment>
+
+    <Fragment slot="items[0].title">
+      <span>{frontmatter.items}</span>
+    </Fragment>
+
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
     </Fragment>
@@ -142,8 +158,7 @@ const {
   <BlogLatestPosts
     id="upcoming"
     title="Kommande event"
-    information={`Alla är välkomna på våra event bla bla... anmäl dig? idk
-                `}
+    information={frontmatter.eventText}
   />
 
   <!-- FAQs Widget ******************* -->

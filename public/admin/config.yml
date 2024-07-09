@@ -35,7 +35,19 @@ collections:
     folder: 'src/pages'
     create: false
     fields:
+      - { label: 'Titel', name: 'title', widget: string }
       - { label: 'Introtext', name: 'undertext', widget: 'string', hint: 'Den första texten under "Ung i världen"' }
+      - label: 'Värderingsar'
+        name: 'values'
+        widget: 'list'
+        collapsed: true
+        allow_add: true
+        allow_remove: true
+        fields:
+          - { label: 'Ikon', name: 'icon', widget: 'string', default: 'tabler:', hint: 'Format: tabler:ikonnamn (se https://tabler.io/icons)' }
+          - { label: 'Rubrik', name: 'title', widget: 'string' }
+          - { label: 'Beskrivning', name: 'description', widget: 'string' }
+      - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
   - name: 'verksamhet'
     label: 'Verksamhet'
     folder: 'src/pages/verksamhet'

@@ -13,14 +13,15 @@ const variants = {
   right: 'logo-text-right.png',
   vertical: 'logo-text-bottom-v.png',
   horizontal: 'logo-text-bottom-h.png',
+
+  whiteRight: 'logo-white-text-right.png',
+  whiteVertical: 'logo-white-text-bottom-v.png',
+  whiteHorizontal: 'logo-white-text-bottom-h.png',
 }
 ---
 
 <span
-  class={classList+" justify-baseline self-center rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"}
+  class={classList+" justify-baseline self-start rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"}
 >
-  <!--img class={classList+""}
-			 src={"/src/assets/images/"+variants[variant]}
-	-->
   <Image class={" w-full h-full !object-contain"} alt="logo" src={"~/assets/images/"+variants[variant]} crossorigin="anonymous" referrerpolicy="no-referrer"></Image> 
 </span>

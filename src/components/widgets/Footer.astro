@@ -67,7 +67,8 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <div class="">
         <a class="flex flex-center justify-end font-bold text-xl" href={getHomePermalink()}>
           <!--{SITE?.name}-->
-          <Logo variant="vertical" class="h-24 md:h-48"/>
+          <Logo id="footerlogo" variant="whiteVertical" class="hidden dark:block h-24 md:h-48"/>
+          <Logo id="footerlogo" variant="vertical" class="block dark:hidden h-24 md:h-48"/>
         </a>
       </div>
       <div class="text-sm text-muted flex gap-1">
