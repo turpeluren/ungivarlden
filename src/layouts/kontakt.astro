@@ -2,25 +2,33 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
+import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
 
 const metadata = {
   title: 'Kontakt',
 };
+
+const {
+  frontmatter
+} = Astro.props;
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText title="Kontakta oss här!" />
+  <HeroText 
+    title={frontmatter.title}
+    tagline={frontmatter.tagline}
+    subtitle={frontmatter.subtitle}
+  />
 
   <ContactUs
     id="form"
-    tagline="Meddelande"
-    title="Meddela oss nedan!"
-    subtitle=`Bla bla - För specifika kontaktuppgifter till vår styrelse finns kontakterna 
-              <a class="underline" href='#individual'>här</a>`
+    tagline={frontmatter.messageBoxTagline}
+    title={frontmatter.messageBoxTitle}
+    subtitle={frontmatter.messageBoxSubtitle}
     inputs={[
       {
         type: 'text',
@@ -43,57 +51,44 @@ const metadata = {
   
 <Features3
 id="individual"
-title="Kontaktuppgifter"
-subtitle=`Styrelsens individuella kontaktuppgifter. För generella frågor hänvisar vi till formuläret ovan eller maila till 
-        <a class='underline' href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>``
+title={frontmatter.individualTitle}
+subtitle={frontmatter.individualSubtitle}
 columns={4}
 defaultIcon="tabler:mail"
-items={[
-  {
-    title: 'Anonymous',
-    description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
-  },
-  {
-    title: 'Anonymous',
-    description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
-  },
-  {
-    title: 'Anonymous',
-    description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
-  },
-  {
-    title: 'Anonymous',
-    description: `<a class="underline" href="mailto:exempelmail@ungivarlden.org">exempelmail@ungivarlden.org</a>`,
-  },
-]}
-/>
-
+items={frontmatter.individualContacts}
+classes={{'container':"border-primary border-t-2 border-b-2 border-dotted"}}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-primary opacity-0 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
+    </Fragment>
+</Features3>
   <!-- Features2 Widget ************** -->
 
-  <Features2
-  tagline="Kanaler"
+<FeaturesLinks
+  id="socials"
+  title="Sociala kanaler"
   subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
-  columns={4}
+  columns={3}
   items={[
     {
+      title: 'Instagram',
       description:
         'Länk till vår insta här',
       icon: 'tabler:brand-instagram',
-      callToAction: {variant: 'primary', text: 'Instagram', href: new URL("https://instagram.com")}
+      href: "https://instagram.com",    
     },
     {
+      title: 'LinkedIn',
       description:
         'Länk till vår linkedin här',
       icon: 'tabler:brand-linkedin',
-      href: new URL("https://linkedin.com"),
-      callToAction: {variant: 'primary', text: 'Facebook', href: new URL("https://linkedin.com")}
+      href: "https://linkedin.com",
     },
-  
     {
+      title: 'Mail',
       description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
       icon: 'tabler:mail',
-      href: new URL('mailto:ungivarlden.org@gmail.com'),
-      callToAction: {variant: 'primary', text: 'Maila oss', href: 'mailto:ungivarlden.org@gmail.com'}
+      href: 'mailto:ungivarlden.org@gmail.com',
     },
     /*{
       title: 'Blog',

@@ -56,3 +56,37 @@ collections:
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
       - { label: 'Fritext', name: body, widget: 'markdown' }
+  - name: 'om'
+    label: 'Om oss'
+    folder: 'src/pages/om'
+    create: false
+    fields:
+      - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Introtext', name: 'subtitle', widget: 'string', required: false }
+      - { label: 'Titel kontakt-ruta', name: 'contactTitle', widget: 'string', required: false }
+      - { label: 'Undertitel kontakt-ruta', name: 'contactSubtitle', widget: 'string', required: false }
+      - { label: 'Fritext', name: body, widget: 'markdown' }
+  - name: 'kontakt'
+    label: 'Kontakt'
+    folder: 'src/pages/kontakt'
+    create: false
+    fields:
+      - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Introtext', name: 'subtitle', widget: 'string', required: false }
+      - { label: 'Titel meddelande-ruta', name: 'messageBoxTitle', widget: 'string', required: false }
+      - { label: 'Undertitel meddelande-ruta', name: 'messageBoxSubtitle', widget: 'string', required: false }
+      - { label: 'Titel kontaktuppgifter', name: 'individualTitle', widget: 'string', required: false }
+      - { label: 'Undertitel kontaktuppgifter', name: 'individualSubtitle', widget: 'string', required: false }
+      - label: 'Kontaktuppgifter'
+        name: 'individualContacts'
+        widget: 'list'
+        collapsed: true
+        allow_add: true
+        allow_remove: true
+        fields:
+          - { label: 'Namn', name: 'title', widget: 'string' }
+          - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
+          - { label: 'Mail', name: 'mail', widget: 'string' }
+

@@ -142,11 +142,12 @@ export interface Stat {
 export interface Item {
   title?: string;
   description?: string;
+  mail?: string;
   icon?: string;
   classes?: Record<string, string>;
   callToAction?: CallToAction;
   image?: Image;
-  href?: URL;
+  href?: URL | string;
 }
 
 export interface Price {

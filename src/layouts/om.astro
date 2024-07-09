@@ -1,40 +1,68 @@
 ---
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
 import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 
+import { getPermalink, getBlogPermalink, getAsset } from '../utils/permalinks';
+
 const metadata = {
-  title: 'Om oss test',
+  title: 'Om oss',
 };
+
+const {
+  frontmatter
+} = Astro.props;
 ---
 
 <Layout metadata={metadata}>
   <!-- Hero Widget ******************* -->
   <Hero
-    tagline="Om Ung i världen"
+    tagline={frontmatter.tagline}
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
     image={{
       src: '~/assets/images/the-future-is-equal.png',
       alt: 'Caos Image',
     }}
   >
-    <Fragment slot="title">
-      Bla bla bla blar <br />
-      <span class="text-accent dark:text-white highlight"> Vi är bäst </span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      Jag testar att skriva här lite och vet inte om det kommer ändra något ------ Donec efficitur, ipsum quis congue luctus, mauris magna convallis mauris, eu auctor nisi lectus non augue. Donec
-      quis lorem non massa vulputate efficitur ac at turpis. Sed tincidunt ex a nunc convallis, et lobortis nisi tempus.
-      Suspendisse vitae nisi eget tortor luctus maximus sed non lectus.
-    </Fragment>
   </Hero>
+
+  <!--image={{
+      src: '~/assets/images/the-future-is-equal.png',
+      alt: 'Caos Image',
+    }} -->
+
+  <div 
+    class="mb-16 mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+  >  
+    <slot />
+  </div>
+
+  <CallToAction
+    title={frontmatter.contactTitle}
+    subtitle={frontmatter.contactSubtitle}
+    actions={[
+      {
+        variant: 'secondary',
+        text: 'Kontakt',
+        href: getPermalink('/kontakt'),
+        icon: 'tabler:bubble',
+      }
+    ]}
+    classes={{'container':"border-primary border-t-[2px] border-dotted"}}
+  >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-primary opacity-0 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
+    </Fragment>
+  </CallToAction>
 
   <!-- Steps2 Widget ****************** -->
 
-  <Steps2
+  <!--Steps2
     id="values"
     title="Våra värderingar"
     isReversed={false}
@@ -56,6 +84,6 @@ const metadata = {
           'Vestibulum imperdiet libero et lectus molestie, et maximus augue porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
       },
     ]}
-  />
+  /-->
 
 </Layout>
