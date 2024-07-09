@@ -17,6 +17,8 @@ type ImageType = {
 
 const props = Astro.props;
 
+const classList = props.class;
+
 if (props.alt === undefined || props.alt === null) {
   throw new Error();
 }
@@ -59,6 +61,6 @@ if (typeof _image === 'string') {
   !image ? (
     <Fragment />
   ) : (
-    <img src={image.src} crossorigin="anonymous" referrerpolicy="no-referrer" {...image.attributes} />
+    <img class={classList} src={image.src} crossorigin="anonymous" referrerpolicy="no-referrer" {...image.attributes} />
   )
 }
