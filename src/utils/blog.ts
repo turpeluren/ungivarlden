@@ -46,7 +46,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
   const {
     publishDate: rawPublishDate = new Date(),
-    endDate: rawEndDate = new Date(),
+    endDate: rawEndDate,
     updateDate: rawUpdateDate,
     title,
     excerpt,
@@ -62,7 +62,7 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
 
   const slug = cleanSlug(rawSlug); // cleanSlug(rawSlug.split('/').pop());
   const publishDate = new Date(rawPublishDate);
-  const endDate = new Date(rawEndDate);
+  const endDate = rawEndDate ? new Date(rawEndDate) : undefined;
   const updateDate = rawUpdateDate ? new Date(rawUpdateDate) : undefined;
 
   const category = rawCategory
@@ -83,7 +83,11 @@ const getNormalizedPost = async (post: CollectionEntry<'post'>): Promise<Post> =
     permalink: await generatePermalink({ id, slug, publishDate, category: category?.slug }),
 
     publishDate: publishDate,
+    endDate: endDate,
     updateDate: updateDate,
+
+    location: location,
+    facebookLink: facebookLink,
 
     title: title,
     excerpt: excerpt,

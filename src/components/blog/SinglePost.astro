@@ -21,14 +21,14 @@ const { post, url } = Astro.props;
 <section class="py-8 sm:py-16 lg:py-20 mx-auto">
   <article>
     <header class={post.image ? '' : ''}>
-      <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-2 px-4 sm:px-6 sm:items-center">
-        <p>
+      <div class="flex justify-between flex-col sm:flex-row max-w-3xl mx-auto mt-0 mb-0 px-4 sm:px-6 sm:items-center">
+        <span>
           <Icon name="tabler:clock" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
           <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
-          { 
+          {
             post.endDate && ( 
               <>
-                <p>-</p>
+                <span> - </span>
                 <time datetime={String(post.endDate)} class="inline-block">{getFormattedDate(post.endDate)}</time>
               </> 
             )
@@ -36,7 +36,8 @@ const { post, url } = Astro.props;
           { 
             post.location && ( 
               <>
-                <p>{post.location}</p>
+                <span> · </span>
+                <span>{post.location}</span>
               </> 
             )
           }
@@ -67,8 +68,15 @@ const { post, url } = Astro.props;
               </>
             )*/
           }
-        </p>
+        </span>
       </div>
+      {
+        post.facebookLink && (
+          <p class="mt-0 mb-2 px-4 sm:px-6 max-w-3xl mx-auto prose">
+            <a class="underline text-tertiary" href={post.facebookLink}><Icon class="inline" name="tabler:brand-facebook"></Icon> Länk till eventet på facebook</a>
+          </p>
+        )
+      }
 
       <h1
         class="px-4 sm:px-6 max-w-3xl mx-auto text-4xl md:text-5xl font-bold leading-tighter tracking-tighter font-heading"
