@@ -191,7 +191,6 @@ export const footerData = {
   footNote: `
     Ung i världen · 
     2024 · 
-    Sida av <a class="underline dark:text-muted" href="https://turpelurpeluren.online">turpelurpeluren</a>
-    baserat på <a class="underline dark:text-muted" href="https://github.com/onwidget/astrowind">AstroWind</a>.
+    Sida av <a class="underline dark:text-muted" href="https://turpelurpeluren.online">turpelurpeluren</a>.
   `,
 };

@@ -30,9 +30,17 @@ collections:
       - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Vidare information fritext'}
       - { label: 'Location', name: 'location', widget: 'string', required: false, hint: 'Behövs ej' }
       - { label: 'Fb-länk', name: 'facebookLink', widget: 'string', required: false, hint: 'Länk till event på facebook. Behövs ej' }
-  - name: 'index.md'
-    label: 'Index'
-    folder: 'src/pages/index.md'
+  - name: 'pages'
+    label: 'Hem'
+    folder: 'src/pages'
     create: false
     fields:
-      - { label: 'Undertext', name: 'undertext', widget: 'markdown', hint: 'Den första texten under "Ung i världen"' }
+      - { label: 'Introtext', name: 'undertext', widget: 'string', hint: 'Den första texten under "Ung i världen"' }
+  - name: 'verksamhet'
+    label: 'Verksamhet'
+    folder: 'src/pages/verksamhet'
+    create: false
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
+      - { label: 'Fritext', name: body, widget: 'markdown' }

@@ -12,6 +12,10 @@ import { getPermalink } from '~/utils/permalinks';
 const metadata = {
   title: 'Services',
 };
+
+const {
+  frontmatter
+} = Astro.props;
 ---
 
 <Layout metadata={metadata}>
@@ -90,15 +94,19 @@ const metadata = {
     ]}
   /-->
 
-  <HeroText
-    title="Vår verksamhet"
-    subtitle=`Hej test på dig.`
-    content=`With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.
-              With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.
-          With attention to detail, customization, and contemporary design, they empower designers to showcase ideas cohesively. Ideal for all levels of designers.
-      mksmk
-      asd`
-  />
+  <HeroText>
+    <Fragment slot="title">
+      <span>{frontmatter.title}</span>
+    </Fragment>
+
+    <Fragment slot="subtitle">
+      <span>{frontmatter.subtitle}</span>
+    </Fragment>
+  </HeroText>
+
+  <div class="prose mt-0 mb-16 max-w-4xl mx-auto text-center">
+    <slot />
+  </div>
 
   <!-- Content Widget **************** -->
 
