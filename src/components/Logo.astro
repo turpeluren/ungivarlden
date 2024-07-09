@@ -17,10 +17,10 @@ const variants = {
 ---
 
 <span
-  class={" justify-baseline self-center rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"}
+  class={classList+" justify-baseline self-center rtl:ml-0 rtl:mr-2 text-2xl md:text-xl font-bold text-gray-900 whitespace-nowrap dark:text-white"}
 >
   <!--img class={classList+""}
 			 src={"/src/assets/images/"+variants[variant]}
 	-->
-  <Image class={classList+" object-contain"} alt="logo" src={"~/assets/images/"+variants[variant]} crossorigin="anonymous" referrerpolicy="no-referrer"></Image> 
+  <Image class={" w-full h-full object-contain"} alt="logo" src={"~/assets/images/"+variants[variant]} crossorigin="anonymous" referrerpolicy="no-referrer"></Image> 
 </span>
