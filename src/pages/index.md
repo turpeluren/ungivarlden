@@ -3,7 +3,7 @@ layout: ../layouts/index.astro
 title: Ung i världen
 undertext: En introducerande text
 heroImage:
-  src: /_astro/the-future-is-equal.png
+  src: /_astro/mrdagarna-foto-evelina_ronnback174.jpg
   alt: Ung i världen introbild
 valuesTitle: Ung I Världens värdegrunder
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
