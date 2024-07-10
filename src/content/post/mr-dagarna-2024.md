@@ -6,7 +6,7 @@ metadata:
   canonical: https://ungivarlden.netlify.app/mr-dagarna-2024
 title: Mänsliga rättigheter-dagarna 2024
 tags: []
-image: /_astro/logo-text-bottom-h.png
+image: ~/assets/images/mrdagarna-foto-evelina_ronnback174.jpg
 publishDate: 2024-11-13T01:00:00.000Z
 location: Skellefteå
 ---
