@@ -3,8 +3,8 @@ layout: ../layouts/index.astro
 title: Ung i världen
 undertext: En introducerande text
 heroImage:
-  src: '~/assets/images/logo.png'
-  alt: 'Ung i världen introbild'
+  src: /_astro/the-future-is-equal.png
+  alt: Ung i världen introbild
 valuesTitle: Ung I Världens värdegrunder
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
   eftersträvar att uppnå genom vår verksamhen
