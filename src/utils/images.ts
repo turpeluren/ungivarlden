@@ -30,9 +30,9 @@ export const findImage = async (
   }
 
   // /_astro"
-  if (!imagePath.startsWith('/_astro/')) {
+  /*if (!imagePath.startsWith('/_astro/')) {
     imagePath.replace('/_astro/', '~/assets/images/');
-  }
+  }*/
 
   // Absolute paths
   if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('/')) {
