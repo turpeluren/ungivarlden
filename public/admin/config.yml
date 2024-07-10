@@ -27,7 +27,7 @@ collections:
           collapsed: true,
           field: { label: 'Tag', name: 'tag', widget: 'string' },
         }
-      - { label: 'Image', name: 'image', widget: 'string' }
+      - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Datum (start)', name: 'publishDate', widget: 'datetime', required: true }
       - { label: 'Slutdatum', name: 'endDate', widget: 'datetime', required: false, hint: 'Behövs ej' }
       #- { label: 'Author', name: 'author', widget: 'string' }
@@ -41,6 +41,12 @@ collections:
     fields:
       - { label: 'Titel', name: 'title', widget: string }
       - { label: 'Introtext', name: 'undertext', widget: 'string', hint: 'Den första texten under "Ung i världen"' }
+      - label: 'Cover Image'
+        name: 'heroImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
       - label: 'Värderingsar'
         name: 'values'
         widget: 'list'

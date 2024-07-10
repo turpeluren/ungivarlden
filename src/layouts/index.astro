@@ -34,12 +34,11 @@ const {
         icon: 'tabler:message-chatbot',
       }
     ]}
-    image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}
+    image={frontmatter.heroImage}
   >
   <!--
-    <Fragment slot="image">
-      <span><Image src={frontmatter.image.src} alt={frontmatter.image.alt}></span>
-    </Fragment>-->
+    image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}
+  -->
 
     <Fragment slot="title">
       <span>{frontmatter.title}</span>
@@ -54,54 +53,7 @@ const {
 
   <!--Note /-->
 
-  <!-- Features Widget *************** -->
-
-  <!--Features
-    id="Våra grunder"
-    tagline="Våra grunder"
-    title="Ung I Världens värdegrunder"
-    subtitle="Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhen "
-    items={[
-      {
-        title: 'Gemenskap?',
-        description:
-          '',
-        icon: 'tabler:heart-handshake',
-      },
-      {
-        title: 'Inkludering',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:components',
-      },
-      {
-        title: 'Mänskliga rättigheter',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:list-check',
-      },
-      {
-        title: 'Ge fler exempel pls',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:rocket',
-      },
-      {
-        title: 'Search Engine Optimization (SEO)',
-        description:
-          "SEO lies in its ability to enhance a website's visibility, driving organic traffic and enabling it to reach a wider audience.",
-        icon: 'tabler:arrows-right-left',
-      },
-      {
-        title: 'Open to new ideas and contributions',
-        description:
-          'Embracing a culture that is open to new ideas and contributions is integral fostering innovation, collaboration, and a dynamic user experience.',
-        icon: 'tabler:bulb',
-      },
-    ]}
-  /-->
-
-  <!-- Features2 Widget ************** -->
+  <!-- Features2 värderingar Widget ************** -->
 
   <Features2
     id="values"
