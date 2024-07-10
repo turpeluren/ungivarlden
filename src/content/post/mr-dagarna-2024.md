@@ -6,7 +6,7 @@ metadata:
   canonical: https://ungivarlden.netlify.app/mr-dagarna-2024
 title: Mänsliga rättigheter-dagarna 2024
 tags: []
-image: /_astro/the-future-is-equal.png
+image: ~/assets/images/the-future-is-equal.png
 publishDate: 2024-11-13T01:00:00.000Z
 location: Skellefteå
 ---
