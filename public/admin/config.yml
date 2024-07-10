@@ -3,7 +3,8 @@ backend:
   branch: main
 
 media_folder: 'src/assets/images'
-public_folder: '/_astro'
+#public_folder: '/_astro'
+public_folder: '~/assets/images'
 
 site_url: https://ungivarlden.netlify.app
 logo_url: https://i.imgur.com/Z7DSFCm.png
