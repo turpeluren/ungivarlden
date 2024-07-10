@@ -36,7 +36,8 @@ const { post, url } = Astro.props;
           { 
             post.location && ( 
               <>
-                <span> · </span>
+                {' '}
+                · <Icon name="tabler:map-pin" class="w-4 h-4 inline-block -mt-0.5 dark:text-gray-400" />
                 <span>{post.location}</span>
               </> 
             )
@@ -68,13 +69,14 @@ const { post, url } = Astro.props;
               </>
             )*/
           }
+          
         </span>
       </div>
       {
         post.facebookLink && (
-          <p class="mt-0 mb-2 px-4 sm:px-6 max-w-3xl mx-auto prose">
-            <a class="underline text-tertiary" href={post.facebookLink}><Icon class="inline" name="tabler:brand-facebook"></Icon> Länk till eventet på facebook</a>
-          </p>
+          <div class="mt-2 mb-2 px-4 sm:px-6 max-w-3xl mx-auto prose">
+            <a class="dark:bg-tertiary bg-secondary dark:hover:bg-secondary hover:bg-tertiary p-1 pr-2 br-2 rounded-md no-underline text-white" href={post.facebookLink}><Icon class="inline mb-1 h-5 w-5" name="tabler:brand-facebook"></Icon> Eventet på facebook</a>
+          </div>
         )
       }
 

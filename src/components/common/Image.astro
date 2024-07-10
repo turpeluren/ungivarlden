@@ -53,7 +53,10 @@ if (typeof _image === 'string') {
     };
   }
 } else if (_image) {
-  image = await getImagesOptimized(_image, props, astroAsseetsOptimizer);
+  image = image = {
+      src: _image.src,
+      attributes: { ...props, src: undefined },
+    }; /*await getImagesOptimized(_image, props, astroAsseetsOptimizer);*/
 }
 ---
 

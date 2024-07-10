@@ -67,6 +67,23 @@ const link = APP_BLOG?.post?.isEnabled ? getPermalink(post.permalink, 'post') : 
           <Icon name="tabler:clock" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
           <time datetime={String(post.publishDate)} class="inline-block">{getFormattedDate(post.publishDate)}</time>
           {
+            post.endDate && ( 
+              <>
+                <span> - </span>
+                <time datetime={String(post.endDate)} class="inline-block">{getFormattedDate(post.endDate)}</time>
+              </> 
+            )
+          }
+          { 
+            post.location && ( 
+              <>
+                {' '}
+                · <Icon name="tabler:map-pin" class="w-3.5 h-3.5 inline-block -mt-0.5 dark:text-gray-400" />
+                <span>{post.location}</span>
+              </> 
+            )
+          }
+          {
             post.author && (
               <>
                 {' '}

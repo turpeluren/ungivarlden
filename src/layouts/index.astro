@@ -21,6 +21,11 @@ const metadata = {
 const {
   frontmatter
 } = Astro.props;
+
+/* set src of hero image to work, the path from cms is different*/
+var heroSrc = frontmatter.heroImage.src.split('/');
+heroSrc = "~/assets/images/"+heroSrc[heroSrc.length-1];
+var heroAlt = frontmatter.heroImage.alt;
 ---
 
 <Layout metadata={metadata}>
@@ -34,7 +39,7 @@ const {
         icon: 'tabler:message-chatbot',
       }
     ]}
-    image={frontmatter.heroImage}
+    image={{ src: heroSrc, alt: heroSrc}}
   >
   <!--
     image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}

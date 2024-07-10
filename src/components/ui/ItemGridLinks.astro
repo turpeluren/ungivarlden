@@ -33,16 +33,16 @@ const {
       )}
     >
       {items.map(({ title, description, icon, href, callToAction, classes: itemClasses = {} }) => (
-        <a href={href} class={twMerge('bg-secondary hover:bg-primary hover:shadow-lg transition-shadow dark:text-inverted rounded-[1em] p-6 relative flex items-start flex-col transition-colors', panelClass, itemClasses?.panel)}
+        <a href={href} class={twMerge('bg-secondary hover:bg-primary hover:shadow-lg transition-shadow text-white rounded-[1em] p-6 relative flex items-start flex-col transition-colors', panelClass, itemClasses?.panel)}
         >
           <span class={twMerge('text-xl font-bold', titleClass, itemClasses?.title)}>
             {(icon || defaultIcon) && (
-              <Icon name={icon || defaultIcon} class={twMerge(defaultIconClass, 'inline w-12 h-12 text-inverted bg-tertiary', itemClasses?.icon)} />
+              <Icon name={icon || defaultIcon} class={twMerge(defaultIconClass, 'inline w-12 h-12 text-white bg-tertiary', itemClasses?.icon)} />
             )}
             {title}
           </span>
           {description && (
-            <p class={twMerge('self-start text-muted dark:text-inverted mt-4 mx-1', descriptionClass, itemClasses?.description)} set:html={description} />
+            <p class={twMerge('self-start text-white opacity-90 mt-4 mx-1', descriptionClass, itemClasses?.description)} set:html={description} />
           )}
           {callToAction && (
             <div class="m-2">
