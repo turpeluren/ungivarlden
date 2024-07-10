@@ -29,6 +29,11 @@ export const findImage = async (
     return imagePath;
   }
 
+  // /_astro"
+  if (!imagePath.startsWith('/_astro/')) {
+    imagePath.replace('/_astro/', '~/assets/images/');
+  }
+
   // Absolute paths
   if (imagePath.startsWith('http://') || imagePath.startsWith('https://') || imagePath.startsWith('/')) {
     return imagePath;
@@ -38,6 +43,8 @@ export const findImage = async (
   if (!imagePath.startsWith('~/assets/images')) {
     return imagePath;
   }
+
+  
 
   const images = await fetchLocalImages();
   const key = imagePath.replace('~/', '/src/');
