@@ -25,6 +25,7 @@ const {
   />
 
   <ContactUs
+    name="contact"
     id="form"
     tagline={frontmatter.messageBoxTagline}
     title={frontmatter.messageBoxTitle}
@@ -38,7 +39,7 @@ const {
       {
         type: 'email',
         name: 'email',
-        label: 'Email/@',
+        label: 'Email',
       },
     ]}
     textarea={{
@@ -46,6 +47,7 @@ const {
     }}
     button="Skicka"
     description="Vi svarar ofta inom 24 timmar"
+    submitMessage="Tack för ditt meddelande! Vi svarar så snart som möjligt."
   />
 
   

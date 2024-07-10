@@ -24,7 +24,11 @@ const {
 
 /* set src of hero image to work, the path from cms is different*/
 var heroSrc = frontmatter.heroImage.src.split('/');
-heroSrc = "~/assets/images/"+heroSrc[heroSrc.length-1];
+if (heroSrc[1] === '_astro') {
+  heroSrc = "~/assets/images/"+heroSrc[heroSrc.length-1];
+} else {
+  heroSrc = frontmatter.heroImage.src;
+}
 var heroAlt = frontmatter.heroImage.alt;
 ---
 
@@ -39,7 +43,7 @@ var heroAlt = frontmatter.heroImage.alt;
         icon: 'tabler:message-chatbot',
       }
     ]}
-    image={{ src: heroSrc, alt: heroSrc}}
+    image={{ src: heroSrc, alt: heroAlt}}
   >
   <!--
     image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}

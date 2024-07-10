@@ -214,11 +214,13 @@ export interface Collapse {
 }
 
 export interface Form {
+  name: string;
   inputs?: Array<Input>;
   textarea?: Textarea;
   disclaimer?: Disclaimer;
   button?: string;
   description?: string;
+  submitMessage?: string;
 }
 
 // WIDGETS

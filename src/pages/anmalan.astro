@@ -15,6 +15,7 @@ const metadata = {
   <HeroText title="Bli medlem!" />
 
   <ContactUs
+    name="anmalan"
     id="form"
     title="Bli del av Ung i världen"
     subtitle="Bla bla - För specifika kontaktuppgifter till vår styrelse finns kontakterna -här-"
@@ -27,7 +28,7 @@ const metadata = {
       {
         type: 'email',
         name: 'email',
-        label: 'Email/@',
+        label: 'Email',
       },
     ]}
     textarea={{
@@ -35,10 +36,11 @@ const metadata = {
     }}
     disclaimer={{
       label:
-        'By submitting this contact form, you acknowledge and agree to the collection of your personal information.',
+        'Genom att skicka detta formulär, går du med på att vi sparar den personliga information som du angett.',
     }}
     button="Skicka"
     description="Vi svarar ofta inom 24 timmar"
+    submitMessage="Välkommen!"
   />
 
 </Layout>

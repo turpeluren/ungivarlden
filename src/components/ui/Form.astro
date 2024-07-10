@@ -2,10 +2,11 @@
 import type { Form as Props } from '~/types';
 import Button from '~/components/ui/Button.astro';
 
-const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } = Astro.props;
+const { name, inputs, textarea, disclaimer, button = 'Contact us', description = '', submitMessage = '' } = Astro.props;
+var checkBoxChecked = false;
 ---
 
-<form>
+<form id="contact" name={name} method="POST" data-netlify="true">
   {
     inputs &&
       inputs.map(
@@ -47,6 +48,19 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
     )
   }
 
+  <!-- honeypot? -->
+  <div class="hidden">
+    <label for="textarea" class="block text-sm font-medium">
+      text
+    </label>
+    <textarea
+      id="textarea2"
+      name='meddelande'
+      rows=4
+      class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+    />
+  </div>
+
   {
     disclaimer && (
       <div class="mt-3 flex items-start">
@@ -55,6 +69,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
             id="disclaimer"
             name="disclaimer"
             type="checkbox"
+            onchange='some_var=this.checked;'
             class="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
           />
         </div>
@@ -70,7 +85,7 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
   {
     button && (
       <div class="mt-10 grid">
-        <Button variant="primary" type="submit">
+        <Button id="submitButton" variant="primary" type="submit">
           {button}
         </Button>
       </div>
@@ -85,3 +100,46 @@ const { inputs, textarea, disclaimer, button = 'Contact us', description = '' } 
     )
   }
 </form>
+
+<script define:vars={{ submitMessage, checkBoxChecked }}>
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const checkBox = window.document.getElementById("disclaimer");
+    if (checkBox) {
+      if (!checkBox.checked) {
+        alert("Du måste gå med på vilkoren genom att kryssa i rutan innan du kan skicka formuläret.");
+        return;
+      }
+    }
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+    
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(String(formData)).toString(),
+    })
+      .then(() => alert(submitMessage))
+      .catch((error) => alert(error));
+  };
+
+  function flipCheckBox() {
+    checkBoxChecked = some_var;
+    console.log(checkBoxChecked)
+    window.document.querySelector("submitButton").classList.toggle("opacity-10");
+  }
+
+  const myMaybeNullElement = window.document.querySelector("form");
+  if (myMaybeNullElement === null) {
+  } else {
+    myMaybeNullElement.addEventListener("submit", handleSubmit);
+  }
+  const myMaybeNullElement2 = window.document.querySelector("disclaimer");
+  if (myMaybeNullElement2 === null) {
+  } else {
+    myMaybeNullElement2.addEventListener("click", flipCheckBox);
+  }
+</script>
