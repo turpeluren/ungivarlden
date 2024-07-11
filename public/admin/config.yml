@@ -30,10 +30,11 @@ collections:
         }
       - { label: 'Image', name: 'image', widget: 'image' }
       - { label: 'Datum (start)', name: 'publishDate', widget: 'datetime', required: true }
-      - { label: 'Slutdatum', name: 'endDate', widget: 'datetime', default: , required: false, hint: 'Behövs ej' }
+      - { label: 'Slutdatum', name: 'endDate', widget: 'datetime', default: , required: false, hint: 'Rör inte detta fältet alls om du ej vill ha ett slutdatum!!' }
       #- { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Plats', name: 'location', widget: 'string', required: false, hint: 'Behövs ej' }
       - { label: 'Fb-länk', name: 'facebookLink', widget: 'string', required: false, hint: 'Länk till event på facebook. Behövs ej' }
+      - { label: 'Synligt?', name: 'draft', widget: 'boolean', hint: 'Om eventet är synligt på hemsidan eller ej'}
       - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Vidare information fritext'}
   - name: 'pages'
     label: 'Hem'
