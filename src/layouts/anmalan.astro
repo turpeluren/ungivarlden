@@ -50,15 +50,15 @@ const {
     />
   ) : (
     <ContactUs
-      name="anmalan"
+      name="Anmälan"
       id="form"
       title={frontmatter.formTitle}
       subtitle={frontmatter.formSubtitle}
       inputs={[
         {
           type: 'text',
-          name: 'name',
-          label: 'Name',
+          name: 'namn',
+          label: 'Namn',
         },
         {
           type: 'email',
@@ -68,6 +68,7 @@ const {
       ]}
       textarea={{
         label: 'Övrigt',
+        name: 'övrigt',
       }}
       button="Skicka"
       description="Vi svarar ofta inom 24 timmar"

@@ -89,6 +89,7 @@ collections:
       - { label: 'Introtext', name: 'subtitle', widget: 'string', required: false }
       - { label: 'Titel meddelande-ruta', name: 'messageBoxTitle', widget: 'string', required: false }
       - { label: 'Undertitel meddelande-ruta', name: 'messageBoxSubtitle', widget: 'string', required: false }
+      - { label: 'När formuläret har skickats text', name: 'messageBoxSubmitMessage', widget: 'string' }
       - { label: 'Titel kontaktuppgifter', name: 'individualTitle', widget: 'string', required: false }
       - { label: 'Undertitel kontaktuppgifter', name: 'individualSubtitle', widget: 'string', required: false }
       - label: 'Kontaktuppgifter'
