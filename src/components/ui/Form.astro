@@ -132,8 +132,9 @@ var checkBoxChecked = false;
     .querySelector("form")
     .addEventListener("submit", handleSubmit);
 
-  document
-    .querySelector("disclaimer")
-    .addEventListener("click", flipCheckBox);
+  const mayBeNullElement = document.querySelector("disclaimer");
+  if (mayBeNullElement != null) {
+    mayBeNullElement.addEventListener("click", flipCheckBox);
+  }
   
 </script>

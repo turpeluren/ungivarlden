@@ -120,6 +120,7 @@ export const headerData = {
 };
 
 export const footerData = {
+  about: 'Ung i världen är en organisation bla bla bla.',
   links: [
     /*{
       title: 'Product',
@@ -144,36 +145,25 @@ export const footerData = {
       ],
     },
     {
-      title: 'Support',
-      links: [
-        { text: 'Docs', href: '#' },
-        { text: 'Community Forum', href: '#' },
-        { text: 'Professional Services', href: '#' },
-        { text: 'Skills', href: '#' },
-        { text: 'Status', href: '#' },
-      ],
+      title: 'Om Ung i världen',
+      about: 'Ung i världen är en organisation bla bla bla.',
     },*/
-    {
-      title: 'Organisation',
-      links: [
-        { text: 'Om oss', href: getPermalink('/om') },
-        { text: 'Värderingar', href: '/om#values' },
-        { text: 'Verksamhet', href: getPermalink('/verksamhet') },
-        { text: 'Kontakt', href: getPermalink('/kontakt') },
-        { text: 'Kommande event', href: getPermalink('/eventkalender') },
-        { text: 'Engagera dig', href: getPermalink('/anmalan') },
-        /*{ text: 'Careers', href: '#' },
-        { text: 'Press', href: '#' },
-        { text: 'Inclusion', href: '#' },
-        { text: 'Social Impact', href: '#' },
-        { text: 'Shop', href: '#' },*/
-      ],
-    },
+    
     {
       title: 'Kontakt',
       links: [
         { text: 'Besöksadress: Vägenvägen 00, 123 45 Ort'},
-        { text: 'Mail: <a class="underline text-muted" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>' },
+        { text: 'Mail: <a class="underline hover:text-black  break-all" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>' },
+      ],
+    },
+    {
+      title: 'Meny',
+      links: [
+        { text: '🙋 Om oss', href: getPermalink('/om') },
+        { text: '🤲 Värderingar', href: '/om#values' },
+        { text: '💌 Kontakt', href: getPermalink('/kontakt') },
+        { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
+        { text: '🤸 Engagera dig', href: getPermalink('/anmalan') },
       ],
     },
   ],
@@ -182,15 +172,14 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },*/
   ],
   socialLinks: [
-    { ariaLabel: 'X', icon: 'tabler:brand-x', href: '#' },
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-    { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+    { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     /*{ ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },*/
   ],
   footNote: `
     Ung i världen · 
     2024 · 
-    Sida av <a class="underline dark:text-muted" href="https://turpelurpeluren.online">turpelurpeluren</a>.
+    Sida av <a class="underline" href="https://turpelurpeluren.online">turpelurpeluren</a>.
   `,
 };
