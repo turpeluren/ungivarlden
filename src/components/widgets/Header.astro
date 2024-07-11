@@ -74,8 +74,8 @@ const currentPath = `/${trimSlash(new URL(Astro.url).pathname)}`;
   >
     <div class:list={[{ 'w-full mr-auto rtl:mr-0 rtl:ml-auto': position === 'right' }, 'flex justify-between']}>
       <a class="flex flex-row self-center items-start justify-start sm:pl-1" href={getHomePermalink()}>
-        <Logo variant="whiteRight" class="hidden dark:inline h-9 md:h-12"/>
-        <Logo variant="right" class="inline dark:hidden h-9 md:h-12"/>
+        <Logo variant="whiteRight" class="self-start hidden dark:inline h-9 md:h-12"/>
+        <Logo variant="right" class="self-start inline dark:hidden h-9 md:h-12"/>
       </a>
       <div class="flex items-center md:hidden">
         <ToggleMenu />

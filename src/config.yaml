@@ -18,7 +18,7 @@ metadata:
   openGraph:
     site_name: Ung i världen
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/social-card.png'
         width: 1044
         height: 454
     type: website
