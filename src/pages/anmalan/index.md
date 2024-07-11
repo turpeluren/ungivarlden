@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/anmalan.astro
 tagline:
-title: Kontakta oss här!
+title: 
 subtitle:
 formTitle: Bli del av ung i världen
 formSubtitle: Bla bla bli medlem hej och hå

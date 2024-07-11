@@ -6,7 +6,11 @@ const { name, inputs, textarea, disclaimer, button = 'Contact us', description =
 var checkBoxChecked = false;
 ---
 
-<form id="contact" name={name} method="POST" data-netlify="true">
+<form id="contact" 
+      name={name}
+      netlify-honeypot="bot-field"
+>
+  <input type="hidden" name="form-name" value={name}/>
   {
     inputs &&
       inputs.map(
@@ -49,17 +53,7 @@ var checkBoxChecked = false;
   }
 
   <!-- honeypot? -->
-  <div class="hidden">
-    <label for="textarea" class="block text-sm font-medium">
-      text
-    </label>
-    <textarea
-      id="textarea2"
-      name='meddelande'
-      rows=4
-      class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-    />
-  </div>
+  <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
 
   {
     disclaimer && (
@@ -107,6 +101,9 @@ var checkBoxChecked = false;
     event.preventDefault();
 
     const checkBox = window.document.getElementById("disclaimer");
+    /*const name = window.document.getElementById("disclaimer");
+    const mail = window.document.getElementById("disclaimer");
+*/
     if (checkBox) {
       if (!checkBox.checked) {
         alert("Du måste gå med på vilkoren genom att kryssa i rutan innan du kan skicka formuläret.");
@@ -120,7 +117,7 @@ var checkBoxChecked = false;
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: new URLSearchParams(String(formData)).toString(),
+      body: new URLSearchParams(formData).toString(),
     })
       .then(() => alert(submitMessage))
       .catch((error) => alert(error));
@@ -128,18 +125,15 @@ var checkBoxChecked = false;
 
   function flipCheckBox() {
     checkBoxChecked = some_var;
-    console.log(checkBoxChecked)
     window.document.querySelector("submitButton").classList.toggle("opacity-10");
   }
 
-  const myMaybeNullElement = window.document.querySelector("form");
-  if (myMaybeNullElement === null) {
-  } else {
-    myMaybeNullElement.addEventListener("submit", handleSubmit);
-  }
-  const myMaybeNullElement2 = window.document.querySelector("disclaimer");
-  if (myMaybeNullElement2 === null) {
-  } else {
-    myMaybeNullElement2.addEventListener("click", flipCheckBox);
-  }
+  document
+    .querySelector("form")
+    .addEventListener("submit", handleSubmit);
+
+  document
+    .querySelector("disclaimer")
+    .addEventListener("click", flipCheckBox);
+  
 </script>
