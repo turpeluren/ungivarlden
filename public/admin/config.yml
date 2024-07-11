@@ -101,3 +101,15 @@ collections:
           - { label: 'Namn', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
           - { label: 'Mail', name: 'mail', widget: 'string' }
+  - name: 'anmalan'
+    label: 'Anmälan'
+    folder: 'src/pages/anmalan'
+    create: false
+    fields:
+      - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
+      - { label: 'Huvuditel', name: 'title', widget: 'string', required: false }
+      - { label: 'Text under titel', name: 'subtitle', widget: 'string', required: false }
+      - { label: 'Titel formulär', name: 'formTitle', widget: 'string', required: false }
+      - { label: 'Text under titel formulär', name: 'formSubtitle', widget: 'string', required: false }
+      - { label: 'Kryssrutan text', name: 'checkBoxText', widget: 'string', required: false, hint: 'Lämna blank för att inte ha en kryssruta' }
+      - { label: 'När formuläret har skickats text', name: 'submitText', widget: 'string' }

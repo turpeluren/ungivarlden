@@ -1,0 +1,78 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import HeroText from '~/components/widgets/HeroText.astro';
+import ContactUs from '~/components/widgets/Contact.astro';
+import Features2 from '~/components/widgets/Features2.astro';
+
+const metadata = {
+  title: 'Anmälan',
+};
+
+const {
+  frontmatter
+} = Astro.props;
+---
+
+<Layout metadata={metadata}>
+  <!-- HeroText Widget ******************* -->
+
+  <HeroText 
+    tagline={frontmatter.tagline}
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
+     />
+
+  { frontmatter.checkBoxText ? (
+    <ContactUs
+      name="anmalan"
+      id="form"
+      title={frontmatter.formTitle}
+      subtitle={frontmatter.formSubtitle}
+      inputs={[
+        {
+          type: 'text',
+          name: 'name',
+          label: 'Name',
+        },
+        {
+          type: 'email',
+          name: 'email',
+          label: 'Email',
+        },
+      ]}
+      textarea={{
+        label: 'Meddelande',
+      }}
+      disclaimer={{label: frontmatter.checkBoxText}}
+      button="Skicka"
+      description="Vi svarar ofta inom 24 timmar"
+      submitMessage={frontmatter.submitText}
+    />
+  ) : (
+    <ContactUs
+      name="anmalan"
+      id="form"
+      title={frontmatter.formTitle}
+      subtitle={frontmatter.formSubtitle}
+      inputs={[
+        {
+          type: 'text',
+          name: 'name',
+          label: 'Name',
+        },
+        {
+          type: 'email',
+          name: 'email',
+          label: 'Email',
+        },
+      ]}
+      textarea={{
+        label: 'Meddelande',
+      }}
+      button="Skicka"
+      description="Vi svarar ofta inom 24 timmar"
+      submitMessage={frontmatter.submitText}
+    />
+  )}
+
+</Layout>
