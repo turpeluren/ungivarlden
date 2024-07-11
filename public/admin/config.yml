@@ -29,7 +29,7 @@ collections:
           field: { label: 'Tag', name: 'tag', widget: 'string' },
         }
       - { label: 'Image', name: 'image', widget: 'image' }
-      - { label: 'Datum (start)', name: 'publishDate', widget: 'datetime', required: true }
+      - { label: 'Datum (start-datum)', name: 'publishDate', widget: 'datetime', required: true }
       - { label: 'Slutdatum', name: 'endDate', widget: 'datetime', default: , required: false, hint: 'Rör inte detta fältet alls om du ej vill ha ett slutdatum!!' }
       #- { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Plats', name: 'location', widget: 'string', required: false, hint: 'Behövs ej' }
