@@ -1,13 +1,19 @@
 ---
 title: Nytt testevent
 excerpt: ett litet event
-image: ~/assets/images/screenshot-from-2024-06-26-11-20-09.png
-publishDate: 2024-07-10T23:58:32.650Z
+image: ~/assets/images/img_3695.jpeg
+publishDate: 2024-07-19T23:58:32.650Z
 endDate: 2024-07-11T00:11:57.595Z
 location: hemma hos mig
+draft: false
 ---
 ## Info om mitt event
+
 hej
 
-- a
-- b
+* a
+* b
+
+Hej igen
+
+![Hero inspo](~/assets/images/SKISS-HEMSIDA.png "En hemsida")
