@@ -60,14 +60,14 @@ collections:
           - { label: 'Rubrik', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string' }
       - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
-  - name: 'verksamhet'
-    label: 'Verksamhet'
-    folder: 'src/pages/verksamhet'
-    create: false
-    fields:
-      - { label: 'Titel', name: 'title', widget: 'string' }
-      - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
-      - { label: 'Fritext', name: body, widget: 'markdown' }
+  #- name: 'verksamhet'
+  #  label: 'Verksamhet'
+  #  folder: 'src/pages/verksamhet'
+  #  create: false
+  #  fields:
+  #    - { label: 'Titel', name: 'title', widget: 'string' }
+  #    - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
+  #    - { label: 'Fritext', name: body, widget: 'markdown' }
   - name: 'om'
     label: 'Om oss'
     folder: 'src/pages/om'
@@ -102,9 +102,9 @@ collections:
           - { label: 'Namn', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
           - { label: 'Mail', name: 'mail', widget: 'string' }
-  - name: 'anmalan'
-    label: 'Anmälan'
-    folder: 'src/pages/anmalan'
+  - name: 'bli-medlem'
+    label: 'Bli medlem'
+    folder: 'src/pages/bli-medlem'
     create: false
     fields:
       - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
