@@ -29,7 +29,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
 ---
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
-  <div class="z-[-2] bg-secondary dark:bg-dark absolute inset-0 pointer-events-none" aria-hidden="true"></div>
+  <div class="z-[-2] bg-primary dark:bg-dark absolute inset-0 pointer-events-none" aria-hidden="true"></div>
   <div class="relative max-w-6xl mx-auto mt-12 px-8 sm:px-6 dark:text-slate-300">
     <div class="grid grid-cols-12 gap-4 gap-y-16 sm:gap-8 py-8 md:py-12">
       <div class="flex flex-col col-span-6 md:col-span-6 lg:col-span-3">
@@ -51,7 +51,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
             {links && Array.isArray(links) && links.length > 0 && (
               <ul class="flex flex-col">
                 {links.map(({ text, href, ariaLabel }) => (
-                  <li class="mb-2">
+                  <li class="mb-4">
                     {href ? (
                       <a
                       class="text-gray-800 hover:text-black underline hover:underline dark:text-gray-400 transition duration-150 ease-in-out"

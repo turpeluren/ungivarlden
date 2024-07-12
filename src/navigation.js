@@ -11,10 +11,6 @@ export const headerData = {
       text: 'Engagera dig',
       links: [
         {
-          text: 'Kommande event',
-          href: getPermalink('/#upcoming'),
-        },
-        {
           text: 'Anmäl dig? Bli medlem?',
           href: getPermalink('/anmalan'),
         }
@@ -51,69 +47,17 @@ export const headerData = {
       ],*/
     },
     {
-      text: 'Verksamhet',
-      href: getPermalink('/verksamhet'),
-
-      /*links: [
-        {
-          text: 'Verksamhet',
-          href: getPermalink('/verksamhet'),
-        },
-        {
-          text: 'Lead Generation',
-          href: getPermalink('/landing/lead-generation'),
-        },
-        {
-          text: 'Long-form Sales',
-          href: getPermalink('/landing/sales'),
-        },
-        {
-          text: 'Click-Through',
-          href: getPermalink('/landing/click-through'),
-        },
-        {
-          text: 'Product Details (or Services)',
-          href: getPermalink('/landing/product'),
-        },
-        {
-          text: 'Coming Soon or Pre-Launch',
-          href: getPermalink('/landing/pre-launch'),
-        },
-        {
-          text: 'Subscription',
-          href: getPermalink('/landing/subscription'),
-        },
-      ],*/
-    },
-    {
-      text: 'Kontakt',
-      href: getPermalink('/kontakt'),
-      /*links: [
-        {
-          text: 'Blog List',
-          href: getBlogPermalink(),
-        },
-        {
-          text: 'Article',
-          href: getPermalink('get-started-website-with-astro-tailwind-css', 'post'),
-        },
-        {
-          text: 'Article (with MDX)',
-          href: getPermalink('markdown-elements-demo-post', 'post'),
-        },
-        {
-          text: 'Category Page',
-          href: getPermalink('tutorials', 'category'),
-        },
-        {
-          text: 'Tag Page',
-          href: getPermalink('astro', 'tag'),
-        },
-      ],*/
+      text: 'Aktuellt',
+      href: getPermalink('/#upcoming'),
     },
     {
       text: 'Om oss',
       href: getPermalink('/om'),
+    },
+    {
+      text: 'Kontakt',
+      href: getPermalink('/kontakt'),
+      
     },
   ],
   actions: [{ text: 'Anmäl dig? Bli medlem?', href: getPermalink('/anmalan') }],
@@ -152,18 +96,20 @@ export const footerData = {
     {
       title: 'Kontakt',
       links: [
-        { text: 'Besöksadress: Vägenvägen 00, 123 45 Ort'},
-        { text: 'Mail: <a class="underline hover:text-black  break-all" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>' },
+        { text: '🏡 Besöksadress:<br>Vägenvägen 00, 123 45 Ort'},
+        { text: '📨 Mail:<br><a class="underline hover:text-black break-all" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>' },
+        { text: '💬 <a class="underline hover:text-black" href="/kontakt#form">Skicka ett meddelande</a>'}
       ],
     },
     {
       title: 'Meny',
       links: [
-        { text: '🙋 Om oss', href: getPermalink('/om') },
-        { text: '🤲 Värderingar', href: '/om#values' },
-        { text: '💌 Kontakt', href: getPermalink('/kontakt') },
-        { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
+
         { text: '🤸 Engagera dig', href: getPermalink('/anmalan') },
+        { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
+        { text: '🤲 Värderingar', href: '/om#values' },
+        { text: '🙋 Om oss', href: getPermalink('/om') },
+        { text: '💌 Kontakt', href: getPermalink('/kontakt') },
       ],
     },
   ],

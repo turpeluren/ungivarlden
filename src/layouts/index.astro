@@ -38,17 +38,17 @@ var heroAlt = frontmatter.heroImage.alt;
     actions={[
       {
         variant: 'primary',
-        text: 'Anmäl dig',
+        text: 'Bli medlem',
         href: 'https://github.com/onwidget/astrowind',
         icon: 'tabler:message-chatbot',
       }
     ]}
     image={{ src: heroSrc, alt: heroAlt}}
+    heroUrl={heroSrc}
   >
   <!--
     image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}
   -->
-
     <Fragment slot="title">
       <span>{frontmatter.title}</span>
     </Fragment>
@@ -70,33 +70,6 @@ var heroAlt = frontmatter.heroImage.alt;
     columns={4}
     items={frontmatter.values}
   >
-  <!--items={[
-      {
-      title: 'Gemenskap?',
-        description:
-          'A seamless integration between two great frameworks that offer high productivity, performance and versatility.',
-        icon: 'tabler:heart-handshake',
-      },
-      {
-        title: 'Inkludering',
-        description:
-          'Widgets made with Tailwind CSS ready to be used in Marketing Websites, SaaS, Blogs, Personal Profiles, Small Business...',
-        icon: 'tabler:users-group',
-      },
-      {
-        title: 'Mänskliga rättigheter',
-        description:
-          'Creating secure, efficient, and user-friendly websites that deliver exceptional experiences and lasting value.',
-        icon: 'tabler:empathize',
-      },
-      {
-        title: 'Miljö',
-        description:
-          'Having a good page speed impacts organic search ranking, improves user experience (UI/UX) and increase conversion rates.',
-        icon: 'tabler:plant',
-      },
-      
-    ]} -->
     <Fragment slot="title">
       <span>{frontmatter.valuesTitle}</span>
     </Fragment>
@@ -114,7 +87,8 @@ var heroAlt = frontmatter.heroImage.alt;
 
   <BlogLatestPosts
     id="upcoming"
-    title="Kommande event"
+    linkText='All aktuell info'
+    title="Senaste nytt från Ung i världen"
     information={frontmatter.eventText}
   />
 
