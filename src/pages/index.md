@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/index.astro
-title: Ung i världen
+title: Vi är Ung i världen
 undertext: En introducerande text
 heroImage:
   src: ~/assets/images/img_3695.jpeg
