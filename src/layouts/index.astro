@@ -24,7 +24,7 @@ const {
 
 /* set src of hero image to work, the path from cms is different*/
 var heroSrc = frontmatter.heroImage.src.split('/');
-if (heroSrc[1] === '_astro') {
+if (heroSrc[1] === '_astro' || heroSrc[1] === 'assets' ) {
   heroSrc = "~/assets/images/"+heroSrc[heroSrc.length-1];
 } else {
   heroSrc = frontmatter.heroImage.src;

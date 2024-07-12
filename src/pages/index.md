@@ -3,7 +3,7 @@ layout: ../layouts/index.astro
 title: Ung i världen
 undertext: En introducerande text
 heroImage:
-  src: /assets/images/SKISS-HEMSIDA.png
+  src: "~/assets/images/SKISS-HEMSIDA.png"
   alt: Ung i världen introbild
 valuesTitle: Ung I Världens värdegrunder
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
