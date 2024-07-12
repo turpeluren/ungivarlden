@@ -35,6 +35,9 @@ var checkBoxChecked = false;
       )
   }
 
+  <!-- honeypot? -->
+  <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+
   {
     textarea && (
       <div>
@@ -51,9 +54,6 @@ var checkBoxChecked = false;
       </div>
     )
   }
-
-  <!-- honeypot? -->
-  <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
 
   {
     disclaimer && (
@@ -104,7 +104,7 @@ var checkBoxChecked = false;
     /*const name = window.document.getElementById("disclaimer");
     const mail = window.document.getElementById("disclaimer");
 */
-    if (checkBox) {
+    if (checkBox !== null ) {
       if (!checkBox.checked) {
         alert("Du måste gå med på vilkoren genom att kryssa i rutan innan du kan skicka formuläret.");
         return;
