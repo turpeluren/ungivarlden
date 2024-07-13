@@ -20,7 +20,7 @@ const {
 } = Astro.props;
 ---
 
-<section class="h-screen lg:h-auto relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
+<section class="h-min-screen lg:h-auto pb-32 md:pb-12 relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
   <div class=`absolute inset-0 opactiy-100 bg-quaternary pointer-events-none overflow-hidden` aria-hidden="true">
     <slot name="bg">
       {bg ? <Fragment set:html={bg} /> : null}
@@ -48,7 +48,7 @@ const {
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6">
     <div class="pt-0 md:pt-[76px] pointer-events-none"></div>
     <div class="py-12 md:py-20 lg:py-0 lg:flex lg:items-center lg:h-screen lg:gap-8">
-      <div class="basis-1/2 text-white text-center lg:text-left pt-24 md:pt-0 pb-10 md:pb-16 mx-auto">
+      <div class="basis-1/2 text-white text-center lg:text-left pt-16 md:pt-0 pb-10 md:pb-16 mx-auto">
         {
           tagline && (
             <p
