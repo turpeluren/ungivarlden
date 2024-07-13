@@ -5,6 +5,7 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import Waves from '~/components/common/Waves.astro';
 
 const metadata = {
   title: 'Kontakt',
@@ -51,6 +52,7 @@ const {
     submitMessage={frontmatter.messageBoxSubmitMessage}
   />
 
+<Waves bottom bg="opacity-40 mt-8" variant='tertiary' color="fill-quaternary"></Waves>
   
 <Features3
 id="individual"
@@ -59,13 +61,14 @@ subtitle={frontmatter.individualSubtitle}
 columns={4}
 defaultIcon="tabler:mail"
 items={frontmatter.individualContacts}
-classes={{'container':"border-primary border-t-2 border-b-2 border-dotted"}}
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-primary opacity-0 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
+      <div class="absolute inset-0 bg-quaternary opacity-40 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
     </Fragment>
 </Features3>
   <!-- Features2 Widget ************** -->
+
+<Waves bg="opacity-40" variant='quaternary' color="fill-quaternary"></Waves>
 
 <FeaturesLinks
   id="socials"

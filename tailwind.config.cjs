@@ -14,6 +14,7 @@ module.exports = {
         default: 'var(--aw-color-text-default)',
         inverted: 'var(--aw-color-text-inverted)',
         muted: 'var(--aw-color-text-muted)',
+        page: 'var(--aw-color-bg-page)'
       },
       fontFamily: {
         sans: ['var(--aw-font-sans, ui-sans-serif)', ...defaultTheme.fontFamily.sans],

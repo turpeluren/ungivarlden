@@ -6,6 +6,7 @@ import Hero from '~/components/widgets/Hero.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
+import Waves from '~/components/common/Waves.astro';
 
 import { getPermalink, getBlogPermalink, getAsset } from '../utils/permalinks';
 
@@ -42,21 +43,22 @@ const {
     <slot />
   </div>
 
+  <Waves bottom bg="opacity-40" variant='quaternary' color="fill-secondary"></Waves>
+
   <CallToAction
     title={frontmatter.contactTitle}
     subtitle={frontmatter.contactSubtitle}
     actions={[
       {
-        variant: 'secondary',
+        variant: 'primary',
         text: 'Kontakt',
         href: getPermalink('/kontakt'),
         icon: 'tabler:bubble',
       }
     ]}
-    classes={{'container':"border-primary border-t-[2px] border-dotted"}}
   >
     <Fragment slot="bg">
-      <div class="absolute inset-0 bg-primary opacity-0 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-secondary to-page opacity-40 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
     </Fragment>
   </CallToAction>
 
