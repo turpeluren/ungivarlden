@@ -29,7 +29,7 @@ export interface Props {
 const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
 ---
 
-<Waves bottom bg="mt-12" color="fill-primary"></Waves>
+<Waves bottom bg="mt-6" color="fill-primary"></Waves>
 
 <footer class:list={[{ dark: theme === 'dark' }, 'relative dark:border-slate-800 not-prose']}>
   <div class="z-[-2] bg-primary dark:bg-dark absolute inset-0 pointer-events-none" aria-hidden="true"></div>
@@ -38,7 +38,7 @@ const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme 
       <div class="flex flex-col col-span-6 md:col-span-6 lg:col-span-3 max-h-32 md:max-h-min">
         <a class="flex flex-center justify-start font-bold text-xl sm:pr-6" href={getHomePermalink()}>
           <Logo id="footerlogo" variant="whiteVertical" class="hidden dark:block h-24 md:h-48"/>
-          <Logo id="footerlogo" variant="plain" class="block dark:hidden self-start align-top w-auto max-h-32 max-w-32 md:max-h-min md:max-w-56"/>
+          <Logo id="footerlogo" variant="plain" class="block dark:hidden self-start align-top w-auto !h-32 md:h-auto max-h-32 max-w-32 md:max-h-min md:max-w-56"/>
         </a>
         
       </div>
