@@ -46,7 +46,7 @@
   @apply mb-0;
 }
 #header.scroll > div:first-child {
-  @apply bg-white/50 backdrop-blur-lg;
+  @apply bg-white/0 backdrop-blur-lg bg-gradient-to-b to-transparent;
   box-shadow: 0 0.375rem 1.5rem 0 rgb(140 152 164 / 13%);
 }
 #header.scroll .headerLogo {

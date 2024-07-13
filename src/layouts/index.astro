@@ -12,6 +12,7 @@ import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import Waves from '~/components/common/Waves.astro';
 
 const metadata = {
   title: 'Ung i världen',
@@ -58,6 +59,9 @@ var heroAlt = frontmatter.heroImage.alt;
     </Fragment>
   </Hero2>
 
+  <Waves bottom color="fill-white"/>
+  <Waves bottom color="fill-primary opacity-40"/>
+
   <!-- Note Widget ******************* -->
 
   <!--Note /-->
@@ -82,6 +86,9 @@ var heroAlt = frontmatter.heroImage.alt;
       <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
+
+  <Waves bottom bg="bg-primary opacity-40" color="fill-white"/>
+
 
   <!-- HighlightedPosts Widget ******* -->
 

@@ -3,6 +3,7 @@ import { Icon } from 'astro-icon/components';
 import Logo from '~/components/Logo.astro';
 import { SITE } from 'astrowind:config';
 import { getHomePermalink } from '~/utils/permalinks';
+import Waves from '~/components/common/Waves.astro';
 
 interface Link {
   text?: string;
@@ -28,14 +29,16 @@ export interface Props {
 const { socialLinks = [], secondaryLinks = [], links = [], footNote = '', theme = 'light' } = Astro.props;
 ---
 
-<footer class:list={[{ dark: theme === 'dark' }, 'relative border-t border-gray-200 dark:border-slate-800 not-prose']}>
+<Waves bottom bg="mt-12" color="fill-primary"></Waves>
+
+<footer class:list={[{ dark: theme === 'dark' }, 'relative dark:border-slate-800 not-prose']}>
   <div class="z-[-2] bg-primary dark:bg-dark absolute inset-0 pointer-events-none" aria-hidden="true"></div>
-  <div class="relative max-w-6xl mx-auto mt-12 px-8 sm:px-6 dark:text-slate-300">
+  <div class="relative max-w-6xl mx-auto px-8 sm:px-6 dark:text-slate-300">
     <div class="grid grid-cols-12 gap-4 gap-y-16 sm:gap-8 py-8 md:py-12">
       <div class="flex flex-col col-span-6 md:col-span-6 lg:col-span-3 max-h-32 md:max-h-min">
         <a class="flex flex-center justify-start font-bold text-xl sm:pr-6" href={getHomePermalink()}>
           <Logo id="footerlogo" variant="whiteVertical" class="hidden dark:block h-24 md:h-48"/>
-          <Logo id="footerlogo" variant="plain" class="block dark:hidden self-start w-auto max-h-32 max-w-32 md:max-h-min md:max-w-56"/>
+          <Logo id="footerlogo" variant="plain" class="block dark:hidden self-start align-top w-auto max-h-32 max-w-32 md:max-h-min md:max-w-56"/>
         </a>
         
       </div>
