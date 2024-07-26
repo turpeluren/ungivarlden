@@ -29,18 +29,34 @@ const {
       title={frontmatter.formTitle}
       subtitle={frontmatter.formSubtitle}
       inputs={[
-      
-        },
-          {
+        {
           type: 'text',
           name: 'name',
           label: 'Namn',
         },
+    
         {
           type: 'email',
           name: 'email',
           label: 'Email',
         },
+        {
+          type: 'text',
+          name: 'Telefonnummer',
+          label: 'Telefonnummer',
+        },
+        {
+          type: 'text',
+          name: 'Födelsedatum ',
+          label: 'Födelsedatum',
+          description="Endast personer upp till 29 år kan anmäla sig, ej personnummer"
+        },
+        {
+          type: 'text',
+          name: 'Engagemang',
+          label: 'Välj engagemang',
+        },
+
       ]}
       textarea={{
         label: 'Övrigt',
