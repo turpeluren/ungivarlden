@@ -1,10 +1,16 @@
 ---
 layout: ../../layouts/anmalan.astro
 tagline: null
-title: Bli medlem!
-subtitle: null
-formTitle: Bli del av ung i världen
-formSubtitle: Bla bla bli medlem hej och hå
+title: Engagera dig
+subtitle: Hitta ditt engagemang hos oss!!
+formTitle: " Vi erbjuder två typer av engagemang så att du kan välja det som
+  passar dig bäst"
+formSubtitle: Välkommen till Ung i världen! Vi är en lokalförening som brinner
+  för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
+  Hos oss kan du vara med och skapa en bättre värld, samtidigt som du får
+  chansen att utvecklas och träffa likasinnade. Oavsett om du vill hålla dig
+  uppdaterad om våra senaste event och nyheter, eller om du vill ta steget och
+  bli volontär i vårt senaste EU-projekt, har vi en plats för dig.
 checkBoxText: Genom att skicka detta formulär, går du med på att vi sparar den
   personliga information som du angett.
 submitText: Välkommen!
