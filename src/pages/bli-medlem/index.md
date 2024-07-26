@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/anmalan.astro
 tagline: null
-title: Engagera dig
+title: "Engagera dig "
 subtitle: ""
 formTitle: " Hitta ditt engagemang hos oss!"
 formSubtitle: "Välkommen till Ung i världen! Vi är en lokalförening som brinner
@@ -26,7 +26,7 @@ formSubtitle: "Välkommen till Ung i världen! Vi är en lokalförening som brin
   viktig del av Ung i världen och vår strävan att skapa en mer rättvis och
   hållbar framtid. Tveka inte att höra av dig om du har frågor eller vill veta
   mer om hur du kan engagera dig. Vi ser fram emot att välkomna dig till vår
-  förening!"
+  förening!!"
 checkBoxText: Genom att skicka in detta formulär samtycker jag till att Ung i
   världen lagrar och hanterar mina personuppgifter enligt gällande
   dataskyddsförordning (GDPR). Uppgifterna kommer endast att användas för att
