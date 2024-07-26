@@ -10,20 +10,22 @@ messageBoxTitle: Skicka ett meddelande direkt
 messageBoxSubtitle: Bla bla - För mail och specifika kontaktuppgifter till vår
   styrelse finns kontaktuppgifter <a class="underline"
   href='#individual'>nedan</a>.
-messageBoxSubmitMessage: "Tack för ditt meddelande! Vi svarar så snart som möjligt."
+messageBoxSubmitMessage: Tack för ditt meddelande! Vi svarar så snart som möjligt.
 individualTitle: Kontaktuppgifter
 individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret ovan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
-  - title: Test Testsson
+  - title: Mona
     mail: ungivarlden.org@gmail.com
-    description: En glad testtjej
-  - title: Namn
+    description: Beskrivning
+  - title: Klara
     mail: ungivarlden.org@gmail.com
-    description: En cool tjej
-  - title: Namn
+    description: Beskrivning
+  - title: Yousra
     mail: ungivarlden.org@gmail.com
-  - title: Namn
+  - title: Aurora
+    mail: ungivarlden.org@gmail.com
+  - title: Andrea
     mail: ungivarlden.org@gmail.com
 ---
