@@ -34,7 +34,7 @@ collections:
       #- { label: 'Author', name: 'author', widget: 'string' }
       - { label: 'Plats', name: 'location', widget: 'string', required: false, hint: 'Behövs ej' }
       - { label: 'Fb-länk', name: 'facebookLink', widget: 'string', required: false, hint: 'Länk till event på facebook. Behövs ej' }
-      - { label: 'Synligt?', name: 'draft', widget: 'boolean', hint: 'Om eventet är synligt på hemsidan eller ej'}
+      - { label: 'Avpublicera', name: 'draft', widget: 'boolean', hint: 'Klicka i för att avpublicera från hemsidan (går fortf att redigera här)'}
       - { label: 'Content', name: 'body', widget: 'markdown', hint: 'Vidare information fritext'}
   - name: 'pages'
     label: 'Hem'
@@ -119,4 +119,5 @@ collections:
       - { label: 'Titel formulär', name: 'formTitle', widget: 'string', required: false }
       - { label: 'Text under titel formulär', name: 'formSubtitle', widget: 'string', required: false }
       - { label: 'Kryssrutan text', name: 'checkBoxText', widget: 'string', required: false, hint: 'Lämna blank för att inte ha en kryssruta' }
+      - { label: 'Text på knapp', name: 'buttonText', widget: 'string', required: false }
       - { label: 'När formuläret har skickats text', name: 'submitText', widget: 'string' }
