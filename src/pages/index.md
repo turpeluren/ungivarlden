@@ -5,9 +5,9 @@ undertext: En introducerande text
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen introbild
-valuesTitle: Ung I Världens värdegrunder
+valuesTitle: Våra åsikter
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
-  eftersträvar att uppnå genom vår verksamhen
+  eftersträvar att uppnå genom vår verksamhet, läs mer på "Om oss"!
 values:
   - title: Jämställdhet
     description: A seamless integration between two great frameworks that offer high
