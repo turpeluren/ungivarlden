@@ -2,10 +2,7 @@
 layout: ../../layouts/anmalan.astro
 tagline: null
 title: "Engagera dig "
-subtitle: Hm...? Jag har fuckat lite med admin så bara denna funkar :(
-heroImage:
-  src: ~/assets/images/the-future-is-equal.png
-  alt: Ung i världen introbild
+subtitle: ""
 formTitle: " Hitta ditt engagemang hos oss!!!"
 formSubtitle: "Välkommen till Ung i världen! Vi är en lokalförening som brinner
   för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
@@ -19,6 +16,5 @@ checkBoxText: Genom att skicka in detta formulär samtycker jag till att Ung i
   administrera mitt engagemang i föreningen och jag kan när som helst begära att
   få mina uppgifter raderade eller ändrade genom att kontakta oss på
   Ungivärlden.org@gmail.com.
-buttonText: Skicka
 submitText: Tack för ditt intresse!!
 ---
