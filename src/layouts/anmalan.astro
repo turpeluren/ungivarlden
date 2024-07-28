@@ -2,18 +2,16 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
-import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
 const metadata = {
-  title: 'Bli medlem', 
+  title: 'Bli medlem',
 };
 
 const {
   frontmatter
 } = Astro.props;
 ---
-
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
@@ -23,7 +21,7 @@ const {
     title={frontmatter.title}
     subtitle={frontmatter.subtitle}
      />
-     
+
   { frontmatter.checkBoxText ? (
     <ContactUs
       name="bli-medlem"
