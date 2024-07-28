@@ -18,25 +18,16 @@ const {
   <!-- HeroText Widget ******************* -->
 
   <HeroText 
-    title={frontmatter.title}
-    subtitle={frontmatter.subtitle}
-    tagline={frontmatter.tagline}
-    formTitle={frontmatter.formTitle}
-    formSubtitle={frontmatter.formSubtitle}
-  
+  tagline={frontmatter.tagline}
+  title={frontmatter.title}
+  subtitle={frontmatter.subtitle}
    />
-
-  
-
+{ frontmatter.checkBoxText ? (
   <ContactUs
-    name="Bli medlem"
+    name="bli-medlem"
     id="form"
-    title={frontmatter.messageBoxtitle}
-    subtitle={frontmatter.messageBoxsubtitle}
-    tagline={frontmatter.messageBoxTagline}
-    formTitle={frontmatter.messageBoxformTitle}
-    formSubtitle={frontmatter.messageBoxformSubtitle}
-
+    title={frontmatter.formTitle}
+    subtitle={frontmatter.formSubtitle}
 
     inputs={[
         {
