@@ -24,6 +24,8 @@ individualContacts:
     description: Beskrivning
   - title: Yousra
     mail: ungivarlden.org@gmail.com
+  - title: "Agnyeshka "
+    mail: ungivarlden.org@gmail.com
   - title: Aurora
     mail: ungivarlden.org@gmail.com
   - title: Andrea
