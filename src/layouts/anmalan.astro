@@ -4,11 +4,6 @@ import HeroText from '~/components/widgets/HeroText.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 
-const metadata = {
-  title: 'Bli medlem',
-};
-
-
 
 const metadata = {
   title: 'Bli medlem',
@@ -19,7 +14,6 @@ const {
 } = Astro.props;
 ---
 
-
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
@@ -29,7 +23,6 @@ const {
     subtitle={frontmatter.subtitle}
   />
 
-  
   <ContactUs
     name="Bli medlem"
     id="form"
