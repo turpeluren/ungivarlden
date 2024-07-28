@@ -2,9 +2,10 @@
 excerpt: Häng med oss till Skellefteå på MR-dagarna 2024 i november!
 endDate: 2024-11-14T01:00:00.000Z
 facebookLink: https://www.facebook.com/events/709755297786986
+draft: false
 metadata:
   canonical: https://ungivarlden.netlify.app/mr-dagarna-2024
-title: Mänsliga rättigheter-dagarna 2024
+title: Mänskliga rättigheter-dagarna 2024
 tags: []
 image: ~/assets/images/mrdagarna-foto-evelina_ronnback174.jpg
 publishDate: 2024-11-13T01:00:00.000Z
