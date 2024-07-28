@@ -8,7 +8,6 @@ import Waves from '~/components/common/Waves.astro';
 
 const metadata = {
   title: 'Bli medlem',
-  title: 'Bli medlem',
 };
 
 const { frontmatter } = Astro.props;
@@ -35,6 +34,7 @@ const { frontmatter } = Astro.props;
     subtitle={frontmatter.formSubtitle}
     disclaimer={{ label: frontmatter.checkBoxText }}
     submitMessage={frontmatter.submitText}
+    button={frontmatter.buttonText}
     inputs={[
       {
         type: 'text',
