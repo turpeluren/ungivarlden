@@ -8,6 +8,12 @@ const metadata = {
   title: 'Bli medlem',
 };
 
+
+
+const metadata = {
+  title: 'Bli medlem',
+};
+
 const {
   frontmatter
 } = Astro.props;
@@ -17,18 +23,19 @@ const {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText
-  tagline={frontmatter.tagline}
-  title={frontmatter.title}
-  subtitle={frontmatter.subtitle}
-   />
+  <HeroText 
+    title={frontmatter.title}
+    tagline={frontmatter.tagline}
+    subtitle={frontmatter.subtitle}
+  />
 
-{ frontmatter.checkBoxText ? (
+  
   <ContactUs
-    name="bli-medlem"
+    name="Bli medlem"
     id="form"
-    title={frontmatter.formTitle}
-    subtitle={frontmatter.formSubtitle}
+    tagline={frontmatter.messageBoxTagline}
+    title={frontmatter.messageBoxTitle}
+    subtitle={frontmatter.messageBoxSubtitle}
     inputs={[
         {
           type: 'text',
