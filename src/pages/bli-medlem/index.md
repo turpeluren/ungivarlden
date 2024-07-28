@@ -16,5 +16,5 @@ checkBoxText: Genom att skicka in detta formulär samtycker jag till att Ung i
   administrera mitt engagemang i föreningen och jag kan när som helst begära att
   få mina uppgifter raderade eller ändrade genom att kontakta oss på
   Ungivärlden.org@gmail.com.
-submitText: "Tack för ditt intresse! "
+submitText: Tack för ditt intresse!!
 ---
