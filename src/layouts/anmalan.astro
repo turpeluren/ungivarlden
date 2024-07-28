@@ -12,17 +12,13 @@ const {
   frontmatter
 } = Astro.props;
 ---
-
-<Layout metadata={metadata}>
-  <!-- HeroText Widget ******************* -->
-
-  <HeroText 
+<HeroText 
     tagline={frontmatter.tagline}
     title={frontmatter.title}
     subtitle={frontmatter.subtitle}
-     />
+ />
 
-  { frontmatter.checkBoxText ? (
+{frontmatter.checkBoxText ? (
     <ContactUs
       name="bli-medlem"
       id="form"
@@ -37,24 +33,97 @@ const {
         {
           type: 'email',
           name: 'email',
-          label: 'Email',
+          label: 'E-postadress',
         },
         {
           type: 'text',
-          name: 'Telefonnummer',
+          name: 'phone',
           label: 'Telefonnummer',
         },
         {
           type: 'text',
-          name: 'Födelsedatum ',
-          label: 'Födelsedatum',
+          name: 'birthdate',
+          label: 'Födelsedatum (Endast personer upp till 29 år kan anmäla sig, ej personnummer)',
+        },
+        // Checkbox inputs for "Välj engagemang"
+        {
+          type: 'checkbox',
+          name: 'nyhetsvan',
+          label: 'Nyhetsvän',
+          description: 'Jag vill få regelbundna uppdateringar om föreningen, pågående event och projekt.',
+        },
+        {
+          type: 'checkbox',
+          name: 'volontar',
+          label: 'Volontär',
+          description: 'Jag vill anmäla mig som volontär för det senaste EU-projektet.',
+        },
+        // Checkbox inputs for "Vem är du?"
+        {
+          type: 'checkbox',
+          name: 'student',
+          label: 'Student',
+        },
+        {
+          type: 'checkbox',
+          name: 'forskare',
+          label: 'Forskare',
+        },
+        {
+          type: 'checkbox',
+          name: 'journalist',
+          label: 'Journalist',
+        },
+        {
+          type: 'checkbox',
+          name: 'politiker',
+          label: 'Politiker',
+        },
+        {
+          type: 'checkbox',
+          name: 'civilsamhället',
+          label: 'Arbetar med globala frågor - Civilsamhället',
+        },
+        {
+          type: 'checkbox',
+          name: 'myndighet',
+          label: 'Arbetar med globala frågor - Myndighet',
+        },
+        {
+          type: 'checkbox',
+          name: 'foretag',
+          label: 'Arbetar med globala frågor - Företag',
+        },
+        {
+          type: 'checkbox',
+          name: 'mellanstatlig',
+          label: 'Arbetar med globala frågor - Mellanstatlig org.',
+        },
+        {
+          type: 'checkbox',
+          name: 'yrkesverksam',
+          label: 'Yrkesverksam, inte inom globala frågor',
+        },
+        {
+          type: 'checkbox',
+          name: 'pensionar_aktiv',
+          label: 'Pensionär, aktiv inom globala frågor',
+        },
+        {
+          type: 'checkbox',
+          name: 'pensionar_inaktiv',
+          label: 'Pensionär, inte aktiv inom globala frågor',
         },
         {
           type: 'text',
-          name: 'Engagemang',
-          label: 'Välj engagemang',
+          name: 'other',
+          label: 'Annat: ',
+          placeholder: 'Ange annan beskrivning',
         },
       ]}
+    />
+  ) : null}
+
 
       textarea={{
         label: 'Övrigt',
