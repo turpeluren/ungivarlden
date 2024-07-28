@@ -9,7 +9,10 @@ valuesTitle: Ung I Världens värdegrunder
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
   eftersträvar att uppnå genom vår verksamhen
 values:
-    src: ~/assets/images/SKISS-HEMSIDA (5).png
+  image={{
+      src: ~/assets/images/SKISS-HEMSIDA (6).png,
+      alt: ' Image',
+    }}
   - title: Inkludering
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
