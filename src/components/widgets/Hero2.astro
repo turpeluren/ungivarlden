@@ -16,15 +16,15 @@ const {
   heroUrl,
 
   id,
-  bg = await Astro.slots.render('bg'),
+  bg = 'bg-quaternary',/*await Astro.slots.render('bg'),*/
 } = Astro.props;
 ---
 
 <section class="h-min-screen lg:h-auto pb-32 md:pb-12 relative md:-mt-[76px] not-prose" {...id ? { id } : {}}>
-  <div class=`absolute inset-0 opactiy-100 bg-quaternary pointer-events-none overflow-hidden` aria-hidden="true">
-    <slot name="bg">
-      {bg ? <Fragment set:html={bg} /> : null}
-    </slot>
+  <div class={bg+` absolute inset-0 pointer-events-none overflow-hidden`} aria-hidden="true">
+    <!--slot name="bg">
+      {bg ? <Fragment set:html={bg} /> : <Background/>}
+    </slot-->
     { 
       image && (
         <div class="h-full w-full relative m-auto">
@@ -32,7 +32,7 @@ const {
             <Fragment set:html={image} />
           ) : (
             <Image
-              class="mx-auto object-cover object-center opacity-100 h-full w-full mix-blend-soft-light"
+              class="mx-auto object-cover object-center opacity-100 h-full w-full Dmix-blend-soft-light"
               widths={[400, 768, 1024, 2040]}
               loading="eager"
               width={600}
@@ -40,6 +40,7 @@ const {
               {...image}
             />
           )}
+          <div class={bg+` opacity-70 absolute inset-0 pointer-events-none overflow-hidden`}></div>
         </div>
       )
     }
@@ -60,7 +61,7 @@ const {
         {
           title && (
             <h1
-              class="text-8xl md:text-9xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+              class="text-7xl md:text-8xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
               set:html={title}
             />
           )

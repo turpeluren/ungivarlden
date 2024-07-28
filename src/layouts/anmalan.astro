@@ -1,137 +1,145 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import Waves from '~/components/common/Waves.astro';
 
 const metadata = {
-  title: 'Bli medlem', 
+  title: 'Bli medlem',
 };
 
-const {
-  frontmatter
-} = Astro.props;
+const { frontmatter } = Astro.props;
 ---
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText 
-  tagline={frontmatter.tagline}
-  title={frontmatter.title}
-  subtitle={frontmatter.subtitle}
-  formTitle={frontmatter.title}
-  formSubtitle={frontmatter.subtitle}
-  
-   />
-{ frontmatter.checkBoxText ? (
+  <Hero2
+    tagline={frontmatter.tagline}
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
+    image={{ src: frontmatter.heroImage.src, alt: frontmatter.heroImage.alt }}
+    bg="bg-primary"
+  >
+  </Hero2>
+
+  <Waves bottom bg="" color="fill-page" />
+
   <ContactUs
     name="bli-medlem"
     id="form"
     title={frontmatter.formTitle}
     subtitle={frontmatter.formSubtitle}
-    formTitle={frontmatter.formTitle}
-    formSubtitle={frontmatter.formSubtitle}
-    
+    disclaimer={{ label: frontmatter.checkBoxText }}
+    submitMessage={frontmatter.submitText}
     inputs={[
-        {
-          type: 'text',
-          name: 'name',
-          label: 'Namn',
-        },
-        {
-          type: 'email',
-          name: 'email',
-          label: 'E-postadress',
-        },
-        {
-          type: 'text',
-          name: 'phone',
-          label: 'Telefonnummer',
-        },
-        {
-          type: 'text',
-          name: 'birthdate',
-          label: 'Födelsedatum (Endast personer upp till 29 år kan anmäla sig, ej personnummer)',
-        },
-        {
-          type: 'checkbox',
-          name: 'nyhetsvan',
-          label: 'Nyhetsvän',
-          description: 'Jag vill få regelbundna uppdateringar om föreningen, pågående event och projekt.',
-        },
-        {
-          type: 'checkbox',
-          name: 'volontar',
-          label: 'Volontär',
-          description: 'Jag vill anmäla mig som volontär för det senaste EU-projektet.',
-        },
-        // Checkbox inputs for "Vem är du?"
-        {
-          type: 'checkbox',
-          name: 'student',
-          label: 'Student',
-        },
-        {
-          type: 'checkbox',
-          name: 'forskare',
-          label: 'Forskare',
-        },
-        {
-          type: 'checkbox',
-          name: 'journalist',
-          label: 'Journalist',
-        },
-        {
-          type: 'checkbox',
-          name: 'politiker',
-          label: 'Politiker',
-        },
-        {
-          type: 'checkbox',
-          name: 'civilsamhället',
-          label: 'Arbetar med globala frågor - Civilsamhället',
-        },
-        {
-          type: 'checkbox',
-          name: 'myndighet',
-          label: 'Arbetar med globala frågor - Myndighet',
-        },
-        {
-          type: 'checkbox',
-          name: 'foretag',
-          label: 'Arbetar med globala frågor - Företag',
-        },
-        {
-          type: 'checkbox',
-          name: 'mellanstatlig',
-          label: 'Arbetar med globala frågor - Mellanstatlig org.',
-        },
-        {
-          type: 'checkbox',
-          name: 'yrkesverksam',
-          label: 'Yrkesverksam, inte inom globala frågor',
-        },
-        {
-          type: 'checkbox',
-          name: 'pensionar_aktiv',
-          label: 'Pensionär, aktiv inom globala frågor',
-        },
-        {
-          type: 'checkbox',
-          name: 'pensionar_inaktiv',
-          label: 'Pensionär, inte aktiv inom globala frågor',
-        },
-        {
-          type: 'text',
-          name: 'other',
-          label: 'Annat: ',
-          placeholder: 'Ange annan beskrivning',
-        },
-    
-      ]}
- />
-
-</Layout>     
-
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Namn',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'E-postadress',
+      },
+      {
+        type: 'tel',
+        name: 'phone',
+        label: 'Telefonnummer',
+      },
+      {
+        type: 'date',
+        name: 'birthdate',
+        label: 'Födelsedatum (Endast personer upp till 29 år kan anmäla sig)',
+      },
+      {
+        type: 'label',
+        name: '',
+        label: 'Välj engagemang',
+      },
+      {
+        type: 'checkbox',
+        name: 'nyhetsvan',
+        label: 'Nyhetsvän',
+        description: 'Jag vill få regelbundna uppdateringar om föreningen, pågående event och projekt.',
+      },
+      {
+        type: 'checkbox',
+        name: 'volontar',
+        label: 'Volontär',
+        description: 'Jag vill anmäla mig som volontär för det senaste EU-projektet.',
+      },
+      // Checkbox inputs for "Vem är du?"
+      {
+        type: 'label',
+        name: '',
+        label: 'Vem är du? Välj det som stämmer bäst in på dig.',
+      },
+      {
+        type: 'checkbox',
+        name: 'student',
+        label: 'Student',
+      },
+      {
+        type: 'checkbox',
+        name: 'forskare',
+        label: 'Forskare',
+      },
+      {
+        type: 'checkbox',
+        name: 'journalist',
+        label: 'Journalist',
+      },
+      {
+        type: 'checkbox',
+        name: 'politiker',
+        label: 'Politiker',
+      },
+      {
+        type: 'checkbox',
+        name: 'civilsamhället',
+        label: 'Arbetar med globala frågor - Civilsamhället',
+      },
+      {
+        type: 'checkbox',
+        name: 'myndighet',
+        label: 'Arbetar med globala frågor - Myndighet',
+      },
+      {
+        type: 'checkbox',
+        name: 'foretag',
+        label: 'Arbetar med globala frågor - Företag',
+      },
+      {
+        type: 'checkbox',
+        name: 'mellanstatlig',
+        label: 'Arbetar med globala frågor - Mellanstatlig org.',
+      },
+      {
+        type: 'checkbox',
+        name: 'yrkesverksam',
+        label: 'Yrkesverksam, inte inom globala frågor',
+      },
+      {
+        type: 'checkbox',
+        name: 'pensionar_aktiv',
+        label: 'Pensionär, aktiv inom globala frågor',
+      },
+      {
+        type: 'checkbox',
+        name: 'pensionar_inaktiv',
+        label: 'Pensionär, inte aktiv inom globala frågor',
+      },
+      {
+        type: 'text',
+        name: 'other',
+        label: 'Annat: ',
+        placeholder: 'Ange annan beskrivning',
+      },
+    ]}
+  />
+</Layout>

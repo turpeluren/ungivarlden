@@ -3,13 +3,14 @@ import type { ItemGrid as Props } from '~/types';
 import { Icon } from 'astro-icon/components';
 import { twMerge } from 'tailwind-merge';
 import Button from './Button.astro';
+import Image from '../common/Image.astro';
 
 const { items = [], columns, defaultIcon = '', classes = {} } = Astro.props;
 
 const {
   container: containerClass = '',
   // container: containerClass = "sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3",
-  panel: panelClass = '',
+  panel: panelClass = 'p-0',
   title: titleClass = '',
   description: descriptionClass = '',
   icon: defaultIconClass = 'text-primary',
@@ -32,9 +33,23 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, icon, href, callToAction, classes: itemClasses = {} }) => (
-        <div class={twMerge('relative flex flex-col transition-colors', panelClass, itemClasses?.panel)}
+      {items.map(({ title, description, icon, image, href, callToAction, classes: itemClasses = {} }) => (
+        <div class={twMerge('relative flex flex-col transition-colors')}
         >
+          {image && (
+            <a href={href}>
+              <Image class="w-full h-full pointer-events-none" src={image.src} alt={image.alt} />
+            </a>
+          )}
+          
+        </div>
+      ))}
+    </div>
+  )
+}
+
+
+<!--
           {(icon || defaultIcon) && (
             <Icon name={icon || defaultIcon} class={twMerge('mb-2 w-10 h-10', defaultIconClass, itemClasses?.icon)} />
           )}
@@ -46,9 +61,6 @@ const {
             <div class="mt-2">
               <Button {...callToAction} />
             </div>
-          )}
-        </div>
-      ))}
-    </div>
-  )
-}
+          )} 
+-->
+  

@@ -46,17 +46,12 @@ var heroAlt = frontmatter.heroImage.alt;
     ]}
     image={{ src: heroSrc, alt: heroAlt}}
     heroUrl={heroSrc}
+    title={frontmatter.title}
+    subtitle={frontmatter.undertext}
   >
   <!--
     image={{ src: '~/assets/images/logo.png', alt: 'Ung i världen introbild' }}
   -->
-    <Fragment slot="title">
-      <span>{frontmatter.title}</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      <span>{frontmatter.undertext}</span>
-    </Fragment>
   </Hero2>
 
   <Waves bottom bg="" color="fill-page"/>
@@ -72,16 +67,10 @@ var heroAlt = frontmatter.heroImage.alt;
     id="values"
     tagline="Våra grunder"
     columns={4}
+    title={frontmatter.valuesTitle}
+    subtitle={frontmatter.valuesSubtitle}
     items={frontmatter.values}
   >
-    <Fragment slot="title">
-      <span>{frontmatter.valuesTitle}</span>
-    </Fragment>
-
-    <Fragment slot="subtitle">
-      <span>{frontmatter.valuesSubtitle}</span>
-    </Fragment>
-
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
     </Fragment>

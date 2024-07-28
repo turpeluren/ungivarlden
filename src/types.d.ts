@@ -174,6 +174,7 @@ export interface Input {
   type: HTMLInputTypeAttribute;
   name: string;
   label?: string;
+  description?: string;
   autocomplete?: string;
   placeholder?: string;
 }
@@ -202,6 +203,7 @@ export interface ItemGrid {
   items?: Array<Item>;
   columns?: number;
   defaultIcon?: string;
+  image?: Image;
   classes?: Record<string, string>;
 }
 

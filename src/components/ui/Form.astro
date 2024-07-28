@@ -15,22 +15,62 @@ var checkBoxChecked = false;
   {
     inputs &&
       inputs.map(
-        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '' }) =>
-          name && (
-            <div class="mb-6">
-              {label && (
-                <label for={name} class="block text-sm font-medium">
-                  {label}
-                </label>
+        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', description }) =>
+          name && type!="label" ? (
+            type != "checkbox" ? (
+              <>
+              {description && (
+                <p>{description}</p>
               )}
-              <input
-                type={type}
-                name={name}
-                id={name}
-                autocomplete={autocomplete}
-                placeholder={placeholder}
-                class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-              />
+              <div class="mb-6">
+                {label && (
+                  <label for={name} class="inline text-sm font-medium">
+                    {label}
+                  </label>
+                )}
+                <input
+                  type={type}
+                  name={name}
+                  id={name}
+                  autocomplete={autocomplete}
+                  placeholder={placeholder}
+                  class="py-3 px-4 inline-block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+                />
+              </div>
+              </>
+            ) : (
+              <>
+              <div class="mb-6">
+                <div class="flex items-start">
+                <input
+                  type={type}
+                  name={name}
+                  id={name}
+                  autocomplete={autocomplete}
+                  placeholder={placeholder}
+                  class="py-3 mr-4 h-3.5 w-3.5 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+                />
+                {label && (
+                  <label for={name} class="text-sm font-medium">
+                    {label}
+                  </label>
+                )}
+                </div>
+                {description && (
+                  <p class="text-sm ">{description}</p>
+                )}
+              </div>
+              
+              </>
+            )
+            
+          ) : (
+            <div class="mb-6 mt-12">
+              {label && (
+                <p class="font-medium">
+                  {label}
+                </p>
+              )}
             </div>
           )
       )
@@ -59,16 +99,16 @@ var checkBoxChecked = false;
   {
     disclaimer && (
       <div class="mt-3 flex items-start">
-        <div class="flex mt-0.5">
+        <div class="flex items-start m-0.5 mt-0.5">
           <input
             id="disclaimer"
             name="disclaimer"
             type="checkbox"
             onchange='some_var=this.checked;'
-            class="cursor-pointer mt-1 py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+            class="cursor-pointer mt-1 py-3 px-3 block w-3.5 h-3.5 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
           />
         </div>
-        <div class="ml-3">
+        <div class="ml-3 shrink-2">
           <label for="disclaimer" class="cursor-pointer select-none text-sm text-gray-600 dark:text-gray-400">
             {disclaimer.label}
           </label>

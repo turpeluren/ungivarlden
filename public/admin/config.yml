@@ -110,6 +110,12 @@ collections:
       - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
       - { label: 'Huvuditel', name: 'title', widget: 'string', required: false }
       - { label: 'Text under titel', name: 'subtitle', widget: 'string', required: false }
+      - label: 'Cover Image'
+        name: 'heroImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
       - { label: 'Titel formulär', name: 'formTitle', widget: 'string', required: false }
       - { label: 'Text under titel formulär', name: 'formSubtitle', widget: 'string', required: false }
       - { label: 'Kryssrutan text', name: 'checkBoxText', widget: 'string', required: false, hint: 'Lämna blank för att inte ha en kryssruta' }
