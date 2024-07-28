@@ -16,19 +16,21 @@ const {
 
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
-   
+
   <HeroText 
-    tagline={frontmatter.tagline}
     title={frontmatter.title}
+    tagline={frontmatter.tagline}
     subtitle={frontmatter.subtitle}
-     />
-  { frontmatter.checkBoxText ? (
-    <ContactUs
-      name="bli-medlem"
-      id="form"
-      title={frontmatter.formTitle}
-      subtitle={frontmatter.formSubtitle}
-      inputs={[
+    
+  />
+
+  <ContactUs
+    name="Bli medlem"
+    id="form"
+    tagline={frontmatter.messageBoxTagline}
+    title={frontmatter.messageBoxTitle}
+    subtitle={frontmatter.messageBoxSubtitle}
+    inputs={[
         {
           type: 'text',
           name: 'name',
