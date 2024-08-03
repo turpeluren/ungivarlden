@@ -115,8 +115,3 @@
 .dd *:first-child {
   margin-top: 0;
 }
-
-.small-image {
-  width: 35px;
-  height: 35px;
-}
