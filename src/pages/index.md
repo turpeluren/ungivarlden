@@ -15,7 +15,7 @@ values:
       productivity, performance and versatility.
     icon: tabler:users-group
     image:
-      src: ~/assets/images/SKISS-HEMSIDA (7).png
+      src: ~/assets/images/icon-global-rättvisa.png
       alt: Jämställdhet
       style: "width: 25px; height: 25px;"
     href: null
