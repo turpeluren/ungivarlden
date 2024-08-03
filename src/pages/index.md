@@ -1,7 +1,9 @@
 ---
 layout: ../layouts/index.astro
 title: Vi är Ung i världen
-undertext: En introducerande text
+undertext: "Bli medlem i Ung i Världen! Hos oss kan du få roliga och livslånga
+  upplevelser, lära dig mer om biståndsbranschen och utvecklingsfrågor, och vara
+  med att bygga ett mer jämställt och fredligt samhälle. "
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen introbild
@@ -16,7 +18,7 @@ values:
     image:
       src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
-    href: 
+    href: null
   - title: Global rättvisa
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -24,7 +26,7 @@ values:
     image:
       src: ~/assets/images/icon-global-rättvisa.png
       alt: Global rättvisa
-    href: 
+    href: null
   - title: Miljö
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -32,7 +34,7 @@ values:
     image:
       src: ~/assets/images/icon-miljö.png
       alt: Miljö
-    href: 
+    href: null
   - title: Bistånd
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -40,7 +42,7 @@ values:
     image:
       src: ~/assets/images/icon-bistånd.png
       alt: Bistånd
-    href: 
+    href: null
   - title: Fred
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -48,6 +50,6 @@ values:
     image:
       src: ~/assets/images/icon-fred.png
       alt: Fred
-    href: 
+    href: null
 eventText: Alla är välkomna på våra event =)
 ---
