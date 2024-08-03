@@ -26,6 +26,7 @@ values:
     image:
       src: ~/assets/images/icon-global-rättvisa.png
       alt: Global rättvisa
+      class: small-image
     href: null
   - title: Miljö
     description: A seamless integration between two great frameworks that offer high
@@ -34,6 +35,7 @@ values:
     image:
       src: ~/assets/images/icon-miljö.png
       alt: Miljö
+      class: small-image
     href: null
   - title: Bistånd
     description: A seamless integration between two great frameworks that offer high
@@ -42,6 +44,7 @@ values:
     image:
       src: ~/assets/images/icon-bistånd.png
       alt: Bistånd
+      class: small-image
     href: null
   - title: Fred
     description: A seamless integration between two great frameworks that offer high
@@ -50,6 +53,7 @@ values:
     image:
       src: ~/assets/images/icon-fred.png
       alt: Fred
+      class: small-image
     href: null
 eventText: Alla är välkomna på våra event =)
 ---
