@@ -9,12 +9,13 @@ export const headerData = {
     },
     {
       text: 'Engagera dig',
-      links: [
+      href: getPermalink('/bli-medlem'),
+      /*links: [
         {
           text: 'Bli medlem',
           href: getPermalink('/bli-medlem'),
         }
-      ]
+      ]*/
       /*links: [
         {
           text: 'Features (Anchor Link)',
