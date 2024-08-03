@@ -27,7 +27,6 @@ values:
     image:
       src: ~/assets/images/icon-global-rättvisa.png
       alt: Global rättvisa
-      class: small-image
     href: null
   - title: Miljö
     description: A seamless integration between two great frameworks that offer high
