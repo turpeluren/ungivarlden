@@ -7,7 +7,7 @@ undertext: "Bli medlem i Ung i Världen! Hos oss kan du få roliga och livslång
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen introbild
-valuesTitle: Vädegrund
+valuesTitle: Värdegrund
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhet. Läs mer på "Om oss".
 values:
   - title: Jämställdhet
