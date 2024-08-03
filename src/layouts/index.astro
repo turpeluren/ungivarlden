@@ -55,7 +55,7 @@ var heroAlt = frontmatter.heroImage.alt;
   </Hero2>
 
   <Waves bottom bg="" color="fill-page"/>
-  <!--Waves bottom bg="" color="fill-primary opacity-40"/-->
+  <Waves bottom bg="" color="fill-secondary opacity-40"/>
 
   <!-- Note Widget ******************* -->
 
@@ -63,10 +63,50 @@ var heroAlt = frontmatter.heroImage.alt;
 
   <!-- Features2 värderingar Widget ************** -->
 
+<!-- Intro om oss **************** 
+ För att flippa: isReversed -->
 
+<Content
+id="intro"
+columns={4}
+items={[/*
+  {
+    icon: 'tabler:brand-instagram',
+    callToAction: {
+      target: '_blank',
+      text: 'Instagram',
+      href: '#',
+    },
+  },
+  {
+    icon: 'tabler:brand-linkedin',
+    callToAction: {
+      target: '_blank',
+      text: 'LinkedIn',
+      href: '#',
+    },
+  },
+  {
+    icon: 'tabler:mail',
+    callToAction: {
+      target: '_blank',
+      text: 'Mail',
+      href: '#',
+    },
+  },*/
+]}
+image={frontmatter.introImage}
+>
+  <Fragment slot="content">
+    <slot/>
+  </Fragment>
 
-<!--Waves bottom bg="bg-primary opacity-40" color="fill-page" /-->
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-secondary opacity-40 dark:bg-transparent"></div>
+  </Fragment>
+</Content>
 
+<Waves bottom bg="bg-secondary opacity-40" color="fill-page" />
   
   <!-- HighlightedPosts Widget ******* -->
 

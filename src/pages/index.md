@@ -6,7 +6,13 @@ undertext: "Bli medlem i Ung i Världen! Hos oss kan du få roliga och livslång
   med att bygga ett mer jämställt och fredligt samhälle. "
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
-  alt: Ung i världen introbild
+  alt: Ung i världen
+introImage:
+  src: ~/assets/images/SKISS-HEMSIDA.png
+  alt: Ung i världen
+  loading: eager
+eventText: Alla är välkomna på våra event =)
+
 valuesTitle: Värdegrund
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhet. Läs mer på "Om oss".
 values:
@@ -53,5 +59,8 @@ values:
       alt: Fred
       class: small-image
     href: null
-eventText: Alla är välkomna på våra event =)
 ---
+
+## Vad är Ung i världen?
+
+Det är en organisation som ditten och datten! DU kan bli med och här nedanför är länkar till våra sociala kanaler.

@@ -110,6 +110,12 @@
   @apply rotate-45 translate-y-[-8px] translate-x-[14px];
 }
 
+.prose h2 {
+  @apply text-xl font-semibold mb-[1rem] text-default;
+  letter-spacing: -0.05em;
+  line-height: 1.75rem;
+}
+
 /* To deprecated */
 
 .dd *:first-child {

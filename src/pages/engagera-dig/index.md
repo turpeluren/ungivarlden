@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/anmalan.astro
-tagline: null
-title: "Engagera dig "
+tagline: "Engagera dig"
+title: "Kom igen det blir kul"
 subtitle: ""
 heroImage:
   src: ~/assets/images/the-future-is-equal.png

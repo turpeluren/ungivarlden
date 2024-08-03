@@ -49,6 +49,13 @@ collections:
         fields:
           - { label: 'Bild', name: 'src', widget: 'image' }
           - { label: 'Alternativ text', name: 'alt', widget: 'string' }
+      - label: 'Intro bild'
+        name: 'introImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
+      - { label: 'Intro', name: 'body', widget: 'markdown' }
       - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
   #- name: 'verksamhet'
   #  label: 'Verksamhet'
