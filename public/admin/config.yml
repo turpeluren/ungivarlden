@@ -49,16 +49,6 @@ collections:
         fields:
           - { label: 'Bild', name: 'src', widget: 'image' }
           - { label: 'Alternativ text', name: 'alt', widget: 'string' }
-      - label: 'Värderingsar'
-        name: 'values'
-        widget: 'list'
-        collapsed: true
-        allow_add: true
-        allow_remove: true
-        fields:
-          - { label: 'Ikon', name: 'icon', widget: 'string', default: 'tabler:', hint: 'Format: tabler:ikonnamn (se https://tabler.io/icons)' }
-          - { label: 'Rubrik', name: 'title', widget: 'string' }
-          - { label: 'Beskrivning', name: 'description', widget: 'string' }
       - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
   #- name: 'verksamhet'
   #  label: 'Verksamhet'
@@ -76,6 +66,16 @@ collections:
       - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Introtext', name: 'subtitle', widget: 'string', required: false }
+      - label: 'Värderingsar'
+        name: 'values'
+        widget: 'list'
+        collapsed: true
+        allow_add: true
+        allow_remove: true
+        fields:
+          - { label: 'Bild', name: 'image', widget: 'object', fields: [ {label: 'Bild', name: 'src', widget: 'image'} ] }
+          - { label: 'Rubrik', name: 'title', widget: 'string' }
+          - { label: 'Beskrivning', name: 'description', widget: 'string' }
       - { label: 'Titel kontakt-ruta', name: 'contactTitle', widget: 'string', required: false }
       - { label: 'Undertitel kontakt-ruta', name: 'contactSubtitle', widget: 'string', required: false }
       - { label: 'Fritext', name: body, widget: 'markdown' }

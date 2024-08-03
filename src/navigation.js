@@ -9,11 +9,11 @@ export const headerData = {
     },
     {
       text: 'Engagera dig',
-      href: getPermalink('/bli-medlem'),
+      href: getPermalink('/engagera-dig'),
       /*links: [
         {
           text: 'Bli medlem',
-          href: getPermalink('/bli-medlem'),
+          href: getPermalink('/engagera-dig'),
         }
       ]*/
       /*links: [
@@ -61,7 +61,7 @@ export const headerData = {
       
     },
   ],
-  actions: [{ text: 'Bli medlem', href: getPermalink('/bli-medlem') }],
+  actions: [{ text: 'Bli medlem', href: getPermalink('/engagera-dig#bli-medlem') }],
 };
 
 export const footerData = {
@@ -106,9 +106,9 @@ export const footerData = {
       title: 'Meny',
       links: [
 
-        { text: '🤸 Engagera dig', href: getPermalink('/bli-medlem') },
+        { text: '🤸 Engagera dig', href: getPermalink('/engagera-dig') },
         { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
-        { text: '🤲 Värderingar', href: '/#values' },
+        { text: '🤲 Värderingar', href: '/om#values' },
         { text: '🙋 Om oss', href: getPermalink('/om') },
         { text: '💌 Kontakt', href: getPermalink('/kontakt') },
       ],
