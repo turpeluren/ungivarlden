@@ -17,7 +17,7 @@ values:
     image:
       src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
-      style: "width: 50px; height: 50px;"
+      style: "width: 40px; height: 40px;"
     href: null
   - title: Global rättvisa
     description: A seamless integration between two great frameworks that offer high
