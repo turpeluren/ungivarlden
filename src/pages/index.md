@@ -14,11 +14,11 @@ values:
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
     icon: tabler:users-group
-    image:
+    img:
       src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
-      width: 45
-      height: 45
+      width: "45"
+      height: "45"
     href: null
   - title: Global rättvisa
     description: A seamless integration between two great frameworks that offer high
