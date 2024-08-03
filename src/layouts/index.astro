@@ -63,37 +63,20 @@ var heroAlt = frontmatter.heroImage.alt;
 
   <!-- Features2 värderingar Widget ************** -->
 
-  const Features2 = ({ id, tagline, columns, title, subtitle, items, children }) => {
-    return (
-      <div id={id} className="features2">
-        <div className="container">
-          {tagline && <p className="tagline">{tagline}</p>}
-          {title && <h2 className="title">{title}</h2>}
-          {subtitle && <p className="subtitle">{subtitle}</p>}
-          <div className={`columns-${columns}`}>
-            {items.map((item, index) => (
-              <div key={index} className="feature-item">
-                {item.image && (
-                  <img
-                    src={item.image.src}
-                    alt={item.image.alt}
-                    width={item.image.width}
-                    height={item.image.height}
-                    className="feature-image"
-                  />
-                )}
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-        {children}
-      </div>
-    );
-  };
-  
-  export default Features2;
+  <Features2
+  id="values"
+  tagline="Våra grunder"
+  columns={4}
+  title={frontmatter.valuesTitle}
+  subtitle={frontmatter.valuesSubtitle}
+  items={frontmatter.values}
+>
+  <Fragment slot="bg">
+    <div className="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
+  </Fragment>
+</Features2>
+<Waves bottom bg="bg-primary opacity-40" color="fill-page" />
+
   
 
   <Waves bottom bg="bg-primary opacity-40" color="fill-page"/>
