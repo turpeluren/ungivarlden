@@ -15,7 +15,7 @@ values:
       productivity, performance and versatility.
     icon: tabler:users-group
     image:
-      src: ~/assets/images/icon-global-rättvisa.png
+      src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
       width: 25
       height: 25
