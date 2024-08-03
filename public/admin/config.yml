@@ -42,7 +42,7 @@ collections:
     create: false
     fields:
       - { label: 'Titel', name: 'title', widget: string }
-      - { label: 'Introtext', name: 'undertext', widget: 'string', hint: 'Den första texten under "Ung i världen"' }
+      - { label: 'Introtext', name: 'undertext', widget: 'text', hint: 'Den första texten under "Ung i världen"' }
       - label: 'Cover Image'
         name: 'heroImage'
         widget: 'object'
@@ -55,7 +55,8 @@ collections:
         fields:
           - { label: 'Bild', name: 'src', widget: 'image' }
           - { label: 'Alternativ text', name: 'alt', widget: 'string' }
-      - { label: 'Intro', name: 'body', widget: 'markdown' }
+      - { label: 'Vidare Intro kort om oss - Rubrik', name: 'introTitle', widget: 'string' }
+      - { label: 'Vidare Intro kort om oss - text', name: 'introText', widget: 'text' }
       - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
   #- name: 'verksamhet'
   #  label: 'Verksamhet'

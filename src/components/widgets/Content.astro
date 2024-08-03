@@ -32,7 +32,7 @@ const {
   bg={bg}
 >
   <Headline
-    title={title}
+    
     subtitle={subtitle}
     tagline={tagline}
     classes={{
@@ -44,9 +44,13 @@ const {
   <div class="mx-auto max-w-7xl p-4 md:px-8">
     <div class={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
       <div class="md:basis-1/2 self-center">
+        {title && <h1 class="text-3xl text-tertiary font-semibold font-heading leading-tighter tracking-tighter">
+          {title}</h1>
+          <hr class="max-w-16 mt-8 border-white border-t-2"/>
+        }
         {content && <div 
-        class="mb-8 mx-auto prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 !prose-headings:font-heading !prose-headings:leading-tighter !prose-headings:tracking-tighter !prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
-        ><div class="prose-h2:font-bold" set:html={content}/> </div>
+          class="mb-8 mx-auto prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 !prose-headings:font-heading !prose-headings:leading-tighter !prose-headings:tracking-tighter !prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
+          set:html={content}/>
         }
         {
           callToAction && (
@@ -65,7 +69,7 @@ const {
             panel: 'max-w-none',
             title: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
             description: 'text-muted dark:text-slate-400 ml-2 rtl:ml-0 rtl:mr-2',
-            icon: 'flex h-7 w-7 items-center justify-center rounded-full bg-quaternary dark:bg-green-700 text-gray-50 p-1',
+            icon: 'flex h-7 w-7 items-center justify-center rounded-full bg-primary dark:bg-green-700 text-gray-50 p-1',
             action: 'text-lg font-medium leading-6 dark:text-white ml-2 rtl:ml-0 rtl:mr-2',
           }}
         />

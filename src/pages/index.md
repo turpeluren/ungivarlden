@@ -8,9 +8,11 @@ heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen
 introImage:
-  src: ~/assets/images/SKISS-HEMSIDA.png
+  src: ~/assets/images/the-future-is-equal.png
   alt: Ung i världen
   loading: eager
+introTitle: Välkommen till Ung i världen!
+introText: Det är en organisation som ditten och datten! DU kan bli med och här nedanför är länkar till våra sociala kanaler. Nej det är det inte förresten det är en länk till om oss.
 eventText: Alla är välkomna på våra event =)
 
 valuesTitle: Värdegrund
@@ -63,4 +65,3 @@ values:
 
 ## Vad är Ung i världen?
 
-Det är en organisation som ditten och datten! DU kan bli med och här nedanför är länkar till våra sociala kanaler.

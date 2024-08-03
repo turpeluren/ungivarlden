@@ -13,6 +13,7 @@ import FAQs from '~/components/widgets/FAQs.astro';
 import Stats from '~/components/widgets/Stats.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Waves from '~/components/common/Waves.astro';
+import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 
 const metadata = {
   title: 'Ung i världen',
@@ -41,7 +42,7 @@ var heroAlt = frontmatter.heroImage.alt;
         variant: 'primary',
         text: 'Bli medlem',
         href: '/engagera-dig#bli-medlem',
-        icon: 'tabler:message-chatbot',
+        icon: 'tabler:heart-handshake',
       }
     ]}
     image={{ src: heroSrc, alt: heroAlt}}
@@ -68,45 +69,29 @@ var heroAlt = frontmatter.heroImage.alt;
 
 <Content
 id="intro"
-columns={4}
-items={[/*
+columns={1}
+items={[
   {
-    icon: 'tabler:brand-instagram',
+    icon: 'tabler:cookie-man',
     callToAction: {
-      target: '_blank',
-      text: 'Instagram',
-      href: '#',
+      text: 'Läs mer om oss »',
+      href: '/om',
     },
   },
-  {
-    icon: 'tabler:brand-linkedin',
-    callToAction: {
-      target: '_blank',
-      text: 'LinkedIn',
-      href: '#',
-    },
-  },
-  {
-    icon: 'tabler:mail',
-    callToAction: {
-      target: '_blank',
-      text: 'Mail',
-      href: '#',
-    },
-  },*/
 ]}
 image={frontmatter.introImage}
+title={frontmatter.introTitle}
 >
   <Fragment slot="content">
-    <slot/>
+    <p>{frontmatter.introText}</p>
   </Fragment>
 
   <Fragment slot="bg">
-    <div class="absolute inset-0 bg-secondary opacity-40 dark:bg-transparent"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-secondary to-primary opacity-40 dark:bg-transparent"></div>
   </Fragment>
 </Content>
 
-<Waves bottom bg="bg-secondary opacity-40" color="fill-page" />
+<Waves bottom bg="bg-primary opacity-40" color="fill-page" />
   
   <!-- HighlightedPosts Widget ******* -->
 
@@ -116,6 +101,41 @@ image={frontmatter.introImage}
     title="Senaste nytt från Ung i världen"
     information={frontmatter.eventText}
   />
+
+<Waves top bg="bg-secondary opacity-40" color="fill-page" />
+
+<FeaturesLinks
+  id="socials"
+  title="Sociala kanaler"
+  subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
+  columns={3}
+  items={[
+    {
+      title: 'Instagram',
+      description:
+        'Länk till vår insta här',
+      icon: 'tabler:brand-instagram',
+      href: "https://instagram.com",    
+    },
+    {
+      title: 'LinkedIn',
+      description:
+        'Länk till vår linkedin här',
+      icon: 'tabler:brand-linkedin',
+      href: "https://linkedin.com",
+    },
+    {
+      title: 'Mail',
+      description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
+      icon: 'tabler:mail',
+      href: 'mailto:ungivarlden.org@gmail.com',
+    },
+  ]}
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-gradient-to-b from-secondary to-page opacity-40 dark:bg-transparent"></div>
+  </Fragment>
+</FeaturesLinks>
 
   <!-- FAQs Widget ******************* -->
 
