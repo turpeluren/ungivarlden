@@ -46,8 +46,6 @@ export const headerData = {
           href: getPermalink('/privacy'),
         },
       ],*/
-
-
     },
     {
       text: 'Aktuellt',
