@@ -37,7 +37,18 @@ const {
       {items.map(({ title, description, mail, icon, image, callToAction, classes: itemClasses = {} }) => (
         <div>
           {image && (
-            <Image src={image} alt={title} />
+            <Image 
+              class="mx-auto rounded-full w-full aspect-square object-cover"
+              widths={[400, 768, 1024, 2040]}
+              sizes="(max-width: 767px) 400px, (max-width: 1023px) 768px, (max-width: 2039px) 1024px, 2040px"
+              loading="eager"
+              width={576}
+              height={576}
+              aspectRatio={1/1}
+              {...image}
+              src={image}
+              alt={title} 
+            />
           )}
           <div class={twMerge('flex flex-row max-w-md', panelClass, itemClasses?.panel)}>
             <div class="flex justify-center">
