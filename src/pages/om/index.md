@@ -70,6 +70,24 @@ Vi är Sveriges första ungdomsorganisation som fokuserar på globala utveckling
 
 Vi organiserar och utbildar unga som är engagerade i utveckling- och mänskliga rättighetsfrågor. Vi påverkar allmänheten genom debatter, samtal, kampanjer och utbildningar. Vi välkomnar alla som vill ansluta sig till oss och bli en del av vår community. 
 
+<!--StartFragment-->
+
+**Jämställdhet**
+
+* * Enligt Agenda 2030 delmål 5 så uppnås jämställdhet när kvinnor och män, flickor och pojkar har lika rättigheter, vBli medlem i Ung i Världen! Hos oss kan du få roliga och livslånga upplevelser, lära dig mer om biståndsbranschen och utvecklingsfrågor, och vara med att bygga ett mer jämställt och fredligt samhälle. villkor, möjligheter samt makt att själva forma sina liv och bidra till samhällets utveckling. Det handlar om en rättvis fördelning av makt, inflytande och resurser i samhället. Till exempel, att kvinnors och flickors generellt underordnade maktposition i förhållande till män och pojkar måste upphöra. I svenska utvecklingssektorn är majoriteten kvinnor, därför fokuserar vi på Ung I Världen på att även denna ojämställdhet måste upphöra för att skapa en jämställd biståndssektor. 
+
+  **Anti-diskrimination / global rättvisa**
+* * Ung i Världen är en förening som är emot all sorts diskrimination och jobbar ständigt med anti-diskriminerande metoder och frågor. Detta innebär att vi respekterar och inkluderar alla religioner, funktionsvariationer, språkfärdigheter, bakgrunder, och liknande. Vi är en förening för alla och arbetar för global rättvisa. 
+
+  **Miljö**
+* * Vi på Ung I Världen tar klimatkrisen på allvar och respekterar vår natur. Därför ser vi till att förespråka och lära ut kring hur vi på individnivå kan hjälpa till att motarbeta sämre miljö för framtida generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser miljövänligt, återvinner och bjuder på hållbar mat. 
+
+  **Bistånd**
+* * Ung i Världen fokuserar på svenska och internationella biståndsbranschen och tror på att utvecklingssektorn är en stor del av lösningen för många av dagens internationella problem, såsom fattigdom, vattenbrist och konflikter. Vi tycker även att biståndsbranschen ska ha större mångfald och inkludering, eftersom detta sedan kommer påverka biståndsprojekt och frågor internationellt.
+
+  **Fred** 
+* * Ung i Världen är en fredlig förening som jobbar för att förespråka och utöka kunskapen kring fredliga metoder. I Agenda 2030 delmål 16 så står det att “Alla människor är lika inför lagen och ska ha lika tillgång till rättvisa samt ska ha möjlighet att utöva inflytande och ansvarsutkrävande över beslutsfattande.“ Vi på Ung i Världen bidrar till detta genom att öka vissa gruppers möjlighet till inflytande och ansvarsutkrävande över beslutsfattare i våra projekt och inom biståndsbranschen. 
+
 
 
 <!--EndFragment-->
