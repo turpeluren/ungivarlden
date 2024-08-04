@@ -1,10 +1,4 @@
 ---
-layout: ../../layouts/värdegrund.astro
-title: Vår Värdegrund
-subtitle: null
-content: "Verksamhet ! Hej på dig! Under text: Bla bla bla vad vi står för bla
-  bla Redigerad av ture. Här kan ni skriva hur mycket som helst, men det blir
-  bara plain text, går ej att formatera. asd"
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen
@@ -52,9 +46,20 @@ values:
       alt: Fred
       class: small-image
     href: null
+layout: ../../layouts/värdegrund.astro
 tagline: ""
 valuesTitle: Värdegrund
+title: Vår Värdegrund
+subtitle: Undertitel behövs
+content: "Verksamhet ! Hej på dig! Under text: Bla bla bla vad vi står för bla
+  bla Redigerad av ture. Här kan ni skriva hur mycket som helst, men det blir
+  bara plain text, går ej att formatera. asd"
 ---
+* Lista 1
+* Lista 1
+
+## Rubrik
+
 **Jämställdhet**
 
 Enligt Agenda 2030 delmål 5 så uppnås jämställdhet när kvinnor och män, flickor och pojkar har lika rättigheter, vBli medlem i Ung i Världen! Hos oss kan du få roliga och livslånga upplevelser, lära dig mer om biståndsbranschen och utvecklingsfrågor, och vara med att bygga ett mer jämställt och fredligt samhälle. villkor, möjligheter samt makt att själva forma sina liv och bidra till samhällets utveckling. Det handlar om en rättvis fördelning av makt, inflytande och resurser i samhället. Till exempel, att kvinnors och flickors generellt underordnade maktposition i förhållande till män och pojkar måste upphöra. I svenska utvecklingssektorn är majoriteten kvinnor, därför fokuserar vi på Ung I Världen på att även denna ojämställdhet måste upphöra för att skapa en jämställd biståndssektor. 
@@ -74,7 +79,3 @@ Ung i Världen fokuserar på svenska och internationella biståndsbranschen och 
 **Fred** 
 
 Ung i Världen är en fredlig förening som jobbar för att förespråka och utöka kunskapen kring fredliga metoder. I Agenda 2030 delmål 16 så står det att “Alla människor är lika inför lagen och ska ha lika tillgång till rättvisa samt ska ha möjlighet att utöva inflytande och ansvarsutkrävande över beslutsfattande.“ Vi på Ung i Världen bidrar till detta genom att öka vissa gruppers möjlighet till inflytande och ansvarsutkrävande över beslutsfattare i våra projekt och inom biståndsbranschen.
-
-## Rubrik
-
-forsatt text
