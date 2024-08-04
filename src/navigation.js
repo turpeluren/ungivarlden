@@ -46,8 +46,6 @@ export const headerData = {
           href: getPermalink('/privacy'),
         },
       ],*/
-     
-
     },
     {
       text: 'Aktuellt',
@@ -59,7 +57,7 @@ export const headerData = {
       links: [
         {
           text: 'Vår värdegrund',
-          href: '#'
+          href: '#',
         },
       ],
     },
