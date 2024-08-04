@@ -57,12 +57,8 @@ export const headerData = {
       links: [
         {
           text: 'Vår värdegrund',
-          href: getPermalink('/verksamhet'),
-        },
-        {
-          text: 'Om ossss',
-          href: getPermalink('/om'),
-        },
+          href: getPermalink('/värdegrund'),
+        }
       ],
     },
     {

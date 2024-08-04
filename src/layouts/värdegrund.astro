@@ -1,0 +1,93 @@
+---
+import Features2 from '~/components/widgets/Features2.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero2.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
+import Layout from '~/layouts/PageLayout.astro';
+import Waves from '~/components/common/Waves.astro';
+import HeroText from '~/components/widgets/HeroText.astro'; 
+import Content from '~/components/widgets/Content.astro';
+
+import { getPermalink } from '~/utils/permalinks';
+
+const metadata = {
+  title: 'Verksamhet',
+};
+
+const {
+  frontmatter
+} = Astro.props;
+---
+
+<Layout metadata={metadata}>
+
+  <!-- Hero Widget ******************* -->
+
+  <Hero
+    tagline={frontmatter.tagline}
+    title={frontmatter.title}
+    subtitle={frontmatter.subtitle}
+    bg="bg-tertiary"
+    image={{ src: frontmatter.heroImage.src, alt: frontmatter.heroImage.alt}}
+  >
+  </Hero>
+
+
+  <Waves bottom bg="" color="fill-page"/>
+  <Waves bottom bg="" color="fill-primary opacity-40"/>
+
+
+  <Features2
+    id="values"
+    tagline="Våra grunder"
+    columns={5}
+    title={frontmatter.valuesTitle}
+    subtitle={frontmatter.valuesSubtitle}
+    items={frontmatter.values}
+    >
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
+    </Fragment>
+  </Features2>
+
+
+  <Waves bottom bg="bg-primary opacity-40" color="fill-secondary" />
+
+
+  <Content
+    class:list="mt-[-1px] pt-10 mb-16 mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg prose-headings:scroll-mt-[80px] prose-li:my-0"
+  >
+    <Fragment slot="content"> 
+      <slot />
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-secondary opacity-40 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+
+  <Waves top bg="opacity-40" variant='quaternary' color="fill-secondary"></Waves>
+
+  <div 
+    class="mt-[-1px] pt-10 mb-16 mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg prose-headings:scroll-mt-[80px] prose-li:my-0"
+  >
+    <slot />
+  </div>
+
+  <!-- CallToAction Widget *********** -->
+
+  <CallToAction
+    actions={[
+      {
+        variant: 'primary',
+        text: 'Eventkalender',
+        href: getPermalink('/eventkalender'),
+      },
+    ]}
+    title="Häng med på nästa event!"
+    subtitle="Whether you're in business, design, or education, our templates are here to elevate your projects."
+  />
+</Layout>

@@ -44,7 +44,8 @@ individualContacts:
     mail: ungivarlden.org@gmail.com
     description: Master i Internationell utveckling och Management (LUMID) från
       Lunds universitet, intresserad av jämställdhet och migrationsfrågor.
-  - title: "Ture, 23?, Hacker "
-    description: "Bästa hacker data personen "
+  - title: "Ture Goldkuhl, 23, Webbansvarig"
+    description: "Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet."
     mail: ungivarlden.org@gmail.com
+    image: ~/assets/images/img_3695.jpeg
 ---

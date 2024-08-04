@@ -58,14 +58,20 @@ collections:
       - { label: 'Vidare Intro kort om oss - Rubrik', name: 'introTitle', widget: 'string' }
       - { label: 'Vidare Intro kort om oss - text', name: 'introText', widget: 'text' }
       - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
-  #- name: 'verksamhet'
-  #  label: 'Verksamhet'
-  #  folder: 'src/pages/verksamhet'
-  #  create: false
-  #  fields:
-  #    - { label: 'Titel', name: 'title', widget: 'string' }
-  #    - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
-  #    - { label: 'Fritext', name: body, widget: 'markdown' }
+  - name: 'värdegrund'
+    label: 'Värdegrund'
+    folder: 'src/pages/värdegrund'
+    create: false
+    fields:
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
+      - label: 'Cover Image'
+        name: 'heroImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
+      - { label: 'Fritext', name: body, widget: 'markdown' }
   - name: 'om'
     label: 'Om oss'
     folder: 'src/pages/om'
@@ -110,6 +116,7 @@ collections:
           - { label: 'Namn', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
           - { label: 'Mail', name: 'mail', widget: 'string' }
+          - { label: 'Bild', name: 'image', widget: 'image' }
   - name: 'bli-medlem'
     label: 'Bli medlem'
     folder: 'src/pages/bli-medlem'
