@@ -62,11 +62,11 @@ valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
 ---
 <!--StartFragment-->
 
-Vår vision
+**Vår vision**
 
 Vi är Sveriges första ungdomsorganisation som fokuserar på globala utvecklingsfrågor, och vårt syfte är att stärka ungas engagemang och deltagande i biståndsbranschen. Genom att främja tvärkulturell dialog och ge unga verktyg för en global karriär, strävar vi efter att öka mångfalden och representationen inom den svenska utvecklingssektorn.
 
-Vad gör Ung i världen? 
+**Vad gör Ung i världen?** 
 
 Vi organiserar och utbildar unga som är engagerade i utveckling- och mänskliga rättighetsfrågor. Vi påverkar allmänheten genom debatter, samtal, kampanjer och utbildningar. Vi välkomnar alla som vill ansluta sig till oss och bli en del av vår community. 
 
