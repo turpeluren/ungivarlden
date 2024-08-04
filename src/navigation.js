@@ -57,7 +57,7 @@ export const headerData = {
       links: [
         {
           text: 'Vår värdegrund',
-          href:  getPermalink('/verksamhet'),
+          href: getPermalink('/om#values'),
         },
       ],
     },
