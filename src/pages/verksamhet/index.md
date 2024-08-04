@@ -1,6 +1,6 @@
 ---
 layout: ../../layouts/verksamhet.astro
-title: Våra Värdegrumd
+title: Vår Värdegrund
 subtitle: 
 content: "Verksamhet ! Hej på dig! Under text: Bla bla bla vad vi står för bla
   bla Redigerad av ture. Här kan ni skriva hur mycket som helst, men det blir
