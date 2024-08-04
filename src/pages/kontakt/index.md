@@ -16,18 +16,33 @@ individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret ovan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
-  - title: Mona
+  - title: Mona Ghasemi, 24 Ordförande
     mail: ungivarlden.org@gmail.com
-    description: Beskrivning
-  - title: Klara
+    description: Master i internationell Utveckling och Management (LUMID) från
+      lunds universitet, arbetar idag på FN i Köpenhamn.
+  - title: Klara Eklund 26, Ordförande
     mail: ungivarlden.org@gmail.com
-    description: Beskrivning
-  - title: Yousra
+    description: två examen i internationell statsvetenskap och är idag EU trainee i
+      Slovakien.
+  - title: Yousra El Mourabit, 22, Kassör
     mail: ungivarlden.org@gmail.com
-  - title: "Agnyeshka "
+    description: Kandidat i global utveckling från Stockholms Universitet.
+      Ungdomsambassadör för FN-förbundet och utbildningsledare på Folk och
+      Försvar.
+  - title: Agnyeshka Nemri, 22, Projektkoordinator
     mail: ungivarlden.org@gmail.com
-  - title: Aurora
+    description: Kandidat i statsvetenskap med erfarenhet från Migrationsverket och
+      UD. Nuvarande masterstudent på Science Po Paris inom internationell
+      säkerhetspolitik.
+  - title: Aurora  Isufi, 22, Projektkoordinator
     mail: ungivarlden.org@gmail.com
-  - title: Andrea
+    description: "Kandidat i Sociologisk samhällsanalys med statistisk fördjupning.
+      Nuvarande praktikant på SCB Internationella enhet. "
+  - title: Andrea Thorgren, 25, Kommunikationsansvarig
+    mail: ungivarlden.org@gmail.com
+    description: Master i internationell utveckling och Management (LUMID) från
+      Lunds universitet, intresserad av jämställdhet och migrationsfrågor.
+  - title: "Ture, 23?, Hacker "
+    description: "Bästa hacker data personen "
     mail: ungivarlden.org@gmail.com
 ---
