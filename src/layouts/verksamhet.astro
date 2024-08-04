@@ -57,33 +57,6 @@ const {
 
   <Waves bottom bg="opacity-40" variant='quaternary' color="fill-secondary"></Waves>
 
-  <!-- Steps2 Widget ****************** -->
-
-  <!--Steps2
-    id="values"
-    title="Vår Värdegrund"
-    isReversed={false}
-    subtitle="Maecenas eu tellus eget est scelerisque lacinia et a diam. Aliquam velit lorem, vehicula id fermentum et, rhoncus et purus. Nulla facilisi. Vestibulum malesuada lacus."
-    items={[
-      {
-        title: 'Värdering 1',
-        description:
-          'Donec id nibh neque. Quisque et fermentum tortor. Fusce vitae dolor a mauris dignissim commodo. Ut eleifend luctus condimentum.',
-      },
-      {
-        title: 'Värdering 2',
-        description:
-          'Phasellus laoreet fermentum venenatis. Vivamus dapibus pulvinar arcu eget mattis. Fusce eget mauris leo.',
-      },
-      {
-        title: 'Värdering 3',
-        description:
-          'Vestibulum imperdiet libero et lectus molestie, et maximus augue porta. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
-      },
-    ]}
-  /-->
-
-
 
   <!-- Hero Widget ******************* -->
 
@@ -159,50 +132,44 @@ const {
       },
     ]}
   /-->
-
   <HeroText>
     <Fragment slot="title">
       <span>{frontmatter.title}</span>
     </Fragment>
-
+  
     <Fragment slot="subtitle">
       <span>{frontmatter.subtitle}</span>
     </Fragment>
   </HeroText>
-
+  
   <div 
     class="mb-16 mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg mt-8 prose-headings:scroll-mt-[80px] prose-li:my-0"
   >  
     <slot />
   </div>
-
+  
   <!-- Content Widget **************** -->
-
   <Content
     isAfterContent
     items={[
       {
         title: 'Time Savings',
-        description:
-          'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
+        description: 'Streamline your workflow, enabling you to create stunning materials efficiently and allocate more time to your core tasks.',
         icon: 'tabler:clock',
       },
       {
         title: 'Professional Appearance',
-        description:
-          'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
+        description: 'Elevate your projects with the polished and sophisticated look that our templates provide, making a lasting impression on your audience.',
         icon: 'tabler:school',
       },
       {
         title: 'Cost-Efficiency',
-        description:
-          'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
+        description: 'Benefit from cost savings by avoiding the need for custom design work, as our templates offer professional-grade designs at a fraction of the cost.',
         icon: 'tabler:coin',
       },
       {
         title: 'Instant Download',
-        description:
-          'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
+        description: 'Enjoy immediate access to your chosen templates upon purchase, enabling you to begin working on your projects without delay.',
         icon: 'tabler:file-download',
       },
     ]}
@@ -215,8 +182,8 @@ const {
       <h3 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Benefits</h3>
     </Fragment>
   </Content>
-
-   <!-- Testimonials Widget *********** -->
+  
+  <!-- Testimonials Widget ***********
   <Testimonials
     title="Words from real customers"
     testimonials={[
@@ -253,8 +220,9 @@ const {
       text: 'More testimonials...',
       href: 'https://github.com/onwidget/astrowind',
       icon: 'tabler:chevron-right',
-    }}*/
+    }}
   />
+  -->
 
   <!-- CallToAction Widget *********** -->
 
