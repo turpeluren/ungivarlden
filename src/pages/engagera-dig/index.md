@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/anmalan.astro
 tagline: "Engagera dig"
-title: "Kom igen det blir kul"
+title: "Bli en del av Ung I Världen"
 subtitle: ""
 heroImage:
   src: ~/assets/images/the-future-is-equal.png
