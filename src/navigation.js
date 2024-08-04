@@ -54,8 +54,12 @@ export const headerData = {
     {
       text: 'Om oss',
       href: getPermalink('/om'),
-    },
-    {
+     links: [
+        {
+          text: 'Vår värdegrund',
+          href: getPermalink('/om-oss'),
+        }
+   {
       text: 'Kontakt',
       href: getPermalink('/kontakt'),
       
@@ -91,7 +95,7 @@ export const footerData = {
     },
     {
       title: 'Om Ung i världen',
-      about: 'Ung i världen är en organisation bla bla bla.',
+      about: 'Ung i Världen är en ideell förening som vill uppnå ökad mångfald inom den svenska utvecklingssektorn bland de yngre generationerna. Tillsammans utforskar vi biståndsbranschen, främjar tvärkulturell dialog och uppmanar till globala karriärer.',
     },*/
     
     {
@@ -119,7 +123,7 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },*/
   ],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.linkedin.com/company/ung-i-v%C3%A4rlden/' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: '#' },
     /*{ ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },*/
