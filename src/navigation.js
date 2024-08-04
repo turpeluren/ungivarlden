@@ -57,7 +57,7 @@ export const headerData = {
       links: [
         {
           text: 'Vår värdegrund',
-          href: getPermalink('/om#values'),
+          href: getPermalink('/verksamhet'),
         },
       ],
     },
@@ -105,7 +105,7 @@ export const footerData = {
       title: 'Om Ung i världen',
       about: 'Ung i Världen är en ideell förening som vill uppnå ökad mångfald inom den svenska utvecklingssektorn bland de yngre generationerna. Tillsammans utforskar vi biståndsbranschen, främjar tvärkulturell dialog och uppmanar till globala karriärer.',
     },*/
-    
+
     {
       title: 'Kontakt',
       links: [
