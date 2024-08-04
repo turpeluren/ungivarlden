@@ -11,14 +11,17 @@ const { title, content, icon, alt, reverse } = Astro.props;
 ---
 
 <>
-  <div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center p-6 bg-opacity-40 dark:bg-transparent`}>
-    <!-- Icon -->
-    <img src={icon} alt={alt} class="w-12 h-12 mr-4" />
+  <div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center p-6`}>
+    <!-- Cloud Background -->
+    <div class="relative bg-white dark:bg-gray-900 p-6 rounded-lg shadow-lg">
+      <!-- Icon -->
+      <img src={icon} alt={alt} class="w-12 h-12 mr-4" />
 
-    <!-- Content -->
-    <div class="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-lg">
-      <h3 class="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">{title}</h3>
-      <p class="text-gray-600 dark:text-gray-300">{content}</p>
+      <!-- Content -->
+      <div>
+        <h3 class="text-xl font-semibold mb-2 text-gray-900 dark:text-gray-100">{title}</h3>
+        <p class="text-gray-700 dark:text-gray-300">{content}</p>
+      </div>
     </div>
   </div>
 </>
