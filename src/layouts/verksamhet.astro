@@ -8,6 +8,9 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import Waves from '~/components/common/Waves.astro';
 import HeroText from '~/components/widgets/HeroText.astro'; 
+import Content from '~/components/widgets/Content.astro';
+
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'Verksamhet',
@@ -148,7 +151,7 @@ const {
   </div>
   
   <!-- Content Widget **************** -->
-  <Content
+
     isAfterContent
     items={[
       {
