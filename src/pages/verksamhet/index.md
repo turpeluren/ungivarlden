@@ -49,7 +49,6 @@ values:
       alt: Fred
       class: small-image
     href: null
-layout: ../../layouts/verksamhet.astro
 tagline: ""
 valuesTitle: Värdegrund
 
