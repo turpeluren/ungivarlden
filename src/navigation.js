@@ -59,6 +59,10 @@ export const headerData = {
           text: 'Vår värdegrund',
           href: getPermalink('/verksamhet'),
         },
+        {
+          text: 'Vem är vi?',
+          href: getPermalink('/om'),
+        },
       ],
     },
     {
