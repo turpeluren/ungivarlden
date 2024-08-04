@@ -65,9 +65,14 @@ export const headerData = {
       text: 'Kontakt',
       href: getPermalink('/kontakt'),
     },
-  ];
   ],
-  actions: [{ text: 'Bli medlem', href: getPermalink('/engagera-dig#bli-medlem'), icon: 'tabler:heart-handshake', }],
+  actions: [
+    {
+      text: 'Bli medlem',
+      href: getPermalink('/engagera-dig#bli-medlem'),
+      icon: 'tabler:heart-handshake',
+    },
+  ],
 };
 
 export const footerData = {
