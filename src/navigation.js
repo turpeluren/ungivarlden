@@ -46,6 +46,8 @@ export const headerData = {
           href: getPermalink('/privacy'),
         },
       ],*/
+
+
     },
     {
       text: 'Aktuellt',
@@ -57,12 +59,12 @@ export const headerData = {
      links: [
         {
           text: 'Vår värdegrund',
-          href: getPermalink('/om-oss'),
+          href: getPermalink('/om'),
         }
    {
       text: 'Kontakt',
       href: getPermalink('/kontakt'),
-      
+    ]
     },
   ],
   actions: [{ text: 'Bli medlem', href: getPermalink('/engagera-dig#bli-medlem'), icon: 'tabler:heart-handshake', }],
