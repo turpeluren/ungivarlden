@@ -61,7 +61,7 @@ export const headerData = {
         },
         {
           text: 'Om oss!',
-          href: getPermalink('/om'),
+          href: getPermalink('/#om'),
         },
       ],
     },
