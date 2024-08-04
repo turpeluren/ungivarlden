@@ -21,12 +21,6 @@ const {
   frontmatter
 } = Astro.props;
 
-const sections = frontmatter.values.map((value) => ({
-  title: value.title,
-  content: value.description,
-  icon: value.image.src,
-  alt: value.image.alt,
-}));
 ---
 
 <Layout metadata={metadata}>
