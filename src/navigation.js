@@ -99,12 +99,13 @@ export const footerData = {
         { text: 'Electron', href: '#' },
         { text: 'AstroWind Desktop', href: '#' },
       ],
-    },*/
+    },
     
     {
       title: 'Om Ung i världen',
       about: 'Ung i Världen är en ideell förening som vill uppnå ökad mångfald inom den svenska utvecklingssektorn bland de yngre generationerna. Tillsammans utforskar vi biståndsbranschen, främjar tvärkulturell dialog och uppmanar till globala karriärer.',
-    },
+    },*/
+    
     {
       title: 'Kontakt',
       links: [
