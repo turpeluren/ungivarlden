@@ -16,5 +16,3 @@ Ny rad
 ## Rubrik
 
 forsatt text
-
-![Mr dagarna](https://i.imgur.com/5WzIWGB.jpeg "MR dagarna")
