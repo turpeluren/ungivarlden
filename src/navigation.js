@@ -60,7 +60,7 @@ export const headerData = {
           href: getPermalink('/verksamhet'),
         },
         {
-          text: 'Vem är vi?',
+          text: 'Om oss',
           href: getPermalink('/om'),
         },
       ],
