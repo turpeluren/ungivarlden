@@ -74,46 +74,6 @@ const sections = frontmatter.values.map((value, index) => ({
 
   <Waves bottom bg="bg-primary opacity-40" color="fill-secondary" />
 
-
-  To make the sections more rectangular while keeping the floating effect, you can adjust the padding and border radius in the Section component. Here's how you can do it:
-
-  Updated Section Component
-  Reduce Border Radius: Use a smaller border-radius to make the sections look more rectangular.
-  Adjust Padding: Ensure the padding is consistent but slightly reduced to give a more rectangular appearance.
-  Here's the updated Section component with these adjustments:
-  
-  html
-  Kopiera kod
-  ---
-  export interface SectionProps {
-    title: string;
-    content: string;
-    icon: string;
-    alt: string;
-    reverse: boolean;
-    titleColor: string; // Added for dynamic title color
-  }
-  
-  const { title, content, icon, alt, reverse, titleColor } = Astro.props;
-  ---
-  
-  <>
-    <div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center py-8 px-4`}>
-      <!-- Icon -->
-      <img src={icon} alt={alt} class="w-12 h-12 mr-6" />
-  
-      <!-- Content -->
-      <div class="bg-white dark:bg-gray-900 p-6 rounded-md shadow-md">
-        <!-- Title with different colors -->
-        <h3 class={`text-xl font-semibold mb-4 ${titleColor}`}>
-          {title}
-        </h3>
-        <!-- Content text -->
-        <p class="text-base text-gray-700 dark:text-gray-300">{content}</p>
-      </div>
-    </div>
-  </>
-
   <!-- Sections *********************** -->
   <div class="relative py-12 px-6 md:px-12">
     <!-- Background Overlay -->
