@@ -65,10 +65,9 @@ const sections = frontmatter.values.map((value, index) => ({
 
   <Waves bottom bg="bg-primary opacity-40" color="fill-secondary" />
 
- <!-- Sections *********************** -->
- <div class="relative bg-gray-100 dark:bg-gray-800">
-
-  {Section((section, index) => (
+  <!-- Sections *********************** -->
+<div class="relative bg-gray-100 dark:bg-gray-800">
+  {sections.map((section, index) => (
     <Section
       key={index}
       title={section.title}
