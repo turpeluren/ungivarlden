@@ -20,6 +20,7 @@ individualContacts:
     mail: ungivarlden.org@gmail.com
     description: Master i internationell Utveckling och Management (LUMID) från
       lunds universitet, arbetar idag på FN i Köpenhamn.
+    linkedin: https://www.linkedin.com/in/mona-ghasemi
   - title: Klara Eklund 26, Ordförande
     mail: ungivarlden.org@gmail.com
     description: två examen i internationell statsvetenskap och är idag EU trainee i
