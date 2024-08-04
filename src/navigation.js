@@ -56,16 +56,18 @@ export const headerData = {
     {
       text: 'Om oss',
       href: getPermalink('/om'),
-     links: [
+      links: [
         {
           text: 'Vår värdegrund',
-          href: getPermalink('/om'),
-        }
-   {
+          href: getPermalink('/om/our-values'),
+        },
+      ],
+    },
+    {
       text: 'Kontakt',
       href: getPermalink('/kontakt'),
-    ]
     },
+  ];
   ],
   actions: [{ text: 'Bli medlem', href: getPermalink('/engagera-dig#bli-medlem'), icon: 'tabler:heart-handshake', }],
 };
