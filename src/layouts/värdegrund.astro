@@ -21,6 +21,14 @@ const {
   frontmatter
 } = Astro.props;
 
+const titleColors = [
+  'text-blue-500',
+  'text-blue-800',
+  'text-purple-500',
+  'text-teal-500',
+  'text-orange-500',
+];
+
 const sections = frontmatter.values.map((value, index) => ({
   title: value.title,
   content: value.description,
