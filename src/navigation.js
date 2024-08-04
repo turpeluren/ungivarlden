@@ -80,7 +80,7 @@ export const headerData = {
 };
 
 export const footerData = {
-  about: 'Ung i världen är en organisation bla bla bla.',
+  about: ' Ung i Världen är en ideell förening som vill uppnå ökad mångfald inom den svenska utvecklingssektorn bland de yngre generationerna. Tillsammans utforskar vi biståndsbranschen, främjar tvärkulturell dialog och uppmanar till globala karriärer.',
   links: [
     /*{
       title: 'Product',
