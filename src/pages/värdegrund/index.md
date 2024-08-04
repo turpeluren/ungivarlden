@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/värdegrund.astro
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen
