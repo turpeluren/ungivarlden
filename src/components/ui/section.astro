@@ -5,9 +5,10 @@ export interface SectionProps {
   icon: string;
   alt: string;
   reverse: boolean;
+  titleColor: string; // Added for dynamic title color
 }
 
-const { title, content, icon, alt, reverse } = Astro.props;
+const { title, content, icon, alt, reverse, titleColor } = Astro.props;
 ---
 
 <>
