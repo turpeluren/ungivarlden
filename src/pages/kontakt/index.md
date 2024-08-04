@@ -45,6 +45,7 @@ individualContacts:
     description: Master i Internationell utveckling och Management (LUMID) från
       Lunds universitet, intresserad av jämställdhet och migrationsfrågor.
   - title: "Ture Goldkuhl, 23, Webbansvarig"
+    icon: tabler:skateboarding
     description: "Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet."
     mail: ungivarlden.org@gmail.com
     image: ~/assets/images/img_3695.jpeg
