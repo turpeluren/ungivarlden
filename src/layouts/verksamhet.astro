@@ -1,13 +1,15 @@
 ---
-import CallToAction from '~/components/widgets/CallToAction.astro';
-import Content from '~/components/widgets/Content.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Hero from '~/components/widgets/Hero.astro';
-import HeroText from '~/components/widgets/HeroText.astro';
-import Testimonials from '~/components/widgets/Testimonials.astro';
-import WidgetWrapper from '~/components/ui/WidgetWrapper.astro';
+import Features3 from '~/components/widgets/Features3.astro';
+import CallToAction from '~/components/widgets/CallToAction.astro';
+import Hero from '~/components/widgets/Hero2.astro';
+import Stats from '~/components/widgets/Stats.astro';
+import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
-import { getPermalink } from '~/utils/permalinks';
+import Waves from '~/components/common/Waves.astro';
+
+import { getPermalink, getBlogPermalink, getAsset } from '../utils/permalinks';
+
 
 const metadata = {
   title: 'Verksamhet',
