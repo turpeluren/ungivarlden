@@ -12,7 +12,7 @@ const { title, content, icon, alt, reverse, titleColor } = Astro.props;
 ---
 
 <>
-  <div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center py-8 px-4`}>
+  <div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center p-6 bg-opacity-40 dark:bg-transparent`}>
     <!-- Icon -->
     <img src={icon} alt={alt} class="w-16 h-16 mr-6" />
 
