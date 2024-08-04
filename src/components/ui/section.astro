@@ -7,10 +7,11 @@ export interface SectionProps {
   reverse: boolean;
 }
 
+
 const { title, content, icon, alt, reverse } = Astro.props;
 ---
 <>
-<div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} max-w-7xl mx-auto rounded-lg backdrop-blur border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900 shadow p-4 sm:p-6 lg:p-8 w-full`}> 
+<div class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center p-6 bg-gradient-to-b from-secondary to-page opacity-40 dark:bg-transparent`}>
   <!-- Icon -->
   <img src={icon.src} alt={alt} class="w-12 h-12 mr-4" />
 
