@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/verksamhet.astro
-title: Vår verksamhet
-subtitle: Lite granna om vår verksamhet
+title: Våra Värderingar
+subtitle: Värderingar
 content: "Verksamhet ! Hej på dig! Under text: Bla bla bla vad vi står för bla
   bla Redigerad av ture. Här kan ni skriva hur mycket som helst, men det blir
   bara plain text, går ej att formatera. asd"
