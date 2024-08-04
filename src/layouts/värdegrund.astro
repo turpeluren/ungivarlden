@@ -9,6 +9,7 @@ import Layout from '~/layouts/PageLayout.astro';
 import Waves from '~/components/common/Waves.astro';
 import HeroText from '~/components/widgets/HeroText.astro'; 
 import Content from '~/components/widgets/Content.astro';
+import Section from '~/components/ui/section.astro';
 
 import { getPermalink } from '~/utils/permalinks';
 
@@ -55,6 +56,19 @@ const {
 
   <Waves bottom bg="bg-primary opacity-40" color="fill-secondary" />
 
+ <!-- Sections *********************** -->
+ <div class="container mx-auto px-6 py-10">
+  {sections.map((section, index) => (
+    <Section
+      key={index}
+      title={section.title}
+      content={section.content}
+      icon={section.icon}
+      alt={section.alt}
+      reverse={index % 2 !== 0}
+    />
+  ))}
+</div>
 
   <Content
     class:list="mt-[-1px] pt-10 mb-16 mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg prose-headings:scroll-mt-[80px] prose-li:my-0"
