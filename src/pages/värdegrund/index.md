@@ -7,19 +7,19 @@ values:
   - id: section1
     title: Jämställdhet
     description: Enligt Agenda 2030 delmål 5 så uppnås jämställdhet när kvinnor och män, flickor och pojkar har lika rättigheter, villkor, möjligheter samt makt att själva forma sina liv och bidra till samhällets utveckling. Det handlar om en rättvis fördelning av makt, inflytande och resurser i samhället. Till exempel, att kvinnors och flickors generellt underordnade maktposition i förhållande till män och pojkar måste upphöra. I svenska utvecklingssektorn är majoriteten kvinnor, därför fokuserar vi på Ung I Världen på att även denna ojämställdhet måste upphöra för att skapa en jämställd biståndssektor.
-    icon:
+    image:
       src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
   - id: section2
     title: Anti-diskriminering
     description: Ung i Världen är en förening som är emot all sorts diskriminering och jobbar ständigt med anti-diskriminerande metoder och frågor. Detta innebär att vi respekterar och inkluderar alla religioner, funktionsvariationer, språkfärdigheter, bakgrunder, och liknande. Vi är en förening för alla och arbetar för global rättvisa.
-    icon:
+    image:
       src: ~/assets/images/icon-global-rättvisa.png
       alt: Global rättvisa
   - id: section3
     title: Miljö
     description: Vi på Ung I Världen tar klimatkrisen på allvar och respekterar vår natur. Därför ser vi till att förespråka och lära ut kring hur vi på individnivå kan hjälpa till att motarbeta sämre miljö för framtida generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser miljövänligt, återvinner och bjuder på hållbar mat.
-    icon:
+    image:
       src: /assets/images/icon-miljö.png
       alt: Miljö
   - id: section4
