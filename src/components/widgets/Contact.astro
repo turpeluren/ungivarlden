@@ -15,7 +15,6 @@ const {
   button,
   description,
   submitMessage,
-
   id,
   isDark = false,
   classes = {},
@@ -58,8 +57,15 @@ const {
         body: JSON.stringify(data),
       });
 
+      if (response.ok) {
+        const result = await response.json();
+        alert(result.message);
+      } else {
+        const error = await response.json();
+        alert(`Error: ${error.message}`);
+      }
+    } catch (error) {
+      alert(`Error: ${error.message}`);
+    }
+  });
 </script>
-
-
-
-
