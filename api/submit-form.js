@@ -25,6 +25,7 @@ export async function post({ request }) {
             data.email,
             data.phone,
             data.birthdate,
+            data.text
             // Add other fields as needed
           ],
         ],
