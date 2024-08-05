@@ -4,12 +4,11 @@ export interface SectionProps {
   title: string;
   content: string;
   icon: { src: string; alt: string };
-  alt: string;
   reverse: boolean;
   titleColor: string;
 }
 
-const { id, title, content, icon, alt, reverse, titleColor } = Astro.props;
+const { id, title, content, icon, reverse, titleColor } = Astro.props;
 ---
 
 <div id={id} class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center py-8 px-6`}>
