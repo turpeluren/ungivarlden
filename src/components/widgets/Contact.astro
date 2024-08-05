@@ -58,17 +58,7 @@ const {
         body: JSON.stringify(data),
       });
 
-      if (response.ok) {
-        alert('Form submitted successfully!');
-        e.target.reset();
-      } else {
-        throw new Error('Form submission failed');
-      }
-    } catch (error) {
-      console.error('Error:', error);
-      alert('An error occurred. Please try again.');
-    }
-  });
+
 </script>
 
 
