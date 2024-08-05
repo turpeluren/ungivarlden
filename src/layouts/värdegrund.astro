@@ -65,20 +65,26 @@ const sections = frontmatter.values.map((value, index) => ({
   <Waves bottom bg="" color="fill-page"/>
   <Waves bottom bg="" color="fill-primary opacity-40"/>
 
-
+  <!-- Features2 Component with Clickable Images -->
   <Features2
     id="values"
     tagline="Våra grunder"
     columns={5}
     title={frontmatter.valuesTitle}
     subtitle={frontmatter.valuesSubtitle}
-    items={frontmatter.values}
+    items={frontmatter.values.map((value, index) => ({
+      ...value,
+      image: (
+        <a href={`#${sections[index].id}`} key={`link-${index}`}>
+          <img src={value.icon.src} alt={value.icon.alt} class="w-12 h-12 cursor-pointer" />
+        </a>
+      ),
+    }))}
     >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
     </Fragment>
   </Features2>
-
 
   <Waves bottom bg="bg-primary opacity-40" color="fill-secondary" />
 
