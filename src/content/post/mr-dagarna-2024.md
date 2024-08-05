@@ -2,7 +2,7 @@
 title: Mänskliga rättigheter-dagarna 2024
 excerpt: Vi deltar i Mänskliga Rättighetsdagarna!
 tags: []
-image: ~/assets/images/11.png
+image: ~/assets/images/10.png
 publishDate: 2024-11-13T01:00:00.000Z
 endDate: 2024-11-14T01:00:00.000Z
 location: Skellefteå
