@@ -3,7 +3,7 @@ title: "Nytt Projekt: Brobyggande Arbete för Ungdomar"
 excerpt: ... text här!
 image: ~/assets/images/10.png
 publishDate: 2024-08-15T16:40:00.000Z
-endDate: 2025-01-14T23:00:00.000Z
+endDate: ""
 location: ""
 draft: false
 ---
