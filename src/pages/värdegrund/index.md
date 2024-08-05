@@ -22,7 +22,7 @@ values:
     description:  Vi på Ung I Världen tar klimatkrisen på allvar och respekterar vår natur. Därför ser vi till att förespråka och lära ut kring hur vi på individnivå kan hjälpa till att motarbeta sämre miljö för framtida generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser miljövänligt, återvinner och bjuder på hållbar mat.
     icon: tabler:plant
     icon:
-      src: ~/assets/images/icon-miljö.png
+      src: /assets/images/icon-miljö.png
       alt: Miljö
       class: small-image
     href: null
