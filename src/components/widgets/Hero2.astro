@@ -61,9 +61,16 @@ const {
         {
           title && (
             <h1
-              class="text-7xl md:text-8xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
-              set:html={title}
-            />
+              class="text-6xl sm:text-7xl md:text-8xl font-bold leading-tighter tracking-tighter mb-4 font-heading dark:text-gray-200"
+              
+            >{title.includes("Ung i Världen") ? (
+              <span class="" set:html={title.replace("Ung i Världen", "")}></span>
+              <span class="font-moreSugar text-shadow " set:html="Ung i Världen"></span>
+            ):(
+              <span class="" set:html={title.split(" ")[0]}></span>
+              <span class="font-moreSugar text-shadow " set:html={title.replace(title.split(" ")[0], "")}></span>
+            )}
+            </h1>
           )
         }
         <div class="max-w-3xl mx-auto lg:max-w-none">

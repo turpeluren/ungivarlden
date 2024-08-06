@@ -1,7 +1,7 @@
 ---
 layout: ../../layouts/anmalan.astro
 tagline: "Engagera dig"
-title: "Bli en del av Ung I Världen"
+title: "Bli en del av Ung i Världen"
 subtitle: ""
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA (8).png

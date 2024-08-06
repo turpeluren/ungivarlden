@@ -1,6 +1,6 @@
 ---
 layout: ../layouts/index.astro
-title: Vi är Ung i världen
+title: Vi är Ung i Världen
 undertext: "Bli medlem i Ung i Världen! Hos oss kan du få roliga och livslånga
   upplevelser, lära dig mer om biståndsbranschen och utvecklingsfrågor, och vara
   med att bygga ett mer jämställt och fredligt samhälle. "

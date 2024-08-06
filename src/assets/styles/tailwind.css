@@ -116,6 +116,25 @@
   line-height: 1.75rem;
 }
 
+/* Fonts */
+@font-face {
+  font-family: MoreSugar;
+  src: url('../fonts/MoreSugar-Regular.ttf');
+}
+
+@font-face {
+  font-family: MoreSugarThin;
+  src: url('../fonts/MoreSugar-Thin.ttf');
+}
+
+.font-moreSugar {
+  font-family: MoreSugar;
+}
+
+.text-shadow {
+  text-shadow: var(--aw-color-primary) 3px 3px;
+}
+
 /* To deprecated */
 
 .dd *:first-child {
