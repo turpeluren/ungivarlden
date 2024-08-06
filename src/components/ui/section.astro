@@ -14,9 +14,9 @@ export interface SectionProps {
 const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
 ---
 
-<div id={id} class={`flex ${reverse ? 'sm:flex-row-reverse flex-col' : 'sm:flex-row flex-col'} items-start max-w-7xl py-8 px-6 scroll-m-12`}>
+<div id={id} class={`flex ${reverse ? 'sm:flex-row-reverse flex-col' : 'sm:flex-row flex-col'} items-start max-w-7xl mx-auto py-8 px-6 scroll-m-12`}>
   <!-- Icon -->
-  <Image {...image} class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none opacity-100`} />
+  <Image {...image} class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none`} />
 
   <!-- Content with Cloud Background -->
   <div class="relative bg-white p-6 bg-opacity-50 rounded-lg shadow-lg sm:max-w-lg">

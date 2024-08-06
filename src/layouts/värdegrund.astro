@@ -116,18 +116,18 @@ const sections = frontmatter.values.map((value, index) => ({
       </Section>
   -->
   <div class="relative">
-    <div class="absolute inset-0 bg-secondary opacity-40 pointer-events-none" />
+    <div class="z-[-1] absolute inset-0 bg-secondary opacity-40 pointer-events-none" />
+
     {sections.map((section, index) => (
-      
       <Section
-      key={index}
-      id={section.id}
-      title={section.title}
-      content={section.content}
-      image={section.image}
-      reverse={section.reverse}
-      titleColor={section.titleColor}
-    />
+        key={index}
+        id={section.id}
+        title={section.title}
+        content={section.content}
+        image={section.image}
+        reverse={section.reverse}
+        titleColor={section.titleColor}
+      />
     ))}
   </div>
 
