@@ -1,13 +1,17 @@
 ---
 layout: ../../layouts/värdegrund.astro
+
 title: Vår Värdegrund
-subtitle: Undertitel behövs
 tagline: ""
-valuesTitle: ""
-valuesTagline: "Värdegrunder"
+subtitle: Undertitel behövs
+
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen
+
+valuesTitle: ""
+valuesTagline: "Värdegrunder"
+valuesSubtitle: ""
 values:
   - id: jämställdhet
     href: '#jämställdhet'

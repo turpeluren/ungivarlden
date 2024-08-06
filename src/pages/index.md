@@ -19,6 +19,7 @@ valuesTagline: Våra grunder
 valuesTitle: Värdegrund
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
   eftersträvar att uppnå genom vår verksamhet.
+valuesReadMore: Läs mer om vår värdegrund
 values:
   - title: Jämställdhet
     image:
