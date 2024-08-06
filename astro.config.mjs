@@ -9,7 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
-
+import { defineConfig } from 'astro/config';
 
 import astrowind from './vendor/integration';
 
