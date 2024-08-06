@@ -17,7 +17,6 @@ checkBoxText: Genom att klicka på knappen för anmälan godkänner du vår inte
 submitText: Tack för ditt intresse!!
 ---
 
-
 <!-- I knappen ska det länkas med vår integritetspolicy som står denna text: 
 **Integritetspolicy**
 
