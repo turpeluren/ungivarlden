@@ -9,7 +9,7 @@ import mdx from '@astrojs/mdx';
 import partytown from '@astrojs/partytown';
 import icon from 'astro-icon';
 import compress from 'astro-compress';
-
+import { defineConfig } from 'astro/config';
 
 import astrowind from './vendor/integration';
 
@@ -26,7 +26,7 @@ const whenExternalScripts = (items = []) =>
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
-  output: 'server',
+  output: 'static',
 
   integrations: [
     tailwind({
