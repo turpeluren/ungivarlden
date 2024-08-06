@@ -6,7 +6,7 @@ tagline: ""
 subtitle: Undertitel behövs
 
 heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA.png
+  src: ~/assets/images/25.png
   alt: Ung i världen
 
 valuesTitle: ""
