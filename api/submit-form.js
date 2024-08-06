@@ -5,6 +5,10 @@ import { config } from 'dotenv';
 config();
 
 export async function post({ request }) {
+  // Log the environment variables to check if they are loaded correctly
+  console.log('GOOGLE_APPLICATION_CREDENTIALS:', process.env.GOOGLE_APPLICATION_CREDENTIALS);
+  console.log('SPREADSHEET_ID:', process.env.SPREADSHEET_ID);
+
   const data = await request.json();
 
   const auth = new google.auth.GoogleAuth({
