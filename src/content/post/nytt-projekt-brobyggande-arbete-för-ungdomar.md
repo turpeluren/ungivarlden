@@ -1,6 +1,6 @@
 ---
 title: "Nytt Projekt: Brobyggande Arbete för Ungdomar"
-excerpt: ... text här :):)
+excerpt: Läs mer om vårt spännande ungdomsprojekt! Anmälan öppnar 15 augusti.
 image: ~/assets/images/screenshot-2024-08-06-215005.png
 publishDate: 2024-08-15T16:40:00.000Z
 location: ""
