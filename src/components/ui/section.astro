@@ -14,25 +14,21 @@ export interface SectionProps {
 const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
 ---
 
-<WidgetWrapper
-  bg={bg}
->
-  <div id={id} class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center py-8 px-6`}>
-    <!-- Icon -->
-    <Image {...image} class="w-12 h-12 mr-6" />
+<div id={id} class={`flex ${reverse ? 'sm:flex-row-reverse flex-col' : 'sm:flex-row flex-col'} items-start max-w-7xl py-8 px-6 scroll-m-12`}>
+  <!-- Icon -->
+  <Image {...image} class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none opacity-100`} />
 
-    <!-- Content with Cloud Background -->
-    <div class="relative bg-white dark:bg-gray-900 p-6 bg-opacity-10 rounded-lg shadow-lg max-w-md">
-      <!-- Cloud Background -->
-      <div class="absolute inset-0 bg-white dark:bg-gray-800 bg-opacity-10 rounded-lg shadow-md pointer-events-none"></div>
-      
-      <!-- Title with different colors -->
-      <h3 class={`text-2xl font-bold mb-4 ${titleColor}`}>
-        {title}
-      </h3>
-      
-      <!-- Content text -->
-      <p class="text-base text-gray-700 dark:text-gray-300">{content}</p>
-    </div>
+  <!-- Content with Cloud Background -->
+  <div class="relative bg-white p-6 bg-opacity-50 rounded-lg shadow-lg sm:max-w-lg">
+    <!-- Cloud Background -->
+    <div class="absolute inset-0 rounded-lg shadow-md pointer-events-none"></div>
+    
+    <!-- Title with different colors -->
+    <h3 class={`text-2xl font-bold mb-4 ${titleColor}`}>
+      {title}
+    </h3>
+    
+    <!-- Content text -->
+    <p class="text-lg text-gray-700 dark:text-gray-300">{content}</p>
   </div>
-</WidgetWrapper>
+</div>
