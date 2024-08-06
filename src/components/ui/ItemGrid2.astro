@@ -39,9 +39,13 @@ const {
         <div class={twMerge('relative flex flex-col transition-colors')}
         >
           {image && (
-            <a href={href}>
+            href ? (
+              <a href={href}>
+                <Image class="w-full h-full hover:scale-105 transition-transform" src={image.src} alt={title} />
+              </a>
+            ): (
               <Image class="w-full h-full pointer-events-none" src={image.src} alt={title} />
-            </a>
+            )
           )}
           
         </div>
