@@ -1,4 +1,8 @@
 import { google } from 'googleapis';
+import { config } from 'dotenv';
+
+// Load environment variables from the .env file
+config();
 
 export async function post({ request }) {
   const data = await request.json();
@@ -14,22 +18,22 @@ export async function post({ request }) {
   const spreadsheetId = process.env.SPREADSHEET_ID;
 
   try {
-    const response = sheets.spreadsheets.values.append({
-        spreadsheetId,
-        range: 'Sheet1!A:Z', // Adjust based on your sheet structure
-        valueInputOption: 'USER_ENTERED',
-        resource: {
-            values: [
-                [
-                    data.name,
-                    data.email,
-                    data.phone,
-                    data.birthdate,
-                    data.text
-                    // Add other fields as needed
-                ],
-            ],
-        },
+    const response = await sheets.spreadsheets.values.append({
+      spreadsheetId,
+      range: 'Sheet1!A:Z', // Adjust based on your sheet structure
+      valueInputOption: 'USER_ENTERED',
+      resource: {
+        values: [
+          [
+            data.name,
+            data.email,
+            data.phone,
+            data.birthdate,
+            data.text
+            // Add other fields as needed
+          ],
+        ],
+      },
     });
 
     return new Response(JSON.stringify({ success: true }), {
