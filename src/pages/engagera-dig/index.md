@@ -17,6 +17,58 @@ checkBoxText: Genom att klicka på knappen för anmälan godkänner du vår inte
 submitText: Tack för ditt intresse!!
 ---
 
+<style>
+  .clickable {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+
+  .message-bubble {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 300px;
+    border-radius: 5px;
+  }
+
+  .message-bubble p {
+    margin: 10px 0;
+  }
+</style>
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const link = document.getElementById('integritetspolicy-link');
+    const bubble = document.getElementById('message-bubble');
+
+    link.addEventListener('click', (event) => {
+      event.stopPropagation();
+      const rect = link.getBoundingClientRect();
+      bubble.style.top = `${rect.bottom + window.scrollY}px`;
+      bubble.style.left = `${rect.left + window.scrollX}px`;
+      bubble.style.display = bubble.style.display === 'none' ? 'block' : 'none';
+    });
+
+    document.addEventListener('click', (event) => {
+      if (!bubble.contains(event.target) && event.target !== link) {
+        bubble.style.display = 'none';
+      }
+    });
+  });
+</script>
+
+<div id="message-bubble" class="message-bubble">
+  <strong>Integritetspolicy</strong>
+  <p><strong>Vilka uppgifter vi samlar in:</strong> Vi samlar in personuppgifter som namn, e-postadress och telefonnummer när du registrerar dig på vår hemsida.</p>
+  <p><strong>Hur vi använder dina uppgifter:</strong> Vi använder dina uppgifter för att hantera din registrering och för att kommunicera med dig om våra senaste event och projekt.</p>
+  <p><strong>Hur vi skyddar dina uppgifter:</strong> Vi vidtar lämpliga säkerhetsåtgärder för att skydda dina personuppgifter mot obehörig åtkomst, ändring, avslöjande eller förstörelse.</p>
+  <p><strong>Dina rättigheter:</strong> Du har rätt att begära tillgång till, rättelse av eller radering av dina personuppgifter. Kontakta oss om du har några frågor eller önskar utöva dina rättigheter.</p>
+</div>
 
 <!-- I knappen ska det länkas med vår integritetspolicy som står denna text: 
 **Integritetspolicy**
