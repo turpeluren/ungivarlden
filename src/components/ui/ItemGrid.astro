@@ -34,7 +34,7 @@ const {
         containerClass
       )}
     >
-      {items.map(({ title, description, mail, icon, image, callToAction, classes: itemClasses = {} }) => (
+      {items.map(({ title, description, mail, linkedIn, icon, image, callToAction, classes: itemClasses = {} }) => (
         <div>
           {image && (
             <Image 
@@ -46,8 +46,8 @@ const {
               height={576}
               aspectRatio={1/1}
               {...image}
-              src={image}
-              alt={title} 
+              /*src={image}*/
+              alt={title}
             />
           )}
           <div class={twMerge('flex flex-row max-w-md', panelClass, itemClasses?.panel)}>
@@ -68,10 +68,29 @@ const {
                 />
               )}
               {mail && (
+                <div class={`${description ? 'mt-2' : ''}`}>
+                  <Icon
+                    name={'tabler:mail'}
+                    class='ml-[-2rem] text-secondary w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2 inline'
+                  />
+                  <a
+                  class="underline text-muted" href={"mailto:"+mail}>
+                    {mail}
+                  </a>
+                </div>
+              )}
+              {linkedIn && (
+                <div class={`${description && !mail || mail ? 'mt-2' : ''}`}>
+                <Icon
+                  name={'tabler:brand-linkedin'}
+                  class='ml-[-2rem] text-secondary w-6 h-6 mr-2 rtl:mr-0 rtl:ml-2 inline'
+                />
                 <a
-                 class={`${title ? 'mt-3' : ''} underline text-muted`} href={"mailto:"+mail}>
-                  {mail}
+                  class="underline text-muted" href={linkedIn}
+                >
+                  {title && (title.split(" ")[0])} på LinkedIn
                 </a>
+                </div>
               )}
               {callToAction && (
                 <div class={twMerge(`${title || description ? 'mt-3' : ''}`, actionClass, itemClasses?.actionClass)}>

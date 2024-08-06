@@ -18,7 +18,6 @@ individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
   - title: Mona Ghasemi, 24 Ordförande
-    mail: ungivarlden.org@gmail.com
     description: Master i internationell Utveckling och Management (LUMID) från
       Lunds universitet, arbetar idag på FN i Köpenhamn.
     linkedIn: https://www.linkedin.com/in/mona-ghasemi
@@ -49,5 +48,6 @@ individualContacts:
     icon: tabler:skateboarding
     description: "Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet."
     mail: admin@turpelurpeluren.online
-    image: ~/assets/images/img_3695.jpeg
+    image: 
+      src: ~/assets/images/img_3695.jpeg
 ---

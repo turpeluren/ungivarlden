@@ -144,7 +144,7 @@ collections:
           - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
           - { label: 'Mail', name: 'mail', widget: 'string', required: false }
           - { label: 'LinkedIn', name: 'linkedIn', widget: 'string', required: false, hint: "hela url:en till er profil" }
-          - { label: 'Bild', name: 'image', widget: 'image' }
+          - { label: 'Bild', name: 'image', widget: 'object', fields: [ { label: 'Bild', name: src, widget: image }]}
           - { label: Ikon, name: icon, widget: string, hint: 'börjar med tabler: (alla ikoner finns på https://tabler.io/icons)', default: "tabler:user"}
   - name: 'bli-medlem'
     label: 'Bli medlem'

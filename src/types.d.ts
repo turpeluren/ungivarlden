@@ -143,6 +143,7 @@ export interface Item {
   title?: string;
   description?: string;
   mail?: string;
+  linkedIn?: string;
   icon?: string;
   classes?: Record<string, string>;
   callToAction?: CallToAction;
