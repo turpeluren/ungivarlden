@@ -45,6 +45,12 @@ const {
     title={frontmatter.valuesTitle}
     subtitle={frontmatter.valuesSubtitle}
     items={frontmatter.values}
+    callToAction={{
+      variant: 'link',
+      text: 'Läs mer om våra värdegrunder »',
+      href: '/värdegrund',
+      //icon: 'tabler:heart-handshake',
+    }}
     >
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>

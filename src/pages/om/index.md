@@ -7,7 +7,7 @@ values:
     image:
       src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
-    href: null
+    href: "/värdegrund#jämställdhet"
   - title: Global rättvisa
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -15,7 +15,7 @@ values:
     image:
       src: ~/assets/images/icon-global-rättvisa.png
       alt: Global rättvisa
-    href: null
+    href: "/värdegrund#anti-diskriminering--global-rättvisa"
   - title: Miljö
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -24,7 +24,7 @@ values:
       src: ~/assets/images/icon-miljö.png
       alt: Miljö
       class: small-image
-    href: null
+    href: "/värdegrund#miljö"
   - title: Bistånd
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -33,7 +33,7 @@ values:
       src: ~/assets/images/icon-bistånd.png
       alt: Bistånd
       class: small-image
-    href: null
+    href: "/värdegrund#bistånd"
   - title: Fred
     description: A seamless integration between two great frameworks that offer high
       productivity, performance and versatility.
@@ -42,7 +42,7 @@ values:
       src: ~/assets/images/icon-fred.png
       alt: Fred
       class: small-image
-    href: null
+    href: "/värdegrund#fred"
 layout: ../../layouts/om.astro
 tagline: ""
 valuesTitle: Värdegrund
@@ -58,7 +58,7 @@ subtitle: "Ung i Världen bildades av grupp ungdomar med varierande bakgrund och
 contactTitle: Ta kontakt
 contactSubtitle: Var inte rädd att höra av dig
 valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
-  eftersträvar att uppnå genom vår verksamhet. Läs mer på "Om oss".
+  eftersträvar att uppnå genom vår verksamhet.
 ---
 <!--StartFragment-->
 
