@@ -91,7 +91,27 @@ title={frontmatter.introTitle}
   </Fragment>
 </Content>
 
+<Features2
+id="values"
+tagline={frontmatter.valuesTagline}
+columns={5}
+title={frontmatter.valuesTitle}
+subtitle={frontmatter.valuesSubtitle}
+items={frontmatter.values}
+callToAction={{
+  variant: 'link',
+  text: 'Läs mer om vår värdegrund »',
+  href: '/värdegrund',
+  icon: 'tabler:heart',
+}}
+>
+<Fragment slot="bg">
+  <div class="absolute inset-0 bg-primary opacity-40 dark:bg-transparent"></div>
+</Fragment>
+</Features2>
+
 <Waves bottom bg="bg-primary opacity-40" color="fill-page" />
+
   
   <!-- HighlightedPosts Widget ******* -->
 

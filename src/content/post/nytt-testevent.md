@@ -5,7 +5,7 @@ image: ~/assets/images/img_3695.jpeg
 publishDate: 2024-07-19T23:58:32.650Z
 endDate: 2024-07-11T00:11:57.595Z
 location: hemma hos mig
-draft: false
+draft: true
 ---
 ## Info om mitt event
 

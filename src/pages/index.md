@@ -15,52 +15,39 @@ introTitle: Välkommen till Ung i världen!
 introText: Det är en organisation som ditten och datten! DU kan bli med och här nedanför är länkar till våra sociala kanaler. Nej det är det inte förresten det är en länk till om oss.
 eventText: Alla är välkomna på våra event =)
 
+valuesTagline: Våra grunder
 valuesTitle: Värdegrund
-valuesSubtitle: Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhet. Läs mer på "Om oss".
+valuesSubtitle: Vad vi som ideell organisation har som värdegrund och
+  eftersträvar att uppnå genom vår verksamhet.
 values:
   - title: Jämställdhet
-    description: A seamless integration between two great frameworks that offer high
-      productivity, performance and versatility.
-    icon: tabler:users-group
     image:
       src: ~/assets/images/icon-jämställdhet.png
       alt: Jämställdhet
-    href: null
+    href: "/värdegrund#jämställdhet"
   - title: Global rättvisa
-    description: A seamless integration between two great frameworks that offer high
-      productivity, performance and versatility.
-    icon: tabler:empathize
     image:
       src: ~/assets/images/icon-global-rättvisa.png
       alt: Global rättvisa
-    href: null
+    href: "/värdegrund#anti-diskriminering--global-rättvisa"
   - title: Miljö
-    description: A seamless integration between two great frameworks that offer high
-      productivity, performance and versatility.
-    icon: tabler:plant
     image:
       src: ~/assets/images/icon-miljö.png
       alt: Miljö
       class: small-image
-    href: null
+    href: "/värdegrund#miljö"
   - title: Bistånd
-    description: A seamless integration between two great frameworks that offer high
-      productivity, performance and versatility.
-    icon: tabler:empathize
     image:
       src: ~/assets/images/icon-bistånd.png
       alt: Bistånd
       class: small-image
-    href: null
+    href: "/värdegrund#bistånd"
   - title: Fred
-    description: A seamless integration between two great frameworks that offer high
-      productivity, performance and versatility.
-    icon: tabler:empathize
     image:
       src: ~/assets/images/icon-fred.png
       alt: Fred
       class: small-image
-    href: null
+    href: "/värdegrund#fred"
 ---
 
 ## Vad är Ung i världen?
