@@ -7,7 +7,7 @@ subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ vår
   <a class='underline' href='#socials'>sociala medier</a>, eller <a
   class='underline' href='#individual'>maila</a> oss direkt.
 messageBoxTitle: Skicka ett meddelande direkt
-messageBoxSubtitle: Bla bla - För mail och specifika kontaktuppgifter till vår
+messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår
   styrelse finns kontaktuppgifter <a class="underline"
   href='#individual'>nedan</a>.
 messageBoxSubmitMessage: Tack för ditt meddelande! Vi svarar så snart som möjligt.
