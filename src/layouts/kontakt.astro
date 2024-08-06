@@ -55,13 +55,14 @@ const {
 <Waves bottom bg="opacity-40 mt-8" variant='tertiary' color="fill-quaternary"></Waves>
   
 <Features3
-id="individual"
-title={frontmatter.individualTitle}
-subtitle={frontmatter.individualSubtitle}
-columns={4}
-defaultIcon="tabler:user"
-items={frontmatter.individualContacts}
-  >
+  id="individual"
+  tagline={frontmatter.individualTagline}
+  title={frontmatter.individualTitle}
+  subtitle={frontmatter.individualSubtitle}
+  columns={4}
+  defaultIcon="tabler:user"
+  items={frontmatter.individualContacts}
+>
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-quaternary opacity-40 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
     </Fragment>

@@ -78,38 +78,10 @@ export const headerData = {
 export const footerData = {
   about: ' Ung i Världen är en ideell förening som vill uppnå ökad mångfald inom den svenska utvecklingssektorn bland de yngre generationerna. Tillsammans utforskar vi biståndsbranschen, främjar tvärkulturell dialog och uppmanar till globala karriärer.',
   links: [
-    /*{
-      title: 'Product',
-      links: [
-        { text: 'Features', href: '#' },
-        { text: 'Security', href: '#' },
-        { text: 'Team', href: '#' },
-        { text: 'Enterprise', href: '#' },
-        { text: 'Customer stories', href: '#' },
-        { text: 'Pricing', href: '#' },
-        { text: 'Resources', href: '#' },
-      ],
-    },
-    {
-      title: 'Platform',
-      links: [
-        { text: 'Developer API', href: '#' },
-        { text: 'Partners', href: '#' },
-        { text: 'Atom', href: '#' },
-        { text: 'Electron', href: '#' },
-        { text: 'AstroWind Desktop', href: '#' },
-      ],
-    },
-    
-    {
-      title: 'Om Ung i världen',
-      about: 'Ung i Världen är en ideell förening som vill uppnå ökad mångfald inom den svenska utvecklingssektorn bland de yngre generationerna. Tillsammans utforskar vi biståndsbranschen, främjar tvärkulturell dialog och uppmanar till globala karriärer.',
-    },*/
-
     {
       title: 'Kontakt',
       links: [
-        { text: '🏡 Besöksadress:<br>Vägenvägen 00, 123 45 Ort'},
+        /*{ text: '🏡 Besöksadress:<br>Vägenvägen 00, 123 45 Ort'},*/
         { text: '📨 Mail:<br><a class="underline hover:text-black break-all" href="mailto:ungivarlden.org@gmail.com">ungivarlden.org@gmail.com</a>' },
         { text: '💬 <a class="underline hover:text-black" href="/kontakt#form">Skicka ett meddelande</a>'}
       ],
@@ -117,7 +89,6 @@ export const footerData = {
     {
       title: 'Meny',
       links: [
-
         { text: '🤸 Engagera dig', href: getPermalink('/engagera-dig') },
         { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
         { text: '🤲 Värderingar', href: '/om#values' },

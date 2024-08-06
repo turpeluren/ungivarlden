@@ -42,7 +42,7 @@ collections:
     create: false
     fields:
       - { label: 'Titel', name: 'title', widget: string }
-      - { label: 'Introtext', name: 'undertext', widget: 'text', hint: 'Den första texten under "Ung i världen"' }
+      - { label: 'Undertitel', name: 'undertext', widget: 'text', hint: 'Den första texten under titeln' }
       - label: 'Cover Image'
         name: 'heroImage'
         widget: 'object'
@@ -55,31 +55,12 @@ collections:
         fields:
           - { label: 'Bild', name: 'src', widget: 'image' }
           - { label: 'Alternativ text', name: 'alt', widget: 'string' }
-      - { label: 'Vidare Intro kort om oss - Rubrik', name: 'introTitle', widget: 'string' }
+      - { label: 'Vidare Intro kort om oss - Titel', name: 'introTitle', widget: 'string' }
       - { label: 'Vidare Intro kort om oss - text', name: 'introText', widget: 'text' }
-      - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
-  - name: 'värdegrund'
-    label: 'Värdegrund'
-    folder: 'src/pages/värdegrund'
-    create: false
-    fields:
-      - { label: 'Titel', name: 'title', widget: 'string' }
-      - { label: 'Undertitel', name: 'subtitle', widget: 'string' }
-      - label: 'Cover Image'
-        name: 'heroImage'
-        widget: 'object'
-        fields:
-          - { label: 'Bild', name: 'src', widget: 'image' }
-          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
-      - { label: 'Fritext', name: body, widget: 'markdown' }
-  - name: 'om'
-    label: 'Om oss'
-    folder: 'src/pages/om'
-    create: false
-    fields:
-      - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
-      - { label: 'Titel', name: 'title', widget: 'string' }
-      - { label: 'Introtext', name: 'subtitle', widget: 'string', required: false }
+      - { label: 'Värderingar - tagline (lilla över titel)', name: valuesTagline, widget: string, required: false }
+      - { label: 'Värderingar - Titel', name: valuesTitle, widget: string }
+      - { label: 'Värderingar - undertitel', name: valuesSubtitle, widget: string, required: false }
+      - { label: 'Värderingar - läs mer', name: valuesReadMore, widget: string, required: false }
       - label: 'Värderingsar'
         name: 'values'
         widget: 'list'
@@ -87,9 +68,55 @@ collections:
         allow_add: true
         allow_remove: true
         fields:
-          - { label: 'Bild', name: 'image', widget: 'object', fields: [ {label: 'Bild', name: 'src', widget: 'image'} ] }
+          - { label: 'Bild', name: 'image', widget: 'object', fields: [ {label: 'Bild', name: 'src', widget: 'image'}, {label: 'Alternativ text', name: alt, widget: string } ] }
+          - { label: 'Rubrik', name: 'title', widget: 'string' }
+      - { label: 'Text angående kommande event', name: 'eventText', widget: 'string' }
+  - name: 'värdegrund'
+    label: 'Värdegrund'
+    folder: 'src/pages/värdegrund'
+    create: false
+    fields:
+      - { label: 'Tagline (lilla över titeln)', name: 'tagline', widget: 'string', required: false }
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Undertitel', name: 'subtitle', widget: 'string', required: false }
+      - label: 'Cover Image'
+        name: 'heroImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
+      - { label: 'Värderingar tagline (lilla över titel)', name: valuesTagline, widget: string, required: false }
+      - { label: 'Värderingar titel', name: valuesTitle, widget: string }
+      - { label: 'Värderingar undertitel', name: valuesSubtitle, widget: string, required: false }
+      - label: 'Värderingsar'
+        name: 'values'
+        widget: 'list'
+        collapsed: true
+        allow_add: true
+        allow_remove: true
+        fields:
+          - { label: 'Bild', name: 'image', widget: 'object', fields: [ {label: 'Bild', name: 'src', widget: 'image'}, {label: 'Alternativ text', name: alt, widget: string } ] }
           - { label: 'Rubrik', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string' }
+      #- { label: 'Fritext', name: body, widget: 'markdown' }
+  - name: 'om'
+    label: 'Om oss'
+    folder: 'src/pages/om'
+    create: false
+    fields:
+      - { label: 'Tagline (det lilla över titel)', name: 'tagline', widget: 'string', required: false }
+      - { label: 'Titel', name: 'title', widget: 'string' }
+      - { label: 'Undertitel', name: 'subtitle', widget: 'string', required: false }
+      #- label: 'Värderingsar'
+      #  name: 'values'
+      #  widget: 'list'
+      #  collapsed: true
+      #  allow_add: true
+      #  allow_remove: true
+      #  fields:
+      #    - { label: 'Bild', name: 'image', widget: 'object', fields: [ {label: 'Bild', name: 'src', widget: 'image'} ] }
+      #    - { label: 'Rubrik', name: 'title', widget: 'string' }
+      #    - { label: 'Beskrivning', name: 'description', widget: 'string' }
       - { label: 'Titel kontakt-ruta', name: 'contactTitle', widget: 'string', required: false }
       - { label: 'Undertitel kontakt-ruta', name: 'contactSubtitle', widget: 'string', required: false }
       - { label: 'Fritext', name: body, widget: 'markdown' }
@@ -100,7 +127,7 @@ collections:
     fields:
       - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
       - { label: 'Titel', name: 'title', widget: 'string' }
-      - { label: 'Introtext', name: 'subtitle', widget: 'string', required: false }
+      - { label: 'Undertitel', name: 'subtitle', widget: 'string', required: false }
       - { label: 'Titel meddelande-ruta', name: 'messageBoxTitle', widget: 'string', required: false }
       - { label: 'Undertitel meddelande-ruta', name: 'messageBoxSubtitle', widget: 'string', required: false }
       - { label: 'När formuläret har skickats text', name: 'messageBoxSubmitMessage', widget: 'string' }
@@ -115,7 +142,8 @@ collections:
         fields:
           - { label: 'Namn', name: 'title', widget: 'string' }
           - { label: 'Beskrivning', name: 'description', widget: 'string', required: false }
-          - { label: 'Mail', name: 'mail', widget: 'string' }
+          - { label: 'Mail', name: 'mail', widget: 'string', required: false }
+          - { label: 'LinkedIn', name: 'linkedIn', widget: 'string', required: false, hint: "hela url:en till er profil" }
           - { label: 'Bild', name: 'image', widget: 'image' }
           - { label: Ikon, name: icon, widget: string, hint: 'börjar med tabler: (alla ikoner finns på https://tabler.io/icons)', default: "tabler:user"}
   - name: 'bli-medlem'

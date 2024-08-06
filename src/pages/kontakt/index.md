@@ -11,6 +11,7 @@ messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår
   styrelse finns kontaktuppgifter <a class="underline"
   href='#individual'>nedan</a>.
 messageBoxSubmitMessage: Tack för ditt meddelande! Vi svarar så snart som möjligt.
+individualTagline: null
 individualTitle: Kontaktuppgifter
 individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret ovan eller maila till <a class='underline'
@@ -20,7 +21,7 @@ individualContacts:
     mail: ungivarlden.org@gmail.com
     description: Master i internationell Utveckling och Management (LUMID) från
       Lunds universitet, arbetar idag på FN i Köpenhamn.
-    linkedin: https://www.linkedin.com/in/mona-ghasemi
+    linkedIn: https://www.linkedin.com/in/mona-ghasemi
   - title: Klara Eklund 26, Ordförande
     mail: ungivarlden.org@gmail.com
     description: Två examen i Internationell Statsvetenskap och är idag EU trainee i
@@ -47,6 +48,6 @@ individualContacts:
   - title: "Ture Goldkuhl, 23, Webbansvarig"
     icon: tabler:skateboarding
     description: "Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet."
-    mail: ungivarlden.org@gmail.com
+    mail: admin@turpelurpeluren.online
     image: ~/assets/images/img_3695.jpeg
 ---
