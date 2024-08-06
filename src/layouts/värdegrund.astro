@@ -98,6 +98,22 @@ const sections = frontmatter.values.map((value, index) => ({
       ))}
     </div>
   </div>
+
+  <!-- Section Components -->
+  <div class="relative">
+    <div class="absolute inset-0 bg-secondary opacity-40 pointer-events-none" />
+  {sections.map((section, index) => (
+    <Section
+      key={index}
+      id={section.id}
+      title={section.title}
+      content={section.content}
+      image={section.image}
+      reverse={section.reverse}
+      titleColor={section.titleColor}
+    />
+  ))}
+  </div>
   
   <!--Content
     class:list="mt-[-1px] pt-10 mb-16 mx-auto px-6 sm:px-6 max-w-3xl prose prose-md lg:prose-xl dark:prose-invert dark:prose-headings:text-slate-300 prose-headings:font-heading prose-headings:leading-tighter prose-headings:tracking-tighter prose-headings:font-bold prose-a:text-primary dark:prose-a:text-blue-400 prose-img:rounded-md prose-img:shadow-lg prose-headings:scroll-mt-[80px] prose-li:my-0"

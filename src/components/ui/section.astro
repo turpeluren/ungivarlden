@@ -1,31 +1,38 @@
 ---
+import Image from '~/components/common/Image.astro';
+import WidgetWrapper from './WidgetWrapper.astro';
+
 export interface SectionProps {
   id: string;
   title: string;
   content: string;
-  icon: { src: string; alt: string };
+  image: { src: string; alt: string };
   reverse: boolean;
   titleColor: string;
 }
 
-const { id, title, content, icon, reverse, titleColor } = Astro.props;
+const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
 ---
 
-<div id={id} class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center py-8 px-6`}>
-  <!-- Icon -->
-  <img src={icon.src} alt={icon.alt} class="w-12 h-12 mr-6" />
+<WidgetWrapper
+  bg={bg}
+>
+  <div id={id} class={`flex ${reverse ? 'flex-row-reverse' : 'flex-row'} items-center py-8 px-6`}>
+    <!-- Icon -->
+    <Image {...image} class="w-12 h-12 mr-6" />
 
-  <!-- Content with Cloud Background -->
-  <div class="relative bg-white dark:bg-gray-900 p-6 bg-opacity-10 rounded-lg shadow-lg max-w-md">
-    <!-- Cloud Background -->
-    <div class="absolute inset-0 bg-white dark:bg-gray-800 bg-opacity-10 rounded-lg shadow-md pointer-events-none"></div>
-    
-    <!-- Title with different colors -->
-    <h3 class={`text-2xl font-bold mb-4 ${titleColor}`}>
-      {title}
-    </h3>
-    
-    <!-- Content text -->
-    <p class="text-base text-gray-700 dark:text-gray-300">{content}</p>
+    <!-- Content with Cloud Background -->
+    <div class="relative bg-white dark:bg-gray-900 p-6 bg-opacity-10 rounded-lg shadow-lg max-w-md">
+      <!-- Cloud Background -->
+      <div class="absolute inset-0 bg-white dark:bg-gray-800 bg-opacity-10 rounded-lg shadow-md pointer-events-none"></div>
+      
+      <!-- Title with different colors -->
+      <h3 class={`text-2xl font-bold mb-4 ${titleColor}`}>
+        {title}
+      </h3>
+      
+      <!-- Content text -->
+      <p class="text-base text-gray-700 dark:text-gray-300">{content}</p>
+    </div>
   </div>
-</div>
+</WidgetWrapper>
