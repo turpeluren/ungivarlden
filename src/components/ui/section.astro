@@ -19,9 +19,7 @@ const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
   <Image {...image} class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none`} />
 
   <!-- Content with Cloud Background -->
-  <div class="relative bg-white p-6 bg-opacity-50 rounded-lg shadow-lg sm:max-w-lg">
-    <!-- Cloud Background -->
-    <div class="absolute inset-0 rounded-lg shadow-md pointer-events-none"></div>
+  <div class="relative bg-white p-6 bg-opacity-50 rounded-2xl shadow-lg sm:max-w-lg">
     
     <!-- Title with different colors -->
     <h3 class={`text-2xl font-bold mb-4 ${titleColor}`}>
