@@ -1,11 +1,11 @@
 ---
 title: " Vi deltar i Mänskliga Rättighetsdagarna!"
-excerpt: Vill du vara med? Anmäl dig som deltagare till EU pojektet
+excerpt: Vill du vara med? Anmäl dig som deltagare till EU projektet!
 image: ~/assets/images/11.png
 publishDate: 2024-11-14T18:38:14.528Z
 endDate: 2024-11-15T18:39:59.068Z
 location: Skellefteå
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
