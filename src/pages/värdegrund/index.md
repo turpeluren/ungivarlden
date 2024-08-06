@@ -6,7 +6,7 @@ tagline: ""
 valuesTitle: ""
 valuesTagline: "Värdegrunder"
 heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA.png
+  src: ~/assets/images/25.png
   alt: Ung i världen
 values:
   - id: jämställdhet
