@@ -21,19 +21,19 @@ values:
       Världen på att även denna ojämställdhet måste upphöra för att skapa en
       jämställd biståndssektor.
     image:
-      src: ~/assets/images/1.png
+      src: ~/assets/images/1000008024.png
       alt: Jämställdhet
   - id: anti-diskriminering
     href: "#anti-diskriminering"
-    title: Anti-diskriminering
+    title: Icke-diskriminering
     description: Ung i Världen är en förening som är emot all sorts diskriminering
       och jobbar ständigt med anti-diskriminerande metoder och frågor. Detta
       innebär att vi respekterar och inkluderar alla religioner,
       funktionsvariationer, språkfärdigheter, bakgrunder, och liknande. Vi är en
       förening för alla och arbetar för global rättvisa.
     image:
-      src: ~/assets/images/2.png
-      alt: Global rättvisa
+      src: ~/assets/images/1000008021.png
+      alt: Icke-diskriminering
   - id: miljö
     href: "#miljö"
     title: Miljö
@@ -43,7 +43,7 @@ values:
       generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser
       miljövänligt, återvinner och bjuder på hållbar mat.
     image:
-      src: ~/assets/images/3.png
+      src: ~/assets/images/1000008022.png
       alt: Miljö
   - id: bistånd
     href: "#bistånd"
@@ -55,7 +55,7 @@ values:
       större mångfald och inkludering, eftersom detta sedan kommer påverka
       biståndsprojekt och frågor internationellt
     image:
-      src: ~/assets/images/4.png
+      src: ~/assets/images/1000008023.png
       alt: Bistånd
   - id: fred
     href: "#fred"
@@ -69,7 +69,7 @@ values:
       ansvarsutkrävande över beslutsfattare i våra projekt och inom
       biståndsbranschen.
     image:
-      src: ~/assets/images/5.png
+      src: ~/assets/images/1000008025.png
       alt: Fred
 layout: ../../layouts/värdegrund.astro
 valuesTagline: Värdegrunder
