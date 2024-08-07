@@ -20,11 +20,15 @@ individualContacts:
       Lunds universitet, arbetar idag på FN i Köpenhamn.
     linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
     icon: tabler:armchair-2
+    image:
+      src: "~/assets/images/logo.png"
   - title: Klara Eklund 26, Ordförande
     mail: ""
     description: Två examen i Internationell Statsvetenskap och är idag EU trainee i
       Slovakien.
     icon: tabler:armchair
+    image:
+      src: "~/assets/images/logo.png"
     linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
   - title: Yousra El Mourabit, 22, Kassör
     mail: ""
@@ -32,6 +36,8 @@ individualContacts:
       Ungdomsambassadör för FN-förbundet och utbildningsledare på Folk och
       Försvar.
     icon: tabler:cash-register
+    image:
+      src: "~/assets/images/logo.png"
     linkedIn: https://www.linkedin.com/in/yousraelmourabit/
   - title: Agnyeshka Nemri, 22, Projektkoordinator
     mail: ""
@@ -39,6 +45,8 @@ individualContacts:
       UD. Nuvarande masterstudent på Science Po Paris inom Internationell
       Säkerhetspolitik.
     icon: tabler:layout-2
+    image:
+      src: "~/assets/images/logo.png"
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
   - title: Aurora  Isufi, 22, Projektkoordinator
     mail: ""
@@ -46,18 +54,22 @@ individualContacts:
       från Stockholm universitet. Nuvarande praktikant på SCB Internationella
       enhet. "
     icon: tabler:replace
+    image:
+      src: "~/assets/images/logo.png"
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
   - title: Andrea Thorgren, 25, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
       Lunds universitet, intresserad av jämställdhet och migrationsfrågor.
     icon: tabler:message-chatbot
+    image:
+      src: "~/assets/images/logo.png"
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
   - title: Ture Goldkuhl, 23, Webbansvarig
     icon: tabler:pointer
     description: Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
     mail: admin@turpelurpeluren.online
     image:
-      src: ""
+      src: "~/assets/images/ture.JPG"
 individualTagline: null
 ---
