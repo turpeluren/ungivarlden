@@ -6,7 +6,7 @@ tagline: ""
 subtitle:
 
 heroImage:
-  src: ~/assets/images/Photography Portfolio Website in Grey  Black  Light Experimental Style.png
+  src: ~/assets/images/SKISS-HEMSIDA (2) (1).png
   alt: Ung i världen
 
 valuesTitle: ""
