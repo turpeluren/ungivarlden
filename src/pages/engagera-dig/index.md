@@ -6,7 +6,7 @@ subtitle: ""
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA (4) (1).png
   alt: Ung i världen introbild
-formTitle: " Hitta ditt engagemang hos oss!!!"
+formTitle: " Hitta ditt engagemang hos oss!"
 formSubtitle: "Välkommen till Ung i Världen! Vi är en lokalförening som brinner
   för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
   Hos oss kan du vara med och skapa en bättre värld, samtidigt som du får
