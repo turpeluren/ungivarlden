@@ -189,6 +189,7 @@ export interface Textarea {
 
 export interface Disclaimer {
   label?: string;
+  gdpr?: boolean;
 }
 
 // COMPONENTS

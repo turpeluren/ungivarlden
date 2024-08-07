@@ -112,6 +112,12 @@ var checkBoxChecked = false;
           <label for="disclaimer" class="cursor-pointer select-none text-sm text-gray-600 dark:text-gray-400">
             {disclaimer.label}
           </label>
+          
+
+        {disclaimer.gdpr && (
+          <a id="gdpr-show" href="#integritetspolicy" class="text-sm text-gray-800 hover:text-black cursor-pointer underline" >
+            Integritetspolicy</a>
+        )}
         </div>
       </div>
     )
@@ -169,6 +175,10 @@ var checkBoxChecked = false;
     window.document.querySelector("submitButton").classList.toggle("opacity-10");
   }
 
+  function toggleGdpr() {
+    document.getElementById('gdpr-policy').classList.toggle('hidden');
+  }
+
   document
     .querySelector("form")
     .addEventListener("submit", handleSubmit);
@@ -177,5 +187,11 @@ var checkBoxChecked = false;
   if (mayBeNullElement != null) {
     mayBeNullElement.addEventListener("click", flipCheckBox);
   }
+
+  const gdprButton = document.getElementById('gdpr-show');
+  if (gdprButton != null) {
+    gdprButton.addEventListener("click", toggleGdpr)
+  }
+  
   
 </script>
