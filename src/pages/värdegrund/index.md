@@ -38,7 +38,7 @@ values:
       generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser
       miljövänligt, återvinner och bjuder på hållbar mat.
     image:
-      src: ~/assets/images/1000008022.png
+      src: ~/assets/images/SKISS-HEMSIDA (2) (2).png
       alt: Miljö
   - id: bistånd
     href: "#bistånd"
