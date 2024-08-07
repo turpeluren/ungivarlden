@@ -39,7 +39,7 @@ values:
       generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser
       miljövänligt, återvinner och bjuder på hållbar mat.
     image:
-      src: ~/assets/images/icon-miljö.png
+      src: ~/assets/images/1000008022.png
       alt: Miljö
   - id: bistånd
     href: "#bistånd"
@@ -51,7 +51,7 @@ values:
       större mångfald och inkludering, eftersom detta sedan kommer påverka
       biståndsprojekt och frågor internationellt
     image:
-      src: ~/assets/images/icon-bistånd.png
+      src: ~/assets/images/1000008023.png
       alt: Bistånd
   - id: fred
     href: "#fred"
@@ -65,7 +65,7 @@ values:
       ansvarsutkrävande över beslutsfattare i våra projekt och inom
       biståndsbranschen.
     image:
-      src: ~/assets/images/icon-fred.png
+      src: ~/assets/images/1000008025.png
       alt: Fred
 layout: ../../layouts/värdegrund.astro
 tagline: ""
