@@ -1,11 +1,11 @@
 ---
+heroImage:
+  src: ~/assets/images/SKISS-HEMSIDA (3) (1).png
+  alt: Kontakt
 messageBoxTagline: Meddelande
 layout: ../../layouts/kontakt.astro
 tagline: null
 title: Kontakta oss här!
-heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA (3) (1).png
-  alt: Kontakt
 subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
   <a class='underline' href='#socials'>sociala medier</a>, eller <a
   class='underline' href='#individual'>kontakta</a> styrelsen direkt.
@@ -73,6 +73,6 @@ individualContacts:
     description: Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
     mail: admin@turpelurpeluren.online
     image:
-      src: ~/assets/images/ture.JPG
+      src: ~/assets/images/logo.png
 individualTagline: null
 ---
