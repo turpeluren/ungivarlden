@@ -4,7 +4,7 @@ layout: ../../layouts/kontakt.astro
 tagline: null
 title: Kontakta oss här!
 heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA (12).png
+  src: ~/assets/images/SKISS-HEMSIDA (3) (1).png
   alt: Kontakt
 subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
   <a class='underline' href='#socials'>sociala medier</a>, eller <a
