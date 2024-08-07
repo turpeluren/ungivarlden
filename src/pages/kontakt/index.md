@@ -1,6 +1,6 @@
 ---
 heroImage:
-  src: ~/assets/images/håller-om-ryggar.png
+  src: ~/assets/images/SKISS-HEMSIDA (3) (2).png
   alt: Kontakt
 messageBoxTagline: Meddelande
 layout: ../../layouts/kontakt.astro
