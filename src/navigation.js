@@ -91,7 +91,7 @@ export const footerData = {
       links: [
         { text: '🤸 Engagera dig', href: getPermalink('/engagera-dig') },
         { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
-        { text: '🤲 Värderingar', href: '/om#values' },
+        { text: '🤲 Värderingar', href: getPermalink('/värderingar') },
         { text: '🙋 Om oss', href: getPermalink('/om') },
         { text: '💌 Kontakt', href: getPermalink('/kontakt') },
       ],

@@ -16,6 +16,10 @@ heroImage:
   src: '~/assets/images/the-future-is-equal.png'
   alt: 'The future is equal'
 
+sections:
+  - { title: Vår vision, text: Vi är Sveriges första ungdomsorganisation som fokuserar på globala utvecklingsfrågor, och vårt syfte är att stärka ungas engagemang och deltagande i biståndsbranschen. Genom att främja tvärkulturell dialog och ge unga verktyg för en global karriär, strävar vi efter att öka mångfalden och representationen inom den svenska utvecklingssektorn. }
+  - { title: Vad gör Ung i världen?, text: Vi organiserar och utbildar unga som är engagerade i utveckling- och mänskliga rättighetsfrågor. Vi påverkar allmänheten genom debatter, samtal, kampanjer och utbildningar. Vi välkomnar alla som vill ansluta sig till oss och bli en del av vår community. }
+
 contactTitle: Ta kontakt
 contactSubtitle: Var inte rädd att höra av dig
 
