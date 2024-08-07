@@ -4,7 +4,7 @@ tagline: "Engagera dig"
 title: "Bli en del av Ung i Världen"
 subtitle: ""
 heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA (8).png
+  src: ~/assets/images/1000008026.png
   alt: Ung i världen introbild
 formTitle: " Hitta ditt engagemang hos oss!!!"
 formSubtitle: "Välkommen till Ung i Världen! Vi är en lokalförening som brinner
