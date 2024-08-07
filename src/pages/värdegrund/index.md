@@ -3,7 +3,7 @@ layout: ../../layouts/värdegrund.astro
 
 title: Vår Värdegrund
 tagline: ""
-subtitle: Undertitel behövs
+subtitle:
 
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA (9).png
