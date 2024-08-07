@@ -58,6 +58,6 @@ individualContacts:
     description: Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
     mail: admin@turpelurpeluren.online
     image:
-      src: ~/assets/images/ture.JPG
+      src: ""
 individualTagline: null
 ---
