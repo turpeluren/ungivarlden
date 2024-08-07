@@ -24,14 +24,14 @@ individualContacts:
     linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
     icon: tabler:armchair-2
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/original-9dffad96-884d-4b2e-bcce-5e696ef522aa.jpeg
   - title: Klara Eklund 26, Ordförande
     mail: ""
     description: Två examen i Internationell Statsvetenskap och är idag EU trainee i
       Slovakien.
     icon: tabler:armchair
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
     linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
   - title: Agnyeshka Nemri, 22, Projektkoordinator
     mail: ""
@@ -58,7 +58,7 @@ individualContacts:
       Försvar.
     icon: tabler:cash-register
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/original-2c98cf20-e2b0-4a01-a480-2417aa4c2594.jpeg
     linkedIn: https://www.linkedin.com/in/yousraelmourabit/
   - title: Andrea Thorgren, 25, Kommunikationsansvarig
     mail: ""
@@ -66,7 +66,7 @@ individualContacts:
       Lunds universitet, intresserad av jämställdhet och migrationsfrågor.
     icon: tabler:message-chatbot
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/img_0846.jpeg
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
   - title: Ture Goldkuhl, 23, Webbansvarig
     icon: tabler:pointer
