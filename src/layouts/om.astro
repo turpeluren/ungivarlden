@@ -58,14 +58,15 @@ const sections = frontmatter.values.map((value, index) => ({
   <div class="relative">
     <div class="z-[-1] absolute inset-0 bg-secondary opacity-40 pointer-events-none" />
 
-    {frontmatter.sections.map((title, text, index) => (
+    {frontmatter.sections.map((section, index) => (
       <Section
         key={index}
-        id={title}
-        title={title}
-        content={text}
+        id={section.title}
+        title={section.title}
+        content={section.text}
         reverse={index % 2}
-        titleColor=""
+        image={ section.image }
+        titleColor={index % 2 ? "text-primary" : "text-tertiary"}
       />
     ))}
   </div>
@@ -76,7 +77,7 @@ const sections = frontmatter.values.map((value, index) => ({
     <slot />
   </div-->
 
-  <Waves bottom bg="opacity-40" variant='quaternary' color="fill-secondary"></Waves>
+  <!--Waves bottom bg="opacity-40" variant='quaternary' color="fill-secondary"></Waves-->
 
   <CallToAction
     title={frontmatter.contactTitle}

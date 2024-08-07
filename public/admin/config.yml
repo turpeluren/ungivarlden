@@ -123,9 +123,18 @@ collections:
       #    - { label: 'Bild', name: 'image', widget: 'object', fields: [ {label: 'Bild', name: 'src', widget: 'image'} ] }
       #    - { label: 'Rubrik', name: 'title', widget: 'string' }
       #    - { label: 'Beskrivning', name: 'description', widget: 'string' }
+      - label: 'Textrutor'
+        name: sections
+        widget: list
+        allow_add: true
+        allow_remove: true
+        fields:
+          - { label: 'Titel', name: 'title', widget: string }
+          - { label: 'Text', name: text, widget: text }
+          - { label: 'Bild/ikon', name: image, widget: object, required: false, fields: [{ label: Bild, name: src, widget: image, required: false }, {label: 'Alternativ text', name: alt, widget: string, required: false }]}
       - { label: 'Titel kontakt-ruta', name: 'contactTitle', widget: 'string', required: false }
       - { label: 'Undertitel kontakt-ruta', name: 'contactSubtitle', widget: 'string', required: false }
-      - { label: 'Fritext', name: body, widget: 'markdown' }
+      #- { label: 'Fritext', name: body, widget: 'markdown' }
   - name: 'kontakt'
     label: 'Kontakt'
     folder: 'src/pages/kontakt'
