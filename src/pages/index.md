@@ -7,7 +7,12 @@ undertext: "Bli medlem i Ung i Världen! Hos oss kan du få roliga och livslång
 heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen
-
+# introImage:
+#   src: ~/assets/images/the-future-is-equal.png
+#   alt: Ung i världen
+#   loading: eager
+# introTitle: Välkommen till Ung i världen!
+# introText: Det är en organisation som ditten och datten! DU kan bli med och här nedanför är länkar till våra sociala kanaler. Nej det är det inte förresten det är en länk till om oss.
 eventText: ""
 
 valuesTagline: Våra grunder
