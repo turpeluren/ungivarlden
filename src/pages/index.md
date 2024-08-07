@@ -23,29 +23,29 @@ valuesReadMore: Läs mer om vår värdegrund
 values:
   - title: Jämställdhet
     image:
-      src: ~/assets/images/icon-jämställdhet.png
+      src: ~/assets/images/1.png
       alt: Jämställdhet
     href: "/värdegrund#jämställdhet"
   - title: Global rättvisa
     image:
-      src: ~/assets/images/UNG I VÄRLDEN.png
+      src: ~/assets/images/2.png
       alt: Global rättvisa
     href: "/värdegrund#anti-diskriminering--global-rättvisa"
   - title: Miljö
     image:
-      src: ~/assets/images/icon-miljö.png
+      src: ~/assets/images/3.png
       alt: Miljö
       class: small-image
     href: "/värdegrund#miljö"
   - title: Bistånd
     image:
-      src: ~/assets/images/icon-bistånd.png
+      src: ~/assets/images/4.png
       alt: Bistånd
       class: small-image
     href: "/värdegrund#bistånd"
   - title: Fred
     image:
-      src: ~/assets/images/icon-fred.png
+      src: ~/assets/images/5.png
       alt: Fred
       class: small-image
     href: "/värdegrund#fred"
