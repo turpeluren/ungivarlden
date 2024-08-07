@@ -1,7 +1,12 @@
 ---
+tagline: ""
+title: Vår Värdegrund
+subtitle: null
 heroImage:
   src: ~/assets/images/1000008026.png
   alt: Ung i världen
+valuesTitle: Ung I Världen
+valuesSubtitle: ""
 values:
   - id: jämställdhet
     href: "#jämställdhet"
@@ -38,7 +43,7 @@ values:
       generationer. Detta innebär att vi på Ung i Världen, när möjligt, reser
       miljövänligt, återvinner och bjuder på hållbar mat.
     image:
-      src: ~/assets/images/SKISS-HEMSIDA (2) (2).png
+      src: ~/assets/images/1000008022.png
       alt: Miljö
   - id: bistånd
     href: "#bistånd"
@@ -67,12 +72,7 @@ values:
       src: ~/assets/images/1000008025.png
       alt: Fred
 layout: ../../layouts/värdegrund.astro
-tagline: ""
-title: Vår Värdegrund
-subtitle: null
 valuesTagline: Värdegrunder
-valuesTitle: Ung I Världen
-valuesSubtitle: ""
 ---
 
   ## Jämställdhet
