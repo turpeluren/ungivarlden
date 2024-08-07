@@ -28,7 +28,7 @@ values:
     href: "/värdegrund#jämställdhet"
   - title: Global rättvisa
     image:
-      src: ~/assets/images/icon-global-rättvisa.png
+      src: ~/assets/images/UNG I VÄRLDEN.png
       alt: Global rättvisa
     href: "/värdegrund#anti-diskriminering--global-rättvisa"
   - title: Miljö

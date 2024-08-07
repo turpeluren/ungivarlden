@@ -6,7 +6,7 @@ tagline: ""
 subtitle:
 
 heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA (9).png
+  src: ~/assets/images/Photography Portfolio Website in Grey  Black  Light Experimental Style.png
   alt: Ung i världen
 
 valuesTitle: ""
@@ -25,7 +25,7 @@ values:
     title: Anti-diskriminering
     description: Ung i Världen är en förening som är emot all sorts diskriminering och jobbar ständigt med anti-diskriminerande metoder och frågor. Detta innebär att vi respekterar och inkluderar alla religioner, funktionsvariationer, språkfärdigheter, bakgrunder, och liknande. Vi är en förening för alla och arbetar för global rättvisa.
     image:
-      src: ~/assets/images/SKISS-HEMSIDA (11).png
+      src: ~/assets/images/UNG I VÄRLDEN.png
       alt: Global rättvisa
   - id: miljö
     href: '#miljö'
