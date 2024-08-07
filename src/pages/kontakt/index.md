@@ -4,7 +4,7 @@ layout: ../../layouts/kontakt.astro
 tagline: null
 title: Kontakta oss här!
 heroImage:
-  src: ~/assets/images/ture.JPG
+  src: ~/assets/images/håller-om-ryggar.png
   alt: Kontakt
 subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
   <a class='underline' href='#socials'>sociala medier</a>, eller <a
