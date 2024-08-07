@@ -25,7 +25,7 @@ values:
     title: Anti-diskriminering
     description: Ung i Världen är en förening som är emot all sorts diskriminering och jobbar ständigt med anti-diskriminerande metoder och frågor. Detta innebär att vi respekterar och inkluderar alla religioner, funktionsvariationer, språkfärdigheter, bakgrunder, och liknande. Vi är en förening för alla och arbetar för global rättvisa.
     image:
-      src: ~/assets/images/icon-global-rättvisa.png
+      src: ~/assets/images/
       alt: Global rättvisa
   - id: miljö
     href: '#miljö'
