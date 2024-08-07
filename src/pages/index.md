@@ -30,7 +30,7 @@ values:
     image:
       src: ~/assets/images/2.png
       alt: Global rättvisa
-    href: "/värdegrund#anti-diskriminering--global-rättvisa"
+    href: "/värdegrund#anti-diskriminering"
   - title: Miljö
     image:
       src: ~/assets/images/3.png
