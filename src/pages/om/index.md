@@ -12,6 +12,10 @@ subtitle: "Ung i Världen bildades av grupp ungdomar med varierande bakgrund och
   erfarenheter delar vi en vision: att skapa en plattform för unga som vill ta
   plats och göra skillnad i världen."
 
+heroImage:
+  src: '~/assets/images/the-future-is-equal.png'
+  alt: 'The future is equal'
+
 contactTitle: Ta kontakt
 contactSubtitle: Var inte rädd att höra av dig
 

@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import ContactUs from '~/components/widgets/Contact.astro';
 import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 import Features2 from '~/components/widgets/Features2.astro';
@@ -19,40 +20,18 @@ const {
 <Layout metadata={metadata}>
   <!-- HeroText Widget ******************* -->
 
-  <HeroText 
+  <Hero2
     title={frontmatter.title}
     tagline={frontmatter.tagline}
     subtitle={frontmatter.subtitle}
+    bg="bg-secondary"
+    image={frontmatter.heroImage}
   />
 
-  <ContactUs
-    name="kontakt"
-    id="form"
-    tagline={frontmatter.messageBoxTagline}
-    title={frontmatter.messageBoxTitle}
-    subtitle={frontmatter.messageBoxSubtitle}
-    inputs={[
-      {
-        type: 'text',
-        name: 'name',
-        label: 'Namn',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'Email',
-      },
-    ]}
-    textarea={{
-      label: 'Ditt meddelande',
-      name: 'meddelande',
-    }}
-    button="Skicka"
-    description="Vi svarar ofta inom 24 timmar"
-    submitMessage={frontmatter.messageBoxSubmitMessage}
-  />
+  <Waves bottom bg="" variant="quaternary" color="fill-page"/>
+  <Waves bottom bg="" variant="quaternary" color="fill-quaternary opacity-40"/>
 
-<Waves bottom bg="opacity-40 mt-8" variant='tertiary' color="fill-quaternary"></Waves>
+<!--Waves bottom bg="opacity-40 mt-8" variant='tertiary' color="fill-quaternary"></Waves-->
   
 <Features3
   id="individual"
@@ -69,7 +48,7 @@ const {
 </Features3>
   <!-- Features2 Widget ************** -->
 
-<Waves bg="opacity-40" variant='quaternary' color="fill-quaternary"></Waves>
+<Waves bottom bg="bg-quaternary opacity-40" color="fill-primary"></Waves>
 
 <FeaturesLinks
   id="socials"
@@ -104,6 +83,39 @@ const {
       icon: 'tabler:article',
     },*/
   ]}
-/>
+>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-primary opacity-40 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
+  </Fragment>
+</FeaturesLinks>
+
+<Waves bottom variant="secondary" bg="bg-primary opacity-40" color="fill-page"></Waves>
+
+<ContactUs
+    name="kontakt"
+    id="form"
+    tagline={frontmatter.messageBoxTagline}
+    title={frontmatter.messageBoxTitle}
+    subtitle={frontmatter.messageBoxSubtitle}
+    inputs={[
+      {
+        type: 'text',
+        name: 'name',
+        label: 'Namn',
+      },
+      {
+        type: 'email',
+        name: 'email',
+        label: 'Email',
+      },
+    ]}
+    textarea={{
+      label: 'Ditt meddelande',
+      name: 'meddelande',
+    }}
+    button="Skicka"
+    description="Vi svarar ofta inom 24 timmar"
+    submitMessage={frontmatter.messageBoxSubmitMessage}
+  />
 
 </Layout>

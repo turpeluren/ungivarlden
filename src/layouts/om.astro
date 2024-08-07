@@ -46,10 +46,7 @@ const sections = frontmatter.values.map((value, index) => ({
     tagline={frontmatter.tagline}
     title={frontmatter.title}
     subtitle={frontmatter.subtitle}
-    image={{
-      src: '~/assets/images/the-future-is-equal.png',
-      alt: 'The future is equal',
-    }}
+    image={frontmatter.heroImage}
     bg="bg-tertiary"
   >
   </Hero>

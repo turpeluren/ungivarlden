@@ -107,6 +107,12 @@ collections:
       - { label: 'Tagline (det lilla över titel)', name: 'tagline', widget: 'string', required: false }
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Undertitel', name: 'subtitle', widget: 'string', required: false }
+      - label: 'Cover Image'
+        name: 'heroImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
       #- label: 'Värderingsar'
       #  name: 'values'
       #  widget: 'list'
@@ -128,6 +134,12 @@ collections:
       - { label: 'Tagline (det översta lilla blå)', name: 'tagline', widget: 'string', required: false }
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Undertitel', name: 'subtitle', widget: 'string', required: false }
+      - label: 'Cover Image'
+        name: 'heroImage'
+        widget: 'object'
+        fields:
+          - { label: 'Bild', name: 'src', widget: 'image' }
+          - { label: 'Alternativ text', name: 'alt', widget: 'string' }
       - { label: 'Titel meddelande-ruta', name: 'messageBoxTitle', widget: 'string', required: false }
       - { label: 'Undertitel meddelande-ruta', name: 'messageBoxSubtitle', widget: 'string', required: false }
       - { label: 'När formuläret har skickats text', name: 'messageBoxSubmitMessage', widget: 'string' }

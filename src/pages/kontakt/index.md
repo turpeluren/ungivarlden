@@ -3,9 +3,12 @@ messageBoxTagline: Meddelande
 layout: ../../layouts/kontakt.astro
 tagline: null
 title: Kontakta oss här!
+heroImage:
+  src: ~/assets/images/ture.JPG
+  alt: Kontakt
 subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
   <a class='underline' href='#socials'>sociala medier</a>, eller <a
-  class='underline' href='#individual'>maila</a> oss direkt.
+  class='underline' href='#individual'>kontakta</a> styrelsen direkt.
 messageBoxTitle: Skicka ett meddelande direkt
 messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår styrelse
   finns kontaktuppgifter <a class="underline" href='#individual'>nedan</a>.
