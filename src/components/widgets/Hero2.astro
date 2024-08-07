@@ -65,10 +65,10 @@ const {
               
             >{title.includes("Ung i Världen") ? (
               <span class="" set:html={title.replace("Ung i Världen", "")}></span>
-              <span class="font-moreSugar text-shadow " set:html="Ung i Världen"></span>
+              <span class="font-moreSugar text-shadow" set:html="Ung i Världen"></span>
             ):(
               <span class="" set:html={title.split(" ")[0]}></span>
-              <span class="font-moreSugar text-shadow " set:html={title.replace(title.split(" ")[0], "")}></span>
+              <span class="font-moreSugar text-shadow" set:html={title.replace(title.split(" ")[0], "")}></span>
             )}
             </h1>
           )

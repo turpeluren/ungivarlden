@@ -127,8 +127,14 @@
   src: url('../fonts/MoreSugar-Thin.ttf');
 }
 
+@font-face {
+  font-family: Lemondy;
+  src: url('../fonts/Lemondy.ttf');
+}
+
 .font-moreSugar {
-  font-family: MoreSugar;
+  font-family: Lemondy;
+  @apply tracking-normal font-thin;
 }
 
 .text-shadow {
