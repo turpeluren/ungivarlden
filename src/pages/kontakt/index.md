@@ -40,7 +40,7 @@ individualContacts:
       Säkerhetspolitik.
     icon: tabler:layout-2
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/1000008034.jpg
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
   - title: Aurora  Isufi, 22, Projektkoordinator
     mail: ""
