@@ -49,7 +49,7 @@ individualContacts:
       enhet. "
     icon: tabler:replace
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/dsc_0090.jpg
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
   - title: Yousra El Mourabit, 22, Kassör
     mail: ""
