@@ -17,7 +17,7 @@ values:
       Världen på att även denna ojämställdhet måste upphöra för att skapa en
       jämställd biståndssektor.
     image:
-      src: ~/assets/images/icon-jämställdhet.png
+      src: ~/assets/images/1000008024.png
       alt: Jämställdhet
   - id: anti-diskriminering
     href: "#anti-diskriminering"
