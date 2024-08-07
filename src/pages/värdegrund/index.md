@@ -1,7 +1,6 @@
 ---
 heroImage:
-  src: ~/assets/images/Photography Portfolio Website in Grey  Black  Light
-    Experimental Style.png
+  src: ~/assets/images/1000008026.png
   alt: Ung i världen
 values:
   - id: jämställdhet
