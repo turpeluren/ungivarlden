@@ -8,7 +8,7 @@ heroImage:
   src: ~/assets/images/SKISS-HEMSIDA.png
   alt: Ung i världen
 
-eventText: Alla är välkomna på våra event =)
+eventText: ""
 
 valuesTagline: Våra grunder
 valuesTitle: Värdegrund
