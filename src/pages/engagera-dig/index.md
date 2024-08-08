@@ -16,16 +16,16 @@ checkBoxText: Genom att klicka på knappen för anmälan godkänner du vår inte
 submitText: Tack för ditt intresse!!
 ---
 
-## Integritetspolicy
+<h3 class="text-primary"> Integritetspolicy</h3>
 
-**Vilka uppgifter vi samlar in:**
+## Vilka uppgifter vi samlar in:
 Vi samlar in personuppgifter som namn, e-postadress och telefonnummer när du registrerar dig på vår hemsida.
 
-**Hur vi använder dina uppgifter:**
+## Hur vi använder dina uppgifter:
 Vi använder dina uppgifter för att hantera din registrering och för att kommunicera med dig om våra senaste event och projekt.
 
-**Hur vi skyddar dina uppgifter:**
+## Hur vi skyddar dina uppgifter:
 Vi vidtar lämpliga säkerhetsåtgärder för att skydda dina personuppgifter mot obehörig åtkomst, ändring, avslöjande eller förstörelse.
 
-**Dina rättigheter:**
+## Dina rättigheter:
 Du har rätt att begära tillgång till, rättelse av eller radering av dina personuppgifter. Kontakta oss om du har några frågor eller önskar utöva dina rättigheter.
