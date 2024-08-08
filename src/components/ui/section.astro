@@ -11,24 +11,31 @@ export interface SectionProps {
   titleColor: string;
 }
 
-const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
+const { id, title, content, image, reverse, titleColor, bg, ypadding, classes={container:'', contentBox:''} } = Astro.props;
 ---
 
-<div id={id} class={`flex ${reverse ? 'sm:flex-row-reverse flex-col' : 'sm:flex-row flex-col'} items-start max-w-7xl mx-auto py-8 px-6 scroll-m-12`}>
+<div id={id} class={`${classes?.container} flex ${reverse ? 'sm:flex-row-reverse flex-col' : 'sm:flex-row flex-col'} ${ypadding && 'py-8'} items-start max-w-7xl mx-auto px-6 scroll-m-12`}>
   <!-- Icon -->
-  <div class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none`}>
-    <Image {...image}  />
-  </div>
+  {image && (
+    <div class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none`}>
+      <Image {...image}  />
+    </div>
+  )}
 
   <!-- Content with Cloud Background -->
-  <div class="relative bg-white p-6 bg-opacity-50 rounded-2xl shadow-lg sm:max-w-lg">
-    
-    <!-- Title with different colors -->
-    <h3 class={`font-moreSugar text-4xl font-bold mb-4 ${titleColor}`}>
-      {title}
-    </h3>
-    
-    <!-- Content text -->
-    <p class="text-lg text-gray-700 dark:text-gray-300" set:html={content}></p>
+  <div class={`${classes?.contentBox} relative bg-white p-6 opacity-100 rounded-2xl shadow-lg sm:max-w-lg`}>
+    <!-- Background blueish -->
+    <div aria-hidden='true' class={`${classes.contentBox} absolute inset-0 bg-secondary opacity-20 overflow-hidden rounded-2xl sm:max-w-lg pointer-events-none`}
+    />
+
+    <!-- The content -->
+    <div class="relative">
+      <!-- Title with different colors -->
+      <h3 class={`font-moreSugar text-4xl font-bold mb-4 ${titleColor}`}
+        set:html={title} />
+      
+      <!-- Content text -->
+      <p class="text-lg text-gray-700 dark:text-gray-300" set:html={content}></p>
+    </div>
   </div>
 </div>

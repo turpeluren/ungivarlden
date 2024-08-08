@@ -8,6 +8,7 @@ import Steps2 from '~/components/widgets/Steps2.astro';
 import Layout from '~/layouts/PageLayout.astro';
 import Waves from '~/components/common/Waves.astro';
 import Section from '~/components/ui/section.astro';
+import Timeline from '~/components/ui/Timeline.astro';
 
 import { getPermalink, getBlogPermalink, getAsset } from '../utils/permalinks';
 
@@ -20,14 +21,13 @@ const {
 } = Astro.props;
 
 const titleColors = [
-  'text-blue-500',
-  'text-blue-800',
-  'text-purple-500',
-  'text-teal-500',
-  'text-orange-500',
+  'text-primary',
+  'text-quaternary',
+  'text-tertiary',
+  'text-primary',
 ];
 
-const sections = frontmatter.values.map((value, index) => ({
+/*const sections = frontmatter.values.map((value, index) => ({
   id: value.id,
   href: '#'+value.id,
   title: value.title,
@@ -35,7 +35,7 @@ const sections = frontmatter.values.map((value, index) => ({
   image: { src: value.image.src, alt: value.image.alt },
   reverse: index % 2 !== 0,
   titleColor: titleColors[index % titleColors.length], // Apply color cyclically
-}));
+}));*/
 
 ---
 
@@ -55,10 +55,16 @@ const sections = frontmatter.values.map((value, index) => ({
   <Waves bottom bg="" color="fill-page"/>
   <Waves bottom bg="" color="fill-secondary opacity-40"/>
 
-  <div class="relative">
-    <div class="z-[-1] absolute inset-0 bg-secondary opacity-40 pointer-events-none" />
+  <!--Timeline 
+    items={frontmatter.sections}
+    defaultIcon='tabler:user'
+  /-->
 
-    {frontmatter.sections.map((section, index) => (
+  <div class="relative pt-2">
+    <div class=" absolute inset-0 bg-secondary z-[-1] opacity-40 pointer-events-none" />
+
+    {frontmatter.sections.map((section, index: number) => (
+      <>
       <Section
         key={index}
         id={section.title}
@@ -66,8 +72,14 @@ const sections = frontmatter.values.map((value, index) => ({
         content={section.text}
         reverse={index % 2}
         image={ section.image }
-        titleColor={index % 2 ? "text-primary" : "text-tertiary"}
+        titleColor={titleColors[index]}
+        classes={{ container: index==0 ? 'sm:max-w-4xl' : 'sm:max-w-5xl',
+                  contentBox: index==0 && 'rounded-tr-[4em]'}}
       />
+      {index !== frontmatter.sections.length - 1 && (
+        <div class={`${index % 2 ? 'border-l-2 ml-[50%] rounded-tl-[4em]' : 'border-r-2 ml-[35%] rounded-tr-[4em]'} w-[15%] h-16 mt-[-16px] border-dotted border-white border-t-2`} />
+      )}
+      </>
     ))}
   </div>
 
