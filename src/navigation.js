@@ -109,7 +109,7 @@ export const footerData = {
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },*/
   ],
   footNote: `
-    Ung i världen · 
+    Ung i Världen · 
     2024 · 
     Sida av <a class="underline" href="https://turpelurpeluren.online">turpelurpeluren</a>.
   `,

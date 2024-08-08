@@ -6,13 +6,12 @@ subtitle: ""
 heroImage:
   src: ~/assets/images/1000008026.png
   alt: Ung i världen introbild
-formTitle: " Hitta ditt engagemang hos oss!!!"
-formSubtitle: "Välkommen till Ung i Världen! Vi är en lokalförening som brinner
-  för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
-  Hos oss kan du vara med och skapa en bättre värld, samtidigt som du får
-  chansen att utvecklas och träffa likasinnade. Oavsett om du vill hålla dig
-  uppdaterad om våra senaste event och nyheter, eller om du vill ta steget och
-  bli volontär i vårt senaste EU-projekt, har vi en plats för dig. "
+formTitle: "Hitta ditt engagemang hos oss!"
+formSubtitle: 'Vad kul att just du vill engagera dig tillsammans med oss! Vi är ett ungdomsförbund som   brinner för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
+Hos oss kan du vara med och skapa en <span class="font-bold">bättre värld</span>, samtidigt som du får
+chansen att utvecklas och träffa likasinnade. <br><br> Oavsett om du vill hålla dig
+uppdaterad om våra senaste event och nyheter, eller om du vill ta steget och
+bli volontär i vårt senaste EU-projekt, <span class="bg-primary text-white font-bold px-1">har vi en plats för dig.</span>'
 checkBoxText: Genom att klicka på knappen för anmälan godkänner du vår integritetspolicy och samtycker till behandling av dina personuppgifter i enlighet med GDPR.
 submitText: Tack för ditt intresse!!
 ---
