@@ -16,7 +16,9 @@ const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
 
 <div id={id} class={`flex ${reverse ? 'sm:flex-row-reverse flex-col' : 'sm:flex-row flex-col'} items-start max-w-7xl mx-auto py-8 px-6 scroll-m-12`}>
   <!-- Icon -->
-  <Image {...image} class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none`} />
+  <div class={`${reverse ? 'sm:ml-6 self-end sm:self-auto' : 'sm:mr-6'} w-24 sm:w-12 md:w-32 mt-8 mb-4 pointer-events-none`}>
+    <Image {...image}  />
+  </div>
 
   <!-- Content with Cloud Background -->
   <div class="relative bg-white p-6 bg-opacity-50 rounded-2xl shadow-lg sm:max-w-lg">
@@ -27,6 +29,6 @@ const { id, title, content, image, reverse, titleColor, bg } = Astro.props;
     </h3>
     
     <!-- Content text -->
-    <p class="text-lg text-gray-700 dark:text-gray-300">{content}</p>
+    <p class="text-lg text-gray-700 dark:text-gray-300" set:html={content}></p>
   </div>
 </div>

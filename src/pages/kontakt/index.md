@@ -70,7 +70,7 @@ individualContacts:
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
   - title: Ture Goldkuhl, 23, Webbansvarig
     icon: tabler:pointer
-    description: Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
+    description: Läser civilingenjör i datavetenskap vid Umeå universitet. Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
     mail: admin@turpelurpeluren.online
     image:
       src: ~/assets/images/logo.png

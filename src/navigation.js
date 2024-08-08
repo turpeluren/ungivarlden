@@ -89,10 +89,11 @@ export const footerData = {
     {
       title: 'Meny',
       links: [
+        { text: '🏡 Hem', href: getPermalink('/') },
         { text: '🤸 Engagera dig', href: getPermalink('/engagera-dig') },
         { text: '📅 Aktuellt', href: getPermalink('/aktuellt') },
-        { text: '🤲 Värderingar', href: getPermalink('/värderingar') },
         { text: '🙋 Om oss', href: getPermalink('/om') },
+        { text: '🤲 Värderingar', href: getPermalink('/värderingar') },
         { text: '💌 Kontakt', href: getPermalink('/kontakt') },
       ],
     },

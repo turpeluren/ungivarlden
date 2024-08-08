@@ -3,7 +3,7 @@ tagline: ""
 title: Vår Värdegrund
 subtitle: null
 heroImage:
-  src: ~/assets/images/SKISS-HEMSIDA (2) (2).png
+  src: ~/assets/images/the-future-is-equal.png
   alt: Ung i världen
 valuesTitle: Ung I Världen
 valuesSubtitle: ""
