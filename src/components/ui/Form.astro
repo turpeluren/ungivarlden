@@ -15,7 +15,7 @@ var checkBoxChecked = false;
   {
     inputs &&
       inputs.map(
-        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', description }) =>
+        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', description, options }) =>
           name && type!="label" ? (
             type != "checkbox" ? (
               <>
@@ -28,14 +28,26 @@ var checkBoxChecked = false;
                     {label}
                   </label>
                 )}
-                <input
-                  type={type}
-                  name={name}
-                  id={name}
-                  autocomplete={autocomplete}
-                  placeholder={placeholder}
-                  class="py-3 px-4 inline-block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-                />
+                {type != "select" ? (
+                  <input
+                    type={type}
+                    name={name}
+                    id={name}
+                    autocomplete={autocomplete}
+                    placeholder={placeholder}
+                    class="py-3 px-4 inline-block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+                  />
+                ) : (
+                  <select name={name} id={name} class="">
+                    {options && (
+                      options.map(
+                        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', description }) =>
+                        <>
+                        <option value={name}>{label}</option>
+                        </>
+                      ))}
+                  </select>
+                )}
               </div>
               </>
             ) : (

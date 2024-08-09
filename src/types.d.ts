@@ -178,6 +178,7 @@ export interface Input {
   description?: string;
   autocomplete?: string;
   placeholder?: string;
+  options?: Array<Input>;
 }
 
 export interface Textarea {

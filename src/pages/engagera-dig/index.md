@@ -16,7 +16,7 @@ checkBoxText: Genom att klicka på knappen för anmälan godkänner du vår inte
 submitText: Tack för ditt intresse!!
 ---
 
-<h3 class="text-primary"> Integritetspolicy</h3>
+<h3 id="integritetspolicy" class="text-primary"> Integritetspolicy</h3>
 
 ## Vilka uppgifter vi samlar in:
 Vi samlar in personuppgifter som namn, e-postadress och telefonnummer när du registrerar dig på vår hemsida.

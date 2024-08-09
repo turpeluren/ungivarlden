@@ -56,6 +56,8 @@ const { frontmatter } = Astro.props;
         name: 'birthdate',
         label: 'Födelsedatum (Endast personer upp till 29 år kan anmäla sig)',
       },
+
+      // Välj engagemang
       {
         type: 'label',
         name: '',
@@ -63,71 +65,90 @@ const { frontmatter } = Astro.props;
       },
       {
         type: 'checkbox',
-        name: 'Medlem',
-        label: 'Medlem',
-        description: 'Som medlem får du regelbundna uppdateringar om föreningen och pågående projekt. Om du vill bli ideellt engagerad hos oss skriv det i "övrigt" rutan. Berätta gärna lite om dig själv och din tidigare erfarenhet med utvecklingsfrågor!',
+        name: 'Nyhetsvän',
+        label: 'Nyhetsvän 🖥️',
+        description: 'Som nyhetsvän får du regelbundna uppdateringar om föreningen och pågående projekt. ',
       },
-      
+      {
+        type: 'checkbox',
+        name: 'Ideellt aktiv',
+        label: 'Ideellt aktiv 🪧',
+        description: 'För dig som vill bli ideellt engagerad hos oss. Grupperna anordnar föreläsningar, event och blir delaktiga i  pågående projekt. Berätta gärna lite om dig själv i ”övrigt"-rutan och din tidigare erfarenhet med utvecklingsfrågor!',
+      },
+
       // Checkbox inputs for "Vem är du?"
       {
         type: 'label',
         name: '',
         label: 'Vem är du? Välj det som stämmer bäst in på dig.',
       },
+
       {
-        type: 'checkbox',
-        name: 'student',
-        label: 'Student',
-      },
-      {
-        type: 'checkbox',
-        name: 'forskare',
-        label: 'Forskare',
-      },
-      {
-        type: 'checkbox',
-        name: 'journalist',
-        label: 'Journalist',
-      },
-      {
-        type: 'checkbox',
-        name: 'politiker',
-        label: 'Politiker',
-      },
-      {
-        type: 'checkbox',
-        name: 'civilsamhället',
-        label: 'Arbetar med globala frågor - Civilsamhället',
-      },
-      {
-        type: 'checkbox',
-        name: 'myndighet',
-        label: 'Arbetar med globala frågor - Myndighet',
-      },
-      {
-        type: 'checkbox',
-        name: 'foretag',
-        label: 'Arbetar med globala frågor - Företag',
-      },
-      {
-        type: 'checkbox',
-        name: 'mellanstatlig',
-        label: 'Arbetar med globala frågor - Mellanstatlig org.',
-      },
-      {
-        type: 'checkbox',
-        name: 'yrkesverksam',
-        label: 'Yrkesverksam, inte inom globala frågor',
-      },
-      {
-        type: 'checkbox',
-        name: 'pensionar_aktiv',
-        label: 'Pensionär, aktiv inom globala frågor',
-      },
-      {
-        type: 'checkbox',
-        name: 'pensionar_inaktiv',
-        label: 'Pensionär, inte aktiv inom globala frågor',
+        type: 'select',
+        name: 'select',
+        label: '',
+        options: [
+          {
+            type: 'checkbox',
+            name: 'student',
+            label: 'Student',
+          },
+          {
+            type: 'checkbox',
+            name: 'forskare',
+            label: 'Forskare',
+          },
+          {
+            type: 'checkbox',
+            name: 'journalist',
+            label: 'Journalist',
+          },
+          {
+            type: 'checkbox',
+            name: 'politiker',
+            label: 'Politiker',
+          },
+          {
+            type: 'checkbox',
+            name: 'civilsamhället',
+            label: 'Arbetar med globala frågor - Civilsamhället',
+          },
+          {
+            type: 'checkbox',
+            name: 'myndighet',
+            label: 'Arbetar med globala frågor - Myndighet',
+          },
+          {
+            type: 'checkbox',
+            name: 'foretag',
+            label: 'Arbetar med globala frågor - Företag',
+          },
+          {
+            type: 'checkbox',
+            name: 'mellanstatlig',
+            label: 'Arbetar med globala frågor - Mellanstatlig org.',
+          },
+          {
+            type: 'checkbox',
+            name: 'yrkesverksam',
+            label: 'Yrkesverksam, inte inom globala frågor',
+          },
+          {
+            type: 'checkbox',
+            name: 'pensionar_aktiv',
+            label: 'Pensionär, aktiv inom globala frågor',
+          },
+          {
+            type: 'checkbox',
+            name: 'pensionar_inaktiv',
+            label: 'Pensionär, inte aktiv inom globala frågor',
+          },
+          {
+            type: 'checkbox',
+            name: 'other_option',
+            label: 'Övrigt, fyll i rutan nedanför',
+          },
+        ]
       },
       {
         type: 'text',
