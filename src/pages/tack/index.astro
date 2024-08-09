@@ -1,0 +1,69 @@
+---
+import Layout from '~/layouts/Layout.astro';
+import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
+import Waves from '~/components/common/Waves.astro';
+import { getHomePermalink } from '~/utils/permalinks';
+
+const title = `Tack!`;
+---
+
+<Layout metadata={{ title }}>
+  <section class="flex flex-col items-center h-full pt-8 mb-16 relative">
+    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+      <div class="max-w-md text-center">
+        <h2 class="mb-8 font-bold text-7xl leading-none">
+          <span class="sr-only">Tack för att du engagerar dig!</span>
+          <span class="text-primary">Tack för att <span class="font-moreSugar text-shadow text-quaternary underline italic">du</span><span class="font-moreSugar"> engagerar dig!</span></span>
+        </h2>
+        <p class="text-2xl font-semibold md:text-2xl text-muted" >Välkommen till Ung i Världen! 
+          Passa på att följa våra sociala kaneler och håll utkik i mailboxen framöver 💌</p>
+      </div>
+    </div>
+
+    <div class="w-full">
+
+      <Waves top bg="bg-secondary opacity-40 absolute" color="fill-page" />
+
+      <FeaturesLinks
+        id="socials"
+        title="Sociala kanaler"
+        subtitle=""
+        columns={3}
+        items={[
+          {
+            title: 'Instagram',
+            description:
+              'Länk till vår insta här',
+            icon: 'tabler:brand-instagram',
+            href: "https://instagram.com/ungivarldensverige",    
+          },
+          {
+            title: 'LinkedIn',
+            description:
+              'Länk till vår linkedin här',
+            icon: 'tabler:brand-linkedin',
+            href: "https://www.linkedin.com/company/ung-i-v%C3%A4rlden/",
+          },
+          {
+            title: 'Mail',
+            description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
+            icon: 'tabler:mail',
+            href: 'mailto:ungivarlden.org@gmail.com',
+          },
+        ]}
+      >
+        <Fragment slot="bg">
+          <div class="absolute inset-0 bg-gradient-to-b from-secondary to-page opacity-40 dark:bg-transparent"></div>
+        </Fragment>
+      </FeaturesLinks>
+    </div>
+    <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
+      <div class="max-w-md text-center">
+        <p class="mt-4 mb-8 text-lg text-muted dark:text-slate-400">
+          Fortsätt utforska hemsidan?</p>
+        <a rel="noopener noreferrer" href={getHomePermalink()} class="btn">Tillbaka till startsidan</a>
+      </div>
+    </div>
+  </section>
+
+</Layout>

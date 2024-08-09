@@ -33,7 +33,6 @@ const { frontmatter } = Astro.props;
     title={frontmatter.formTitle}
     subtitle={frontmatter.formSubtitle}
     disclaimer={{ label: frontmatter.checkBoxText, gdpr: true }}
-    submitMessage={frontmatter.submitText}
     button={frontmatter.buttonText}
     inputs={[
       {
@@ -145,8 +144,8 @@ const { frontmatter } = Astro.props;
           },
           {
             type: 'checkbox',
-            name: 'other_option',
-            label: 'Övrigt, fyll i rutan nedanför',
+            name: 'annat',
+            label: 'Annat, fyll i rutan nedanför',
           },
         ]
       },
