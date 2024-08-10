@@ -24,7 +24,7 @@ var checkBoxChecked = false;
               )}
               <div class="mb-6">
                 {label && (
-                  <label for={name} class="inline text-base font-medium">
+                  <label for={name} class="block text-base font-medium">
                     {label}
                   </label>
                 )}
@@ -35,7 +35,7 @@ var checkBoxChecked = false;
                     id={name}
                     autocomplete={autocomplete}
                     placeholder={placeholder}
-                    class="py-3 px-4 inline-block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+                    class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
                   />
                 ) : (
                   <select name={name} id={name} class="w-full p-1.5 pl-2 rounded-md">
@@ -53,7 +53,6 @@ var checkBoxChecked = false;
               </div>
               </>
             ) : (
-              <>
               <div class="mb-6">
                 <div class="flex items-center">
                 <input
@@ -74,10 +73,7 @@ var checkBoxChecked = false;
                   <p class="text-base text-muted">{description}</p>
                 )}
               </div>
-              
-              </>
             )
-            
           ) : (
             <div class="mb-2 mt-12">
               {label && (
