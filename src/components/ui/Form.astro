@@ -113,13 +113,17 @@ var checkBoxChecked = false;
   {
     disclaimer && (
       <label class="mt-3 flex items-start">
-        <div id="disclaimer-container" class="flex items-start w-3.5 h-3.5 m-0.5 mt-1.5 ">
+        
+
+
+
+        <div id="disclaimer-container" class="flex items-start mt-1.5 ">
           <input
             id="disclaimer"
             name="disclaimer"
             type="checkbox"
             onclick="flipCheckBox()"
-            class=" t-0 l-0 cursor-pointer py-3 px-3 block hidden w-3.5 h-3.5 mr-2 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+            class="t-0 l-0 cursor-pointer block hidden w-3.5 h-3.5 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
           />
           <span id="disclaimer-style" class="cursor-pointer t-0 l-0 w-3.5 h-3.5 rounded-sm border-2 border border-gray-500 hover:border-gray-700"></span>
         </div>
