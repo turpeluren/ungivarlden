@@ -1,0 +1,37 @@
+---
+import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
+
+const {id='socials', title="Sociala kanaler", subtitle="", columns=3, bg = await Astro.slots.render('bg'),
+} = Astro.props;
+---
+
+<FeaturesLinks
+    id="socials"
+    title="Sociala kanaler"
+    subtitle=""
+    columns={3}
+    items={[
+        {
+        title: 'Instagram',
+        description:
+            'Länk till vår Instagram',
+        icon: 'tabler:brand-instagram',
+        href: "https://instagram.com/ungivarldensverige",    
+        },
+        {
+        title: 'LinkedIn',
+        description:
+            'Länk till vår LinkedIn',
+        icon: 'tabler:brand-linkedin',
+        href: "https://www.linkedin.com/company/ung-i-v%C3%A4rlden/",
+        },
+        {
+        title: 'Mail',
+        description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
+        icon: 'tabler:mail',
+        href: 'mailto:ungivarlden.org@gmail.com',
+        },
+    ]}
+    bg={bg}
+>
+</FeaturesLinks>

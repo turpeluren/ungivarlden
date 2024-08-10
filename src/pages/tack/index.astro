@@ -1,6 +1,7 @@
 ---
 import Layout from '~/layouts/Layout.astro';
 import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
+import Socials from '~/components/widgets/Socials.astro';
 import Waves from '~/components/common/Waves.astro';
 import { getHomePermalink } from '~/utils/permalinks';
 
@@ -13,10 +14,10 @@ const title = `Tack!`;
       <div class="max-w-md text-center">
         <h2 class="mb-8 font-bold text-7xl leading-none">
           <span class="sr-only">Tack för att du engagerar dig!</span>
-          <span class="text-primary">Tack för att <span class="font-moreSugar text-shadow text-quaternary underline italic">du</span><span class="font-moreSugar"> engagerar dig!</span></span>
+          <span class="text-primary">Tack för att <span class="font-moreSugar text-shadow text-quaternary underline">du</span><span class="font-moreSugar"> engagerar dig!</span></span>
         </h2>
         <p class="text-2xl font-semibold md:text-2xl text-muted" >Välkommen till Ung i Världen! 
-          Passa på att följa våra sociala kaneler och håll utkik i mailboxen framöver 💌</p>
+          Passa på att följa våra sociala kanaler och håll utkik i mailboxen framöver 💌</p>
       </div>
     </div>
 
@@ -24,38 +25,12 @@ const title = `Tack!`;
 
       <Waves top bg="bg-secondary opacity-40 absolute" color="fill-page" />
 
-      <FeaturesLinks
-        id="socials"
-        title="Sociala kanaler"
-        subtitle=""
-        columns={3}
-        items={[
-          {
-            title: 'Instagram',
-            description:
-              'Länk till vår insta här',
-            icon: 'tabler:brand-instagram',
-            href: "https://instagram.com/ungivarldensverige",    
-          },
-          {
-            title: 'LinkedIn',
-            description:
-              'Länk till vår linkedin här',
-            icon: 'tabler:brand-linkedin',
-            href: "https://www.linkedin.com/company/ung-i-v%C3%A4rlden/",
-          },
-          {
-            title: 'Mail',
-            description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
-            icon: 'tabler:mail',
-            href: 'mailto:ungivarlden.org@gmail.com',
-          },
-        ]}
-      >
+      <Socials>
         <Fragment slot="bg">
           <div class="absolute inset-0 bg-gradient-to-b from-secondary to-page opacity-40 dark:bg-transparent"></div>
         </Fragment>
-      </FeaturesLinks>
+      </Socials>
+
     </div>
     <div class="container flex flex-col items-center justify-center px-5 mx-auto my-8">
       <div class="max-w-md text-center">

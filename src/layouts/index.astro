@@ -1,17 +1,12 @@
 ---
 import Layout from '~/layouts/PageLayout.astro';
 
-import Hero from '~/components/widgets/Hero.astro';
 import Hero2 from '~/components/widgets/Hero2.astro';
 import Note from '~/components/widgets/Note.astro';
-import Features from '~/components/widgets/Features.astro';
 import Features2 from '~/components/widgets/Features2.astro';
-import Steps from '~/components/widgets/Steps.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
-import FAQs from '~/components/widgets/FAQs.astro';
-import Stats from '~/components/widgets/Stats.astro';
-import CallToAction from '~/components/widgets/CallToAction.astro';
+import Socials from '~/components/widgets/Socials.astro';
 import Waves from '~/components/common/Waves.astro';
 import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 
@@ -91,9 +86,6 @@ title={frontmatter.introTitle}
   </Fragment>
 </Content> -->
 
-<Fragment slot="bg">
-  <div class="absolute inset-0 bg-gradient-to-b from-secondary to-primary opacity-40 dark:bg-transparent"></div>
-</Fragment>
 
 <Features2
 id="values"
@@ -129,38 +121,11 @@ classes={{headline: {title: 'font-moreSugar text-shadow'}}}
 
 <Waves top bg="bg-secondary opacity-40" color="fill-page" />
 
-<FeaturesLinks
-  id="socials"
-  title="Sociala kanaler"
-  subtitle="Följ oss på sociala medier för att få senaste nytt och bli en del av vår community, eller skicka oss ett mejl!"
-  columns={3}
-  items={[
-    {
-      title: 'Instagram',
-      description:
-        'Länk till vår insta här',
-      icon: 'tabler:brand-instagram',
-      href: "https://instagram.com/ungivarldensverige",    
-    },
-    {
-      title: 'LinkedIn',
-      description:
-        'Länk till vår linkedin här',
-      icon: 'tabler:brand-linkedin',
-      href: "https://www.linkedin.com/company/ung-i-v%C3%A4rlden/",
-    },
-    {
-      title: 'Mail',
-      description: `Vi går alltid att nå på mail på ungivarlden.org@gmail.com`,
-      icon: 'tabler:mail',
-      href: 'mailto:ungivarlden.org@gmail.com',
-    },
-  ]}
->
+<Socials>
   <Fragment slot="bg">
     <div class="absolute inset-0 bg-gradient-to-b from-secondary to-page opacity-40 dark:bg-transparent"></div>
   </Fragment>
-</FeaturesLinks>
+</Socials>
 
   <!-- FAQs Widget ******************* -->
 

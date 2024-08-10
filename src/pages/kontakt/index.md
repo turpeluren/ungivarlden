@@ -11,11 +11,11 @@ subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ vår
   class='underline' href='#individual'>kontakta</a> styrelsen direkt.
 messageBoxTitle: Skicka ett meddelande direkt
 messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår styrelse
-  finns kontaktuppgifter <a class="underline" href='#individual'>nedan</a>.
+  finns kontaktuppgifter <a class="underline" href='#individual'>ovan</a>.
 messageBoxSubmitMessage: Tack för ditt meddelande! Vi svarar så snart som möjligt.
 individualTitle: Kontaktuppgifter
 individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
-  frågor hänvisar vi till formuläret ovan eller maila till <a class='underline'
+  frågor hänvisar vi till formuläret nedan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
   - title: Mona Ghasemi, 24 Ordförande

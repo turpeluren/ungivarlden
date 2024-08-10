@@ -6,6 +6,7 @@ import ContactUs from '~/components/widgets/Contact.astro';
 import FeaturesLinks from '~/components/widgets/FeaturesLinks.astro';
 import Features2 from '~/components/widgets/Features2.astro';
 import Features3 from '~/components/widgets/Features3.astro';
+import Socials from '~/components/widgets/Socials.astro';
 import Waves from '~/components/common/Waves.astro';
 
 const metadata = {
@@ -49,8 +50,13 @@ const {
   <!-- Features2 Widget ************** -->
 
 <Waves bottom bg="bg-quaternary opacity-40" color="fill-primary"></Waves>
+<Socials>
+  <Fragment slot="bg">
+    <div class="absolute inset-0 bg-primary opacity-40 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
+  </Fragment>
+</Socials>
 
-<FeaturesLinks
+<!--FeaturesLinks
   id="socials"
   title="Sociala kanaler"
   subtitle="Våra olika kanaler i sociala medier och kontaktuppgifter"
@@ -59,14 +65,14 @@ const {
     {
       title: 'Instagram',
       description:
-        'Länk till vår insta här',
+        'Länk till vår Instagram',
       icon: 'tabler:brand-instagram',
       href: "https://instagram.com/ungivarldensverige",    
     },
     {
       title: 'LinkedIn',
       description:
-        'Länk till vår linkedin här',
+        'Länk till vår LinkedIn',
       icon: 'tabler:brand-linkedin',
       href: "https://www.linkedin.com/company/ung-i-v%C3%A4rlden/",
     },
@@ -87,7 +93,7 @@ const {
   <Fragment slot="bg">
     <div class="absolute inset-0 bg-primary opacity-40 dark:opacity-30 dark:bg-quaternary dark:NOTbg-transparent"></div>
   </Fragment>
-</FeaturesLinks>
+</FeaturesLinks-->
 
 <Waves bottom variant="secondary" bg="bg-primary opacity-40" color="fill-page"></Waves>
 

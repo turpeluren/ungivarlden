@@ -1,12 +1,12 @@
 ---
 tagline: ""
 title: Vår Värdegrund
-subtitle: null
+subtitle: Vad vi som ideell organisation har som värdegrund och eftersträvar att uppnå genom vår verksamhet.
 heroImage:
   src: ~/assets/images/the-future-is-equal.png
   alt: Ung i världen
-valuesTitle: Ung I Världen
-valuesSubtitle: ""
+valuesTitle: ""
+valuesSubtitle: "Klicka på ikonerna eller skrolla ner för att läsa vidare om varje värdegrund."
 values:
   - id: jämställdhet
     href: "#jämställdhet"
