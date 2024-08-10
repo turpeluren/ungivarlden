@@ -35,6 +35,7 @@ const { frontmatter } = Astro.props;
     disclaimer={{ label: frontmatter.checkBoxText, gdpr: true }}
     button={frontmatter.buttonText}
     inputs={[
+      // Personlig info
       {
         type: 'text',
         name: 'name',
@@ -53,14 +54,14 @@ const { frontmatter } = Astro.props;
       {
         type: 'date',
         name: 'birthdate',
-        label: 'Födelsedatum (Endast personer upp till 29 år kan anmäla sig)',
+        label: 'Födelsedatum (Endast personer upp till och med 29 år kan anmäla sig)',
       },
 
       // Välj engagemang
       {
         type: 'label',
         name: '',
-        label: 'Välj engagemang',
+        label: 'Välj engagemang:',
       },
       {
         type: 'checkbox',
@@ -79,7 +80,7 @@ const { frontmatter } = Astro.props;
       {
         type: 'label',
         name: '',
-        label: 'Vem är du? Välj det som stämmer bäst in på dig.',
+        label: 'Vem är du? Välj det som stämmer bäst in på dig:',
       },
 
       {
