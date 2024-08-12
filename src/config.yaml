@@ -1,6 +1,6 @@
 site:
-  name: Ung i världen
-  site: 'https://ungivarlden.netlify.app'
+  name: Ung i Världen
+  site: 'https://ungivarlden.se'
   base: '/'
   trailingSlash: false
 
