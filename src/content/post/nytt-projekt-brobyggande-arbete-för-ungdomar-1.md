@@ -8,8 +8,6 @@ draft: false
 ---
 <!--StartFragment-->
 
-
-
 **Vi är glada att presentera vårt nya Erasmus+ ungdomsprojekt, "Brobyggande arbete: Ungdomar utforskar Internationell Utveckling och ett inkluderande EU". Detta projekt erbjuder ungdomar från Stockholm, Malmö och Göteborg en unik möjlighet att delta i en resa av lärande och personlig utveckling.**
 
 Projektet syftar till att skapa en plattform för ungdomar i Sverige (under 30 år) där de kan utforska och engagera sig i internationell utveckling och EU:s arbete med fokus på inkludering och demokrati. Genom detta initiativ vill vi öka mångfalden inom den svenska utvecklingssektorn och erbjuda ungdomar, särskilt personer med migrationsbakgrund, verktyg och en community för att bygga en framtid inom denna sektor.
@@ -26,7 +24,7 @@ Under projektets gång kommer deltagarna att delta i en rad aktiviteter som inkl
 
 \- **Networking och Karriärutveckling:** Workshops och evenemang för att förbättra deltagarnas nätverks- och karriärfärdigheter, inklusive möjligheter till praktikplatser och mentorskap inom FN, EU och UD.
 
-**Ansökan öppnas snart - Håll utkik 👀**
+**Ansökan öppnas snart - Håll utkik 👀** https://ungivarlden.se/
 
 Ungdomar från Stockholm, Malmö och Göteborg har möjlighet att ansöka till detta program höstterminen 2024. Vi kommer snart öppna ansökan och med fler detaljerade instruktioner på hur man kan söka till detta program. 
 
@@ -35,7 +33,5 @@ Genom att fylla i vårt ansökningsformulär får du chansen att bli en av de ti
 Vi ser fram emot din ansökan och hoppas att du vill vara med på denna inspirerande resa!
 
 För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret.
-
-
 
 <!--EndFragment-->
