@@ -9,7 +9,7 @@ draft: false
 ---
 <!--StartFragment-->
 
-## **Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!**
+# **Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!**
 
 #### [A﻿nmäl dig här!](https://docs.google.com/forms/d/e/1FAIpQLScDA-8rHG93PAusaLDPcHg4Te_mNyHoItWb-ypdudzalIqVMg/viewform)
 
@@ -17,7 +17,7 @@ Vi är glada att meddela att ansökan till vårt Erasmus+ ungdomsprojekt, “Bro
 
 Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik möjlighet att delta i en resa av lärande och personlig utveckling helt kostnadsfritt. Genom detta initiativ vill vi öka mångfalden inom den svenska utvecklingssektorn och erbjuda ungdomar, särskilt personer med migrationsbakgrund, verktyg, nätverk och en gemenskap för att bygga en framtid inom utvecklingssektorn.
 
-#### **Kriterier för ansökan: 📋**
+### **Kriterier för ansökan: 📋**
 
 \- Du måste vara mellan 18 och 30 år (född tidigast 1994 och senast 2006).
 
@@ -37,7 +37,7 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 
 
 
-#### Viktiga instruktioner:✨
+### Viktiga instruktioner:✨
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela höstterminen 2024. 
 
