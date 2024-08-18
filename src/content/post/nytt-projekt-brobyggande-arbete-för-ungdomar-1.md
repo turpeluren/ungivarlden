@@ -11,6 +11,8 @@ draft: false
 
 ## **Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!**
 
+#### [A﻿nmäl dig här!](https://docs.google.com/forms/d/e/1FAIpQLScDA-8rHG93PAusaLDPcHg4Te_mNyHoItWb-ypdudzalIqVMg/viewform)
+
 Vi är glada att meddela att ansökan till vårt Erasmus+ ungdomsprojekt, “Brobyggande arbete: Ungdomar utforskar Internationell Utveckling och ett inkluderande EU”, nu har öppnat och är tillgänglig från den 19 augusti 2024 till den 19 september 2024 kl. 23.59.
 
 Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik möjlighet att delta i en resa av lärande och personlig utveckling helt kostnadsfritt. Genom detta initiativ vill vi öka mångfalden inom den svenska utvecklingssektorn och erbjuda ungdomar, särskilt personer med migrationsbakgrund, verktyg, nätverk och en gemenskap för att bygga en framtid inom utvecklingssektorn.
