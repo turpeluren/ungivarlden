@@ -9,7 +9,7 @@ draft: false
 ---
 <!--StartFragment-->
 
-# **Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!**
+# **Vad handlar ungdomsprojektet om?**
 
 #### [A﻿nmäl dig här!](https://docs.google.com/forms/d/e/1FAIpQLScDA-8rHG93PAusaLDPcHg4Te_mNyHoItWb-ypdudzalIqVMg/viewform)
 
@@ -34,8 +34,6 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 3.  **Politiskt engagemang:** 28-29 januari, Stockholm (preliminärt).
 
 **Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka.** 
-
-
 
 ### Viktiga instruktioner:✨
 
