@@ -54,9 +54,9 @@ Vi ser fram emot din ansökan!
 
 **🔍Bakgrund till Ungivärldens Ungdomsprojekt**
 
-Syftet med ungdomsprojektet är att skapa en plattform för ungdomar i Sverige att utforska och engagera sig i internationella utvecklingsfrågor och EU:s arbete med fokus på inkludering och demokrati. Vi strävar efter att öka mångfalden inom den svenska utvecklingssektorn genom att ge unga, särskilt de med migrationsbakgrund, de verktyg och det nätverk som behövs för att bygga en meningsfull karriär inom detta område.
+Syftet med ungdomsprojektet är att skapa en plattform för ungdomar i Sverige att utforska och engagera sig i internationella utvecklingsfrågor och EU:s arbete med fokus på inkludering och demokrati. Vi strävar efter att **öka mångfalden** inom den svenska utvecklingssektorn genom att **ge unga,** särskilt de med **migrationsbakgrund**, de verktyg och det nätverk som behövs för att bygga en meningsfull karriär inom detta område.
 
-Nedan finner du svar på åtta vanliga frågor (FAQ) som kan hjälpa dig att förstå projektet bättre och vad som förväntas av dig som deltagare:
+**Nedan finner du svar på åtta vanliga frågor (FAQ)** som kan hjälpa dig att förstå projektet bättre och vad som förväntas av dig som deltagare:
 
 - - -
 
