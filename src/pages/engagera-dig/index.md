@@ -6,7 +6,7 @@ subtitle: ""
 heroImage:
   src: ~/assets/images/1000008026.png
   alt: Ung i världen introbild
-formTitle: "Hitta ditt engagemang hos oss!"
+formTitle: "Bli medlem hos oss!"
 formSubtitle: 'Vad kul att just du vill engagera dig tillsammans med oss! Vi är ett ungdomsförbund som   brinner för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
 Hos oss kan du vara med och skapa en <span class="font-bold">bättre värld</span>, samtidigt som du får
 chansen att utvecklas och träffa likasinnade. <br><br> Oavsett om du vill hålla dig
