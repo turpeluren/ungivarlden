@@ -52,7 +52,7 @@ Vi ser fram emot din ansökan!
 
 ### **För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret [HÄR](https://docs.google.com/forms/d/e/1FAIpQLScDA-8rHG93PAusaLDPcHg4Te_mNyHoItWb-ypdudzalIqVMg/viewform)**
 
-**🔍Bakgrund till Ungivärldens  Ungdomsprojekt**
+**🔍Bakgrund till Ungivärldens Ungdomsprojekt**
 
 Syftet med ungdomsprojektet är att skapa en plattform för ungdomar i Sverige att utforska och engagera sig i internationella utvecklingsfrågor och EU:s arbete med fokus på inkludering och demokrati. Vi strävar efter att öka mångfalden inom den svenska utvecklingssektorn genom att ge unga, särskilt de med migrationsbakgrund, de verktyg och det nätverk som behövs för att bygga en meningsfull karriär inom detta område.
 
