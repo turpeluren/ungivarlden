@@ -1,6 +1,6 @@
 ---
 title: Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!
-excerpt: Formulär till anmälan finns här!
+excerpt: Formulär till anmälan finns här! -------
 image: ~/assets/images/screenshot-2024-08-06-215005.png
 publishDate: 2024-08-18T20:06:24.655Z
 endDate: 2024-09-19T20:04:33.527Z
