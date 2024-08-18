@@ -41,13 +41,10 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela höstterminen 2024. 
 
-**\- Projektet omfattar tre olika tematiska områden, med både virtuella workshops och fysiska träffar för varje tema.**
-
-**\- Alla kostnader för resor, boende och mat under de fysiska träffarna är fullt finansierade av Ungivärlden. 🚆🏨🍽️**
-
-**\- Ansökan stänger den 19 september 2024 kl. 23.59. Fyll i ansökan i Google-formuläret nedan.**
-
-**\- Vi kommer att granska alla ansökningar noggrant. De kandidater som uppfyller våra kriterier kommer att kontaktas genom epost.** 
+1. Projektet omfattar **tre olika tematiska områden**, med både virtuella workshops och fysiska träffar för varje tema.
+2. Alla kostnader för resor, boende och mat under de fysiska träffarna är **fullt finansierade av Ungivärlden.** 🚆🏨🍽️
+3. Ansökan stänger den **19 september 2024 kl. 23.59.** 
+4. Vi kommer att granska alla ansökningar noggrant. De kandidater som uppfyller våra kriterier kommer att kontaktas genom epost. 
 
 **Detta är en unik möjlighet** för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik. Missa inte chansen att vara med på denna inspirerande resa! 🚀
 
