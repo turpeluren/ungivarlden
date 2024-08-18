@@ -27,13 +27,15 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 
 \- Du har ett intresse för globala utvecklingsfrågor.
 
-\- Du måste kunna delta fysiskt vid tre tillfällen under följande tematiska perioder:
+\- Du måste kunna delta fysiskt vid tre tillfällen under följande **tematiska perioder:**
 
-1. Nätverkande och karriärutveckling: 18-19 oktober, Stockholm.       
-2.   Inkluderande demokrati: 13-16 november, Skellefteå.
-3.  Politiskt engagemang: 28-29 januari, Stockholm (preliminärt).
+1. **Nätverkande och karriärutveckling:** 18-19 oktober, Stockholm.       
+2.  **Inkluderande demokrati:** 13-16 november, Skellefteå.
+3.  **Politiskt engagemang:** 28-29 januari, Stockholm (preliminärt).
 
 **Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka.** 
+
+
 
 #### Viktiga instruktioner:✨
 
