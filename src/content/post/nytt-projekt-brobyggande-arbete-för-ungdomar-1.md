@@ -1,6 +1,6 @@
 ---
 title: Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!
-excerpt: Formulär till anmälan finns här!
+excerpt: "Vill du vara med? "
 image: ~/assets/images/screenshot-2024-08-06-215005.png
 publishDate: 2024-08-19T20:41:50.104Z
 endDate: 2024-09-19T20:04:33.527Z
@@ -35,8 +35,6 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 
 **Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka.** 
 
-
-
 #### Viktiga instruktioner:✨
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela höstterminen 2024. 
@@ -53,9 +51,7 @@ Detta är en unik möjlighet för dig att förbättra dina kunskaper, bygga vikt
 
 Vi ser fram emot din ansökan!
 
-##### **För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret  HÄR** 
-
-
+##### **För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret [HÄR](https://docs.google.com/forms/d/e/1FAIpQLScDA-8rHG93PAusaLDPcHg4Te_mNyHoItWb-ypdudzalIqVMg/viewform)**
 
 **🔍Bakgrund till Ungivärldens  Ungdomsprojekt**
 
@@ -84,8 +80,6 @@ Under höstterminen kommer du att delta i tre tematiska perioder som är utforma
 4. **Behöver jag ha tidigare erfarenhet av internationell utveckling för att delta?** 
 
 * Nej, du behöver inte ha tidigare erfarenhet inom internationell utveckling. Vi söker deltagare som har ett starkt intresse för globala utvecklingsfrågor och är villiga att lära sig och engagera sig i dessa ämnen. Projektet är utformat för att vara lärorikt och utvecklande för alla deltagare, oavsett tidigare erfarenhet och bakgrund.
-
-
 
 5. **Hur ser en typisk månad ut under projektet?**  
 
