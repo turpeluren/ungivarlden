@@ -68,9 +68,9 @@ För att vara berättigad att ansöka måste du vara mellan 18 och 30 år (född
 
 Under höstterminen kommer du att delta i tre tematiska perioder som är utformade för att ge dig verktyg och erfarenheter inom olika aspekter av internationell utveckling och politisk engagemang:
 
-* Nätverkande och karriärutveckling (oktober månad): Du kommer att delta i workshops som fokuserar på nätverks- och karriärutveckling. Det inkluderar besök till ambassader, LinkedIn-workshops, och optimering av CV och personliga brev för ansökningar inom EU, FN och UD.
-* Inkluderande demokrati (november månad): Under denna period får du möjlighet att hitta information om och lära känna olika ungdomsförbund. Du kommer också att delta i Mänskliga rättighetsdagarna i Skellefteå, där du får en djupare förståelse för ungdomars rättigheter, mänskliga rättigheter och EU. 
-* Politiskt engagemang (december månad): Denna period inkluderar studiebesök till olika myndigheter och politiska aktörer. Du kommer också att delta i rollspel som behandlar demokrati och konflikthantering, vilket ger dig praktisk erfarenhet av politiskt engagemang och beslutsfattande.
+* **Nätverkande och karriärutveckling** (oktober månad): Du kommer att delta i workshops som fokuserar på nätverks- och karriärutveckling. Det inkluderar besök till ambassader, LinkedIn-workshops, och optimering av CV och personliga brev för ansökningar inom EU, FN och UD.
+* **Inkluderande demokrati** (november månad): Under denna period får du möjlighet att hitta information om och lära känna olika ungdomsförbund. Du kommer också att delta i Mänskliga rättighetsdagarna i Skellefteå, där du får en djupare förståelse för ungdomars rättigheter, mänskliga rättigheter och EU. 
+* **Politiskt engagemang** (december månad): Denna period inkluderar studiebesök till olika myndigheter och politiska aktörer. Du kommer också att delta i rollspel som behandlar demokrati och konflikthantering, vilket ger dig praktisk erfarenhet av politiskt engagemang och beslutsfattande.
 
 3. **Hur många deltagare kommer att antas till projektet?**
 
