@@ -24,7 +24,7 @@ Under projektets gång kommer deltagarna att delta i en rad aktiviteter som inkl
 
 \- **Networking och Karriärutveckling:** Workshops och evenemang för att förbättra deltagarnas nätverks- och karriärfärdigheter, inklusive möjligheter till praktikplatser och mentorskap inom FN, EU och UD.
 
-**Ansökan öppnas snart - Håll utkik 👀** https://ungivarlden.se/
+**Ansökan öppnas snart - Håll utkik 👀** 
 
 Ungdomar från Stockholm, Malmö och Göteborg har möjlighet att ansöka till detta program höstterminen 2024. Vi kommer snart öppna ansökan och med fler detaljerade instruktioner på hur man kan söka till detta program. 
 
