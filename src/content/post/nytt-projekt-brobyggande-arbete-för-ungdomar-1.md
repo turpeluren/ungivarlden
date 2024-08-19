@@ -1,7 +1,7 @@
 ---
 title: Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!
 excerpt: Vill du vara med? Läs mer och ansök via vårt formulär nedan!
-image: ~/assets/images/screenshot-2024-08-06-215005.png
+image: ~/assets/images/bildprojekt.png
 publishDate: 2024-08-19T20:41:50.104Z
 endDate: 2024-09-19T20:04:33.527Z
 location: ""
