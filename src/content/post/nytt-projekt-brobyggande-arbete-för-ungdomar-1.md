@@ -44,7 +44,7 @@ Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att d
 3. Ansökan stänger den **19 september 2024 kl. 23.59.** 
 4. Vi kommer att granska alla ansökningar **noggrant**. De kandidater som uppfyller våra kriterier kommer att kontaktas genom **epost.** 
 
-**Detta är en unik möjlighet** för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik. Missa inte chansen att vara med på denna inspirerande resa! 🚀
+**Detta är en unik möjlighet** för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik.  Dessutom får alla ett **EU-Utfärdat Youthpass certifikat** för sitt deltagande i projektet 🎓📜🔑Missa inte chansen att vara med på denna inspirerande resa! 🚀 
 
 Vi ser fram emot din ansökan!
 
