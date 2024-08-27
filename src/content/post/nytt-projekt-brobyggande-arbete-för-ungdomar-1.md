@@ -29,13 +29,13 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 
 \- Du måste kunna delta fysiskt vid tre tillfällen under följande **tematiska perioder:**
 
-1. **Nätverkande och karriärutveckling:** 18-19 oktober, Stockholm.       
+1. **Nätverkande och karriärutveckling:** 19-20 oktober, Stockholm
 2.  **Inkluderande demokrati:** 13-16 november, Skellefteå.
 3.  **Politiskt engagemang:** 28-29 januari, Stockholm (preliminärt).
 
 **Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka.** 
 
-### Viktig Information:✨ 
+### Viktig Information:✨
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela höstterminen 2024. 
 
