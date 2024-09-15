@@ -5,15 +5,8 @@ heroImage:
 messageBoxTagline: Meddelande
 layout: ../../layouts/kontakt.astro
 tagline: null
-title: Kontakta oss här!
-subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
-  <a class='underline' href='#socials'>sociala medier</a>, eller <a
-  class='underline' href='#individual'>kontakta</a> styrelsen direkt.
 messageBoxTitle: Skicka ett meddelande direkt
-messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår styrelse
-  finns kontaktuppgifter <a class="underline" href='#individual'>ovan</a>.
 messageBoxSubmitMessage: Tack för ditt meddelande! Vi svarar så snart som möjligt.
-individualTitle: Kontaktuppgifter
 individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret nedan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
@@ -70,9 +63,17 @@ individualContacts:
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
   - title: Ture Goldkuhl, 23, Webbansvarig
     icon: tabler:pointer
-    description: Läser civilingenjör i datavetenskap vid Umeå universitet. Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
+    description: Läser civilingenjör i datavetenskap vid Umeå universitet.
+      Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
     mail: admin@turpelurpeluren.online
     image:
-      src: ~/assets/images/logo.png
+      src: ~/assets/images/ture-1.jpg
 individualTagline: null
+title: Kontakta oss här!
+subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
+  <a class='underline' href='#socials'>sociala medier</a>, eller <a
+  class='underline' href='#individual'>kontakta</a> styrelsen direkt.
+messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår styrelse
+  finns kontaktuppgifter <a class="underline" href='#individual'>ovan</a>.
+individualTitle: Kontaktuppgifter
 ---

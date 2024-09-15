@@ -1,7 +1,7 @@
 ---
 title: Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!
 excerpt: Vill du vara med? Läs mer och ansök via vårt formulär nedan!
-image: ~/assets/images/screenshot-2024-08-06-215005.png
+image: ~/assets/images/bildprojekt.png
 publishDate: 2024-08-19T20:41:50.104Z
 endDate: 2024-09-19T20:04:33.527Z
 location: ""
@@ -9,7 +9,7 @@ draft: false
 ---
 <!--StartFragment-->
 
-# **Ansökan är nu öppen till Ungivärldens Ungdomsprojekt!**
+# **Vad handlar ungdomsprojektet om?**
 
 #### [A﻿nmäl dig här!](https://docs.google.com/forms/d/e/1FAIpQLScDA-8rHG93PAusaLDPcHg4Te_mNyHoItWb-ypdudzalIqVMg/viewform)
 
@@ -29,15 +29,13 @@ dragged
 
 \- Du måste kunna delta fysiskt vid tre tillfällen under följande **tematiska perioder:**
 
-1. **Nätverkande och karriärutveckling:** 18-19 oktober, Stockholm.       
+1. **Nätverkande och karriärutveckling:** 19-20 oktober, Stockholm
 2.  **Inkluderande demokrati:** 13-16 november, Skellefteå.
 3.  **Politiskt engagemang:** 28-29 januari, Stockholm (preliminärt).
 
 **Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka.** 
 
-
-
-### Viktiga instruktioner:✨
+### Viktig Information:✨
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela höstterminen 2024. 
 
@@ -46,7 +44,7 @@ Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att d
 3. Ansökan stänger den **19 september 2024 kl. 23.59.** 
 4. Vi kommer att granska alla ansökningar **noggrant**. De kandidater som uppfyller våra kriterier kommer att kontaktas genom **epost.** 
 
-**Detta är en unik möjlighet** för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik. Missa inte chansen att vara med på denna inspirerande resa! 🚀
+**Detta är en unik möjlighet** för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik.  Dessutom får alla ett **EU-Utfärdat Youthpass certifikat** för sitt deltagande i projektet 🎓📜🔑Missa inte chansen att vara med på denna inspirerande resa! 🚀 
 
 Vi ser fram emot din ansökan!
 
