@@ -103,7 +103,7 @@ export const footerData = {
     { text: 'Privacy Policy', href: getPermalink('/privacy') },*/
   ],
   socialLinks: [
-    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/ungivarldensverige?igsh=MWlzYWdkdnZ4NXZ0bg==' },
+    { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: 'https://www.instagram.com/ungivarldensweden' },
     { ariaLabel: 'LinkedIn', icon: 'tabler:brand-linkedin', href: 'https://www.linkedin.com/company/ung-i-v%C3%A4rlden/' },
     /*{ ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
     { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },*/
