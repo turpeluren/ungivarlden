@@ -4,7 +4,7 @@ excerpt: Vi söker juniora & seniora personer den 19e oktober som vill inspirera
   unga intresserade!
 image: ~/assets/images/SKISS-HEMSIDA (3) (2).png
 publishDate: 2024-09-07T19:30:11.167Z
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
