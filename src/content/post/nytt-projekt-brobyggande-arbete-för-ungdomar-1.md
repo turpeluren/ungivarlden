@@ -22,7 +22,7 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 \- Du måste vara mellan 18 och 30 år (född tidigast 1994 och senast 2006).
 
 \- Du bor eller studerar i Stockholm, Göteborg eller Malmö.
-
+dragged
 \- Du är medlem i Ung i Världen. Medlemskapet är kostnadsfritt. Bli medlem [här](https://ungivarlden.se/engagera-dig).
 
 \- Du har ett intresse för globala utvecklingsfrågor.
