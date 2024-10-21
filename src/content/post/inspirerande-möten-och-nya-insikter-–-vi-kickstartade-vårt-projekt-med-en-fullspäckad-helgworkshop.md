@@ -35,6 +35,12 @@ I workshopen ingick även föreläsningar om hur man utformar sitt CV, personlig
 
 Ung i Världens vision är att stärka ungas engagemang och deltagande i biståndsbranschen. Genom att främja tvärkulturell dialog och ge unga verktyg för en global karriär, strävar vi efter att öka mångfalden och representationen inom den svenska utvecklingssektorn.
 
+T﻿ack återigen till alla som varit en del av projektet, och extra tack till KRF!
+
+
+
+
+
 ![](~/assets/images/dsc_0137.jpg)
 
 <!--EndFragment-->
