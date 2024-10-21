@@ -5,7 +5,7 @@ excerpt: Helgens event gav ungdomar chansen att träffa branschexperter och
   utforska internationella karriärmöjligheter.
 image: ~/assets/images/dsc_0039.jpg
 publishDate: 2024-10-21T16:40:56.438Z
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
