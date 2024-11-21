@@ -5,7 +5,7 @@ image: ~/assets/images/seminarium-2.jpg
 publishDate: 2024-11-13T10:26:45.923Z
 endDate: 2024-11-16T11:36:11.948Z
 location: Skellefteå
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
