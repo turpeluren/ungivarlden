@@ -5,8 +5,15 @@ heroImage:
 messageBoxTagline: Meddelande
 layout: ../../layouts/kontakt.astro
 tagline: null
+title: Kontakta oss här!
+subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
+  <a class='underline' href='#socials'>sociala medier</a>, eller <a
+  class='underline' href='#individual'>kontakta</a> styrelsen direkt.
 messageBoxTitle: Skicka ett meddelande direkt
+messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår styrelse
+  finns kontaktuppgifter <a class="underline" href='#individual'>ovan</a>.
 messageBoxSubmitMessage: Tack för ditt meddelande! Vi svarar så snart som möjligt.
+individualTitle: Kontaktuppgifter
 individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret nedan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
@@ -35,7 +42,7 @@ individualContacts:
     image:
       src: ~/assets/images/1000008037.jpg
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
-  - title: Aurora  Isufi, 22, Projektkoordinator
+  - title: Aurora  Isufi, 22, Verksamhetsansvarig & projektkoordinator
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
       från Stockholm universitet. Nuvarande praktikant på SCB Internationella
@@ -69,11 +76,4 @@ individualContacts:
     image:
       src: ~/assets/images/ture-1.jpg
 individualTagline: null
-title: Kontakta oss här!
-subtitle: Skriv ett <a class='underline' href='#form'>meddelande</a>, följ våra
-  <a class='underline' href='#socials'>sociala medier</a>, eller <a
-  class='underline' href='#individual'>kontakta</a> styrelsen direkt.
-messageBoxSubtitle: För mail och specifika kontaktuppgifter till vår styrelse
-  finns kontaktuppgifter <a class="underline" href='#individual'>ovan</a>.
-individualTitle: Kontaktuppgifter
 ---
