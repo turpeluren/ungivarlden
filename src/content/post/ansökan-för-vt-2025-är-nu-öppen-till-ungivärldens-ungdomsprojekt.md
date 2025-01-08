@@ -39,15 +39,15 @@ Vi värnar om mångfald och uppmanar därför särskilt personer med direkt elle
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela vårterminen 2025. 
 
-\- Projektet omfattar tre olika tematiska områden, med både virtuella workshops och fysiska träffar för varje tema.
+\- Projektet omfattar **tre olika tematiska områden**, med både virtuella workshops och fysiska träffar för varje tema.
 
-\- Alla kostnader för resor, boende och mat under de fysiska träffarna är fullt finansierade av Ungivärlden. 🚆🏨🍽️
+\- Alla kostnader för resor, boende och mat under de fysiska träffarna är **fullt finansierade av Ungivärlden.** 🚆🏨🍽️
 
-\- Ansökan stänger den 23e januari kl. 23.59. Fyll i ansökan i Google-formuläret nedan.
+\- Ansökan stänger den **23e januari kl. 23.59.** Fyll i ansökan i Google-formuläret nedan.
 
 \- Vi kommer att granska alla ansökningar noggrant. De kandidater som uppfyller våra kriterier kommer att kontaktas genom e-post. 
 
-Detta är en unik möjlighet för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik. Missa inte chansen att vara med på denna inspirerande resa! 🚀
+Detta är en **unik möjlighet** för dig att förbättra dina kunskaper, bygga viktiga nätverk och utforska karriärmöjligheter inom internationell utveckling och politik. Missa inte chansen att vara med på denna inspirerande resa! 🚀
 
 Vi ser fram emot din ansökan!
 
