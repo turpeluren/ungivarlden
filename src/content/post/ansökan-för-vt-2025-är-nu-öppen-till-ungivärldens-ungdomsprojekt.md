@@ -1,15 +1,17 @@
 ---
 title: Ansökan för VT 2025 är nu öppen till Ungivärldens Ungdomsprojekt!
 excerpt: Vill du vara med? Läs mer och ansök via vårt formulär nedan!
-image: ~/assets/images/SKISS-HEMSIDA (3) (2).png
+image: ~/assets/images/skiss-hemsida-6-.png
 publishDate: 2025-01-08T16:30:36.214Z
 endDate: 2025-01-22T23:00:33.527Z
 location: ""
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
 Vi är glada att meddela att ansökan till vårt Erasmus+ ungdomsprojekt, “Brobyggande arbete: Ungdomar utforskar Internationell Utveckling och ett inkluderande EU”, har öppnat för ytterligare en omgång! Du kan ansöka från **8e till 23e januari 2025 kl. 23.59**
+
+#### **[K﻿licka här för att ansöka!](https://forms.gle/cpopxJdfjx5Tddir9)**
 
 Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik möjlighet att delta i en resa av lärande och personlig utveckling **helt kostnadsfritt**. Genom detta initiativ vill vi öka mångfalden inom den svenska utvecklingssektorn och erbjuda ungdomar verktyg, nätverk och en gemenskap för att bygga en framtid inom utvecklingssektorn. Projektet riktar sig särskilt till personer från områden med socioekonomiska utmaningar och med migrationsbakgrund. 
 
@@ -49,7 +51,7 @@ Detta är en unik möjlighet för dig att förbättra dina kunskaper, bygga vikt
 
 Vi ser fram emot din ansökan!
 
-För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret här. 📝
+För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret [här.](https://forms.gle/cpopxJdfjx5Tddir9) 📝
 
 #### 🔍Bakgrund till Ungivärldens  Ungdomsprojekt
 
