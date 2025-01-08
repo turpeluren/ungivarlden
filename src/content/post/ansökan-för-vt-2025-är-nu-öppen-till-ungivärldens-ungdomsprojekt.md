@@ -29,8 +29,8 @@ I slutet av projektet får alla deltagare som fullföljt samtliga utbildningstil
 
 \- Du måste kunna delta fysiskt vid tre tillfällen under följande tematiska perioder:
 
-1. **Nätverkande och karriärutveckling: 8-9 mars,** Stockholm
-2. **Politiskt engagemang**: 14-15 april, Stockholm .
+1. **Nätverkande och karriärutveckling:** 8-9 mars, Stockholm
+2. **Politiskt engagemang**: 14 -15 april, Stockholm .
 3. **Inkluderande demokrati:** 11 -14 juni (preliminärt), Stockholm.
 
 Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka. 
