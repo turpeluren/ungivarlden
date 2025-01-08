@@ -17,7 +17,7 @@ Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik
 
 I slutet av projektet får alla deltagare som fullföljt samtliga utbildningstillfällen ett Erasmus+ YouthPass Certificate!
 
-#### **Kriterier för ansökan**: 📋
+### **Kriterier för ansökan**: 📋
 
 \- Du måste vara mellan 18 och 30 år (född tidigast 1995 och senast 2007).
 
@@ -35,7 +35,7 @@ I slutet av projektet får alla deltagare som fullföljt samtliga utbildningstil
 
 Vi värnar om mångfald och uppmanar därför särskilt personer med direkt eller indirekt migrationsbakgrund att ansöka. Vi välkomnar även män att ansöka. 
 
-#### Viktiga instruktioner:✨
+### Viktiga instruktioner:✨
 
 Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att delta i projektet under hela vårterminen 2025. 
 
@@ -51,7 +51,7 @@ Detta är en unik möjlighet för dig att förbättra dina kunskaper, bygga vikt
 
 Vi ser fram emot din ansökan!
 
-För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret [här.](https://forms.gle/cpopxJdfjx5Tddir9) 📝
+**För mer information och för att ansöka, besök vår hemsida och fyll i ansökningsformuläret [här.](https://forms.gle/cpopxJdfjx5Tddir9) 📝**
 
 #### 🔍Bakgrund till Ungivärldens  Ungdomsprojekt
 
