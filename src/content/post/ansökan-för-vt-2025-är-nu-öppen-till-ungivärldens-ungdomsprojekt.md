@@ -11,7 +11,7 @@ draft: true
 
 Vi är glada att meddela att ansökan till vårt Erasmus+ ungdomsprojekt, “Brobyggande arbete: Ungdomar utforskar Internationell Utveckling och ett inkluderande EU”, har öppnat för ytterligare en omgång! Du kan ansöka från **8e till 23e januari 2025 kl. 23.59**
 
-#### **[K﻿licka här för att ansöka!](https://forms.gle/cpopxJdfjx5Tddir9)**
+### **[K﻿licka här för att ansöka!](https://forms.gle/cpopxJdfjx5Tddir9)**
 
 Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik möjlighet att delta i en resa av lärande och personlig utveckling **helt kostnadsfritt**. Genom detta initiativ vill vi öka mångfalden inom den svenska utvecklingssektorn och erbjuda ungdomar verktyg, nätverk och en gemenskap för att bygga en framtid inom utvecklingssektorn. Projektet riktar sig särskilt till personer från områden med socioekonomiska utmaningar och med migrationsbakgrund. 
 
