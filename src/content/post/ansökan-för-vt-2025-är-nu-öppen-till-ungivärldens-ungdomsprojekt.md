@@ -5,7 +5,7 @@ image: ~/assets/images/skiss-hemsida-6-.png
 publishDate: 2025-01-08T16:30:36.214Z
 endDate: 2025-01-22T23:00:33.527Z
 location: ""
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
