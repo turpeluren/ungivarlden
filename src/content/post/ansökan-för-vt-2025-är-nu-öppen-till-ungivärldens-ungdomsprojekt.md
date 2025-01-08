@@ -3,7 +3,7 @@ title: Ansökan för VT 2025 är nu öppen till Ungivärldens Ungdomsprojekt!
 excerpt: Vill du vara med? Läs mer och ansök via vårt formulär nedan!
 image: ~/assets/images/skiss-hemsida-6-.png
 publishDate: 2025-01-08T16:30:36.214Z
-endDate: 2025-01-22T23:00:33.527Z
+endDate: 2025-01-23T22:59:33.527Z
 location: ""
 draft: false
 ---
