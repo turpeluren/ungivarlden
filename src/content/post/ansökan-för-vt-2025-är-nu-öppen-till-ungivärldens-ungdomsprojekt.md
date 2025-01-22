@@ -3,7 +3,7 @@ title: Ansökan för VT 2025 är nu öppen till Ungivärldens Ungdomsprojekt!
 excerpt: Vill du vara med? Läs mer och ansök via vårt formulär nedan!
 image: ~/assets/images/skiss-hemsida-6-.png
 publishDate: 2025-01-08T16:30:36.214Z
-endDate: 2025-01-23T22:59:33.527Z
+endDate: 2025-01-30T22:59:33.527Z
 location: ""
 draft: false
 ---
@@ -11,7 +11,7 @@ draft: false
 
 ### **[K﻿licka här för att ansöka!](https://forms.gle/cpopxJdfjx5Tddir9)**
 
-Vi är glada att meddela att ansökan till vårt Erasmus+ ungdomsprojekt, “Brobyggande arbete: Ungdomar utforskar Internationell Utveckling och ett inkluderande EU”, har öppnat för ytterligare en omgång! Du kan ansöka från **8e till 24e januari 2025 kl. 23.59**
+Vi är glada att meddela att ansökan till vårt Erasmus+ ungdomsprojekt, “Brobyggande arbete: Ungdomar utforskar Internationell Utveckling och ett inkluderande EU”, har öppnat för ytterligare en omgång! Du kan ansöka från **8e till 30e januari 2025 kl. 23.59**
 
 Detta projekt erbjuder 10 ungdomar från Stockholm, Malmö och Göteborg en unik möjlighet att delta i en resa av lärande och personlig utveckling **helt kostnadsfritt**. Genom detta initiativ vill vi öka mångfalden inom den svenska utvecklingssektorn och erbjuda ungdomar verktyg, nätverk och en gemenskap för att bygga en framtid inom utvecklingssektorn. Projektet riktar sig särskilt till personer från områden med socioekonomiska utmaningar och med migrationsbakgrund. 
 
@@ -43,7 +43,7 @@ Läs noggrant igenom ovan kriterier och säkerställ att du har möjlighet att d
 
 \- Alla kostnader för resor, boende och mat under de fysiska träffarna är **fullt finansierade av Ungivärlden.** 🚆🏨🍽️
 
-\- Ansökan stänger den **24e januari kl. 23.59.** Fyll i ansökan i Google-formuläret nedan.
+\- Ansökan stänger den **30e januari kl. 23.59.** Fyll i ansökan i Google-formuläret nedan.
 
 \- Vi kommer att granska alla ansökningar noggrant. De kandidater som uppfyller våra kriterier kommer att kontaktas genom e-post. 
 
@@ -95,7 +95,7 @@ Det är dock viktigt att du kan delta aktivt med en ambition att lära dig mer!
 
 7. **Hur och när får jag veta om jag har blivit antagen?**
 
-* Efter att ansökan stängt den 24e januari 2025 kl. 23.59, kommer vi att granska alla ansökningar. Om du blir utvald, kommer vi att kontakta dig på e-post om du har fått en plats i programmet. Håll utkik i din e-post för mer information!
+* Efter att ansökan stängt den 30e januari 2025 kl. 23.59, kommer vi att granska alla ansökningar. Om du blir utvald, kommer vi att kontakta dig på e-post om du har fått en plats i programmet. Håll utkik i din e-post för mer information!
 
 8. **Finns det någon uppföljning efter projektets slut?**
 
