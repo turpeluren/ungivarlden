@@ -18,7 +18,7 @@ individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret nedan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
-  - title: Mona Ghasemi, 24 Ordförande
+  - title: Mona Niavarani, 24 Ordförande
     description: Master i internationell Utveckling och Management (LUMID) från
       Lunds universitet, arbetar idag på FN i Köpenhamn.
     linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
