@@ -33,16 +33,16 @@ individualContacts:
     image:
       src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
     linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
-  - title: Agnyeshka Nemri, 22, Projektkoordinator
+  - title: Agnyeshka Nemri, 23, Projektkoordinator
     mail: ""
     description: Kandidat i Statsvetenskap med erfarenhet från Migrationsverket och
       UD. Nuvarande masterstudent på Science Po Paris inom Internationell
       Säkerhetspolitik.
     icon: tabler:layout-2
     image:
-      src: ~/assets/images/1000008037.jpg
+      src: ~/assets/images/1000013022.jpg
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
-  - title: Aurora  Isufi, 22, Verksamhetsansvarig & projektkoordinator
+  - title: Aurora  Isufi, 23, Verksamhetsansvarig & projektkoordinator
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
       från Stockholm universitet. Nuvarande praktikant på SCB Internationella
@@ -51,7 +51,7 @@ individualContacts:
     image:
       src: ~/assets/images/dsc_0090.jpg
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
-  - title: Yousra El Mourabit, 22, Kassör
+  - title: Yousra El Mourabit, 23, Kassör
     mail: ""
     description: Kandidat i Global Utveckling från Stockholms universitet.
       Ungdomsambassadör för FN-förbundet och utbildningsledare på Folk och
