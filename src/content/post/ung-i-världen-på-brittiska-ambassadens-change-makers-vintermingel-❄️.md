@@ -5,7 +5,7 @@ image: ~/assets/images/6c272471-cc52-4dc1-b169-afa6921b0149.jpg
 publishDate: 2025-01-30T16:00:23.838Z
 endDate: 2025-01-31T21:00:46.222Z
 location: "Brittiska Ambassaden "
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
