@@ -45,8 +45,7 @@ individualContacts:
   - title: Aurora  Isufi, 23, Verksamhetsansvarig & projektkoordinator
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
-      från Stockholm universitet. Nuvarande praktikant på SCB Internationella
-      enhet. "
+      från Stockholm universitet. "
     icon: tabler:replace
     image:
       src: ~/assets/images/dsc_0090.jpg
