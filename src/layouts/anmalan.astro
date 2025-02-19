@@ -37,75 +37,48 @@ const { frontmatter } = Astro.props;
     inputs={[
       // Personlig info
       {
-        type: 'text',
-        name: 'name',
-        label: 'För och Efternamn',
-      },
-      {
-        type: 'personnr',
-        name: 'personnr',
-        label: 'Fullständigt personnummer ååmmdd-xxxx',
-      },
-      {
-        type: 'email',
-        name: 'email',
-        label: 'E-postadress',
-      },
-      {
-        type: 'adress',
-        name: 'adress',
-        label: 'adress',
-      },
-      {
-        type: 'mobilnummer',
-        name: 'mobilnummer',
-        label: 'mobilnummer',
-      },
-      {
-        type: 'label',
-        name: '',
-        label: 'Könsidentitet:',
-      },
-      {
-        type: 'select',
-        name: 'select',
-        label: '',
-        options: [
-         { 
-            type: 'checkbox',
-            name: 'välj',
-            label: 'Välj...',
-          },
-          {
-            type: 'checkbox',
-            name: 'Man',
-            label: 'Man',
-          },
-          {
-            type: 'checkbox',
-            name: 'kvinna',
-            label: 'Kvinna',
-          },
-          {
-            type: 'checkbox',
-            name: 'annat',
-            label: 'annat',
-          },
-          {
-            type: 'checkbox',
-            name: 'vill ej',
-            label: 'Vill ej uppge',
-           },
-      {
-        type: 'tel',
-        name: 'phone',
-        label: 'Telefonnummer',
-      },
-      {
-        type: 'date',
-        name: 'birthdate',
-        label: 'Födelsedatum (Endast personer upp till och med 30 år kan anmäla sig)',
-      },
+      type: 'text',
+      name: 'name',
+      label: 'För- och Efternamn',
+    },
+    {
+      type: 'text',
+      name: 'personnr',
+      label: 'Fullständigt personnummer (ååmmdd-xxxx)',
+    },
+    {
+      type: 'email',
+      name: 'email',
+      label: 'E-postadress',
+    },
+    {
+      type: 'text',
+      name: 'adress',
+      label: 'Adress',
+    },
+    {
+      type: 'text',
+      name: 'mobilnummer',
+      label: 'Mobilnummer',
+    },
+    {
+      type: 'label',
+      name: 'gender_label',
+      label: 'Könsidentitet:',
+    },
+    {
+      type: 'select',
+      name: 'gender',
+      label: '',
+      options: [
+        { value: '', label: 'Välj...' },
+        { value: 'man', label: 'Man' },
+        { value: 'kvinna', label: 'Kvinna' },
+        { value: 'annat', label: 'Annat' },
+        { value: 'vill_ej', label: 'Vill ej uppge' },
+      ],
+    },
+  ]}
 
       // Välj engagemang
       {
