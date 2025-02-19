@@ -39,13 +39,63 @@ const { frontmatter } = Astro.props;
       {
         type: 'text',
         name: 'name',
-        label: 'Namn',
+        label: 'För och Efternamn',
+      },
+      {
+        type: 'personnr',
+        name: 'personnr',
+        label: 'Fullständigt personnummer ååmmdd-xxxx',
       },
       {
         type: 'email',
         name: 'email',
         label: 'E-postadress',
       },
+      {
+        type: 'adress',
+        name: 'adress',
+        label: 'adress',
+      },
+      {
+        type: 'mobilnummer',
+        name: 'mobilnummer',
+        label: 'mobilnummer',
+      },
+      {
+        type: 'label',
+        name: '',
+        label: 'Könsidentitet:',
+      },
+      {
+        type: 'select',
+        name: 'select',
+        label: '',
+        options: [
+         { 
+            type: 'checkbox',
+            name: 'välj',
+            label: 'Välj...',
+          },
+          {
+            type: 'checkbox',
+            name: 'Man',
+            label: 'Man',
+          },
+          {
+            type: 'checkbox',
+            name: 'kvinna',
+            label: 'Kvinna',
+          },
+          {
+            type: 'checkbox',
+            name: 'annat',
+            label: 'annat',
+          },
+          {
+            type: 'checkbox',
+            name: 'vill ej',
+            label: 'Vill ej uppge',
+           },
       {
         type: 'tel',
         name: 'phone',
