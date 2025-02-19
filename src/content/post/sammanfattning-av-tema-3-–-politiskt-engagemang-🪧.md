@@ -27,6 +27,8 @@ Vi vill rikta ett stort tack till dessa organisationer för att ni tog emot oss 
 
 Ett extra tack också till **Christina Abdulahad, Annika Malmborg, Enayat Adel, Oscar Ernerot och Lennart Reinius** för era engagerande presentationer och samtal. Ert engagemang gör skillnad! 🙏
 
+![Studiebesök på Human Rights Watch](~/assets/images/567b255a-b1fe-43d5-b626-ed2b9fe1c84d.jpg)
+
 ### **Nästa steg – Vårterminen 2025!**
 
 Nu ser vi fram emot att välkomna våra nya deltagare för **vårterminen 2025**! Med nya teman, spännande studiebesök och engagerande diskussioner är vi redo för en termin fylld av lärande, inspiration och samhällsförändring. 🚀
