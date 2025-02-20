@@ -24,7 +24,7 @@ individualContacts:
     linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
     icon: tabler:armchair-2
     image:
-      src: ~/assets/images/original-9dffad96-884d-4b2e-bcce-5e696ef522aa.jpeg
+      src: ~/assets/images/1000013570.png
   - title: Klara Eklund 26, Ordförande
     mail: ""
     description: Två examen i Internationell Statsvetenskap och är idag EU trainee i
