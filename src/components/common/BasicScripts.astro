@@ -127,7 +127,7 @@ import { UI } from 'astrowind:config';
       if (lastKnownScrollPosition > 60 && !header.classList.contains('scroll')) {
         header.classList.add('scroll');
         themeColour = getComputedStyle(document.body).getPropertyValue("--aw-color-primary");
-        colorThemeMetaTag.setAttribute("content", `hsl(${themeColour})`);
+        colorThemeMetaTag.setAttribute("content", `${themeColour}`);
       } else if (lastKnownScrollPosition <= 60 && header.classList.contains('scroll')) {
         header.classList.remove('scroll');
         themeColour = getComputedStyle(document.body).getPropertyValue("--aw-color-purple");
