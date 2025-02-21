@@ -118,12 +118,22 @@ import { UI } from 'astrowind:config';
 
     function applyHeaderStylesOnScroll() {
       const header = document.querySelector('#header[data-aw-sticky-header]');
+      
+      /* And set theme color based on scroll */
+      const colorThemeMetaTag = document.querySelector("meta[name='theme-color']");
+      var themeColour;
+
       if (!header) return;
       if (lastKnownScrollPosition > 60 && !header.classList.contains('scroll')) {
         header.classList.add('scroll');
+        themeColour = getComputedStyle(document.body).getPropertyValue("--aw-color-primary");
+        colorThemeMetaTag.setAttribute("content", `hsl(${themeColour})`);
       } else if (lastKnownScrollPosition <= 60 && header.classList.contains('scroll')) {
         header.classList.remove('scroll');
+        themeColour = getComputedStyle(document.body).getPropertyValue("--aw-color-purple");
+        colorThemeMetaTag.setAttribute("content", `hsl(${themeColour})`);
       }
+
       ticking = false;
     }
     applyHeaderStylesOnScroll();
