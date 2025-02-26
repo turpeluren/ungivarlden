@@ -40,31 +40,37 @@ const { frontmatter } = Astro.props;
       type: 'text',
       name: 'name',
       label: 'För- och Efternamn',
+      required: true,
     },
     {
       type: 'text',
       name: 'personnr',
       label: 'Fullständigt personnummer (ååmmdd-xxxx)',
+      required: true,
     },
     {
       type: 'email',
       name: 'email',
       label: 'E-postadress',
+      required: true,
     },
     {
       type: 'text',
       name: 'adress',
       label: 'Adress',
+      required: true,
     },
     {
       type: 'text',
       name: 'mobilnummer',
       label: 'Mobilnummer',
+      required: true,
     },
     {
       type: 'label',
       name: 'gender_label',
       label: 'Könsidentitet:',
+      required: true,
     },
     {
       type: 'select',
