@@ -8,12 +8,41 @@ heroImage:
   alt: Ung i världen introbild
 formTitle: "Bli medlem hos oss!"
 formSubtitle: 'Vad kul att just du vill engagera dig tillsammans med oss! Vi är ett ungdomsförbund som   brinner för att ge ungdomar möjlighet att engagera sig i globala utvecklingsfrågor.
-Hos oss kan du vara med och skapa en <span class="font-bold">bättre värld</span>, samtidigt som du får
-chansen att utvecklas och träffa likasinnade. <br><br> Oavsett om du vill hålla dig
-uppdaterad om våra senaste event och nyheter, eller om du vill ta steget och
-bli volontär i vårt senaste EU-projekt, <span class="bg-primary text-white font-bold px-1">har vi en plats för dig.</span>'
+<p>
+  Hos oss kan du vara med och skapa en <span class="font-bold">bättre värld</span>, 
+  samtidigt som du får chansen att utvecklas och träffa likasinnade.
+</p>
 
-När du blir medlem hos oss i Ung i Världen blir du också medlem i PeaceWorks automatiskt! PeaceWorks Sweden är en freds- och ungdomsorganisation som verkar utifrån principer om internationell solidaritet, jämlikhet och kritisk reflektion. Organisationen arbetar för en rättvis och jämlik värld genom att främja ungas organisering mot sociala orättvisor och strukturellt våld i alla dess former. Verksamheten fokuserar på antirasism, feminism och global rättvisa och bedrivs genom projekt, folkbildning, påverkansarbete och vidareförmedling av stöd till ungdomsrörelsen. <br><br> 
+<p id="hidden-text" style="display: none;">
+  <br><br>
+  Oavsett om du vill hålla dig uppdaterad om våra senaste event och nyheter, 
+  eller om du vill ta steget och bli volontär i vårt senaste EU-projekt, 
+  <span class="bg-primary text-white font-bold px-1">har vi en plats för dig.</span>
+  
+  <br><br>
+  
+  När du blir medlem hos oss i Ung i Världen blir du också medlem i PeaceWorks automatiskt! 
+  PeaceWorks Sweden är en freds- och ungdomsorganisation som verkar utifrån principer om internationell solidaritet, 
+  jämlikhet och kritisk reflektion. Organisationen arbetar för en rättvis och jämlik värld genom att främja ungas 
+  organisering mot sociala orättvisor och strukturellt våld i alla dess former. Verksamheten fokuserar på antirasism, 
+  feminism och global rättvisa och bedrivs genom projekt, folkbildning, påverkansarbete och vidareförmedling av stöd till ungdomsrörelsen.
+</p>
+
+<p>
+  <a href="#" id="toggle-text" class="font-bold text-blue-600 underline">Vill du veta mer om PeaceWorks? Läs HÄR.</a>
+</p>
+
+<script>
+  document.getElementById("toggle-text").addEventListener("click", function (event) {
+    event.preventDefault();
+    const hiddenText = document.getElementById("hidden-text");
+    
+    if (hiddenText.style.display === "none") {
+      hiddenText.style.display = "block";
+      this.style.display = "none"; // Hide the link after clicking
+    }
+  });
+</script>
 checkBoxText: Genom att klicka på knappen för anmälan godkänner du vår integritetspolicy och samtycker till behandling av dina personuppgifter i enlighet med GDPR.
 submitText: Tack för ditt intresse!!
 ---
