@@ -43,7 +43,7 @@ const { frontmatter } = Astro.props;
       required: true,
     },
     {
-      type: 'tel',
+      type: 'text',
       pattern: "^[0-9]{6}([0-9]{2})?-?[0-9]{4}$", /* allows YYYYMMDD-XXXX and YYMMDD-XXXX, with or without the '-' */
       name: 'personnr',
       label: 'Fullständigt personnummer (ååmmdd-xxxx)',
