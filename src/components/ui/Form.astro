@@ -15,35 +15,48 @@ var checkBoxChecked = false;
   {
     inputs &&
       inputs.map(
-        ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', description, options }) =>
+        ({ type = 'text', name, label = '', required = false, pattern, autocomplete = 'on', placeholder = '', description, options }) =>
           name && type!="label" ? (
             type != "checkbox" ? (
               <>
+              
               {description && (
                 <p>{description}</p>
               )}
-              <div class="mb-6">
+              <div class={(required?"required ":"")+"mb-6"}>
                 {label && (
                   <label for={name} class="block text-base font-medium">
-                    {label}
+                    {label + (required?'*':'')}
                   </label>
                 )}
                 {type != "select" ? (
+                  <!-- Text input -->
                   <input
                     type={type}
                     name={name}
                     id={name}
                     autocomplete={autocomplete}
                     placeholder={placeholder}
+                    required={required}
+                    pattern={pattern}
+                    oninvalid="inputChange(event)"
+                    onchange="inputChange(event)"
                     class="py-3 px-4 block w-full text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
                   />
                 ) : (
-                  <select name={name} id={name} class="w-full p-1.5 pl-2 rounded-md">
+                  <!-- Selection -->
+                  <select 
+                    name={name}
+                    id={name}
+                    required={required}
+                    oninvalid="selectChange(event)"
+                    onchange="selectChange(event)"
+                    class="w-full p-1.5 pl-2 rounded-md">
                     {options && (
                       options.map(
                         ({ type = 'text', name, label = '', autocomplete = 'on', placeholder = '', description } ) =>
                           name == 'välj' ? (
-                            <option value={name} selected hidden disabled>{label}</option>
+                            <option value="" selected disabled >{label}</option>
                           ) : (
                             <option value={name}>{label}</option>
                           )
@@ -53,21 +66,23 @@ var checkBoxChecked = false;
               </div>
               </>
             ) : (
+              <!-- Checkbox -->
               <div class="mb-6">
                 <div class="flex items-center">
-                <input
-                  type={type}
-                  name={name}
-                  id={name}
-                  autocomplete={autocomplete}
-                  placeholder={placeholder}
-                  class="mr-2 h-3.5 w-3.5 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
-                />
-                {label && (
-                  <label for={name} class="text-base font-medium">
-                    {label}
-                  </label>
-                )}
+                    <input
+                        type={type}
+                        name={name}
+                        id={name}
+                        autocomplete={autocomplete}
+                        placeholder={placeholder}
+                        required={required}
+                        class="mr-2 /*h-3.5 /*w-3.5 /*text-md /*rounded-lg /*border /*border-gray-200 /*dark:border-gray-700 /*bg-white /*dark:bg-slate-900"
+                    />
+                    {label && (
+                        <label for={name} class="text-base font-medium">
+                            {label + (required?'*':'')}
+                        </label>
+                    )}
                 </div>
                 {description && (
                   <p class="text-base text-muted">{description}</p>
@@ -75,10 +90,11 @@ var checkBoxChecked = false;
               </div>
             )
           ) : (
+            <!-- Label only -->
             <div class="mb-2 mt-12">
               {label && (
                 <p class="font-medium text-base text-">
-                  {label}
+                  {label + (required?'*':'')}
                 </p>
               )}
             </div>
@@ -115,33 +131,22 @@ var checkBoxChecked = false;
             name="disclaimer"
             type="checkbox"
             onclick="flipCheckBox()"
-            class="t-0 l-0 cursor-pointer block hidden w-3.5 h-3.5 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"
+            oninvalid="invalidDisclaimer()"
+            required={true}
+            /*class="t-0 l-0 cursor-pointer block hiddenD w-3.5 h-3.5 text-md rounded-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-slate-900"*/
           />
-          <span id="disclaimer-style" class="cursor-pointer t-0 l-0 w-3.5 h-3.5 rounded-sm border-2 border border-gray-500 hover:border-gray-700"></span>
+          <!--span id="disclaimer-style" class="cursor-pointer t-0 l-0 w-3.5 h-3.5 rounded-sm border-2 border border-gray-500 hover:border-gray-700"></span-->
         </div>
         <div class="ml-2 shrink-2">
           <label id="disclaimer-label" for="disclaimer" class="cursor-pointer select-none text-base text-muted dark:text-gray-400">
             {disclaimer.label}
           </label>
-        <style>
-          #disclaimer-container input:checked ~ #disclaimer-style {
-            background-color: #1071c0;
-            border-color: #1071c0;
-            display: none;
-          }
-          #disclaimer-container input:checked {
-            display: block;
-            //width: 0.875rem;
-            //height: 0.875rem;
-          }
-        </style>
-          
 
-        {disclaimer.gdpr && (
-          <>
-          &nbsp;<a id="gdpr-show" href="#integritetspolicy" class="text-base text-gray-800 hover:text-black cursor-pointer underline" >Integritetspolicy</a>
-          </>
-        )}
+          {disclaimer.gdpr && (
+            <>
+            &nbsp;<a id="gdpr-show" href="#integritetspolicy" class="text-base text-gray-800 hover:text-black cursor-pointer underline" >Integritetspolicy</a>
+            </>
+          )}
         </div>
       </label>
     )
@@ -168,13 +173,31 @@ var checkBoxChecked = false;
 
 <script is:inline>
   function flipCheckBox() {
-    document.getElementById('disclaimer-style').classList.remove('!border-red-500');
     document.getElementById('disclaimer-label').classList.remove('!text-red-500');
     if (document.getElementById('disclaimer').checked) {
-      //alert("checked");
       document.getElementById("submitButton").classList.remove("opacity-50");
     } else {
       document.getElementById("submitButton").classList.add("opacity-50");
+    }
+  }
+
+  function invalidDisclaimer() {
+    document.getElementById('disclaimer-label').classList.add('!text-red-500');
+  }
+
+  function selectChange(event) {
+    if (event.currentTarget.value == "") {
+        event.currentTarget.parentElement.previousSibling.classList.add('!text-red-500');
+    } else {
+        event.currentTarget.parentElement.previousSibling.classList.remove('!text-red-500');
+    }
+  }
+
+  function inputChange(event) {
+    if (event.currentTarget.value == "") {
+        event.currentTarget.parentElement.classList.add('!text-red-500');
+    } else {
+        event.currentTarget.parentElement.classList.remove('!text-red-500');
     }
   }
 </script>
@@ -183,19 +206,6 @@ var checkBoxChecked = false;
 
   const handleSubmit = (event) => {
     event.preventDefault();
-
-    const checkBox = window.document.getElementById("disclaimer");
-    /*const name = window.document.getElementById("disclaimer");
-    const mail = window.document.getElementById("disclaimer");
-*/
-    if (checkBox !== null ) {
-      if (!checkBox.checked) {
-        document.getElementById("disclaimer-style").classList.add('!border-red-500');
-        document.getElementById("disclaimer-label").classList.add('!text-red-500');
-        alert("Du måste gå med på vilkoren genom att kryssa i rutan innan du kan skicka formuläret.");
-        return;
-      }
-    }
 
     const myForm = event.target;
     const formData = new FormData(myForm);
