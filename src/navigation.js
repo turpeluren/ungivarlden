@@ -110,7 +110,7 @@ export const footerData = {
   ],
   footNote: `
     Ung i Världen · 
-    2024 · 
+    2025 · 
     Sida av <a class="underline" href="https://turpelurpeluren.online">turpelurpeluren</a>.
   `,
 };
