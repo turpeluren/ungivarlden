@@ -1,5 +1,5 @@
 ---
-title: Vinnare av svenska Karlaprset 2025 och nominerad till The European
+title: Vinnare av svenska Karlsprset 2025 och nominerad till The European
   Charlemagne Youth Prize 2025
 excerpt: Vi är stolta över att vårt projekt "Brobyggande arbete" har vunnit
   Karlspriset för ungdomar 2025 i Sverige och nominerats till The European
