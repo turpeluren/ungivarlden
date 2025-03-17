@@ -1,7 +1,7 @@
 ---
 title: "Andra terminen för projektet är i gång! "
 excerpt: Läs mer om vår fullspäckade workshop helg i Stockholm för de nya deltagarna!
-image: https://drive.google.com/file/d/1jvb938xuevO1KhWvZU281rUdG6-Sz5b5/view?usp=drive_link
+image: ~/assets/images/img20250308090908.jpeg
 publishDate: 2025-03-08T09:18:47.174Z
 endDate: 2025-03-09T09:20:10.367Z
 location: Stockholm
