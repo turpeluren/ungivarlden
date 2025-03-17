@@ -5,7 +5,7 @@ image: ~/assets/images/img20250308090908.jpeg
 publishDate: 2025-03-08T09:18:47.174Z
 endDate: 2025-03-09T09:20:10.367Z
 location: Stockholm
-draft: true
+draft: false
 ---
 <!--StartFragment-->
 
