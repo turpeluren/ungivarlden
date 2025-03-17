@@ -7,7 +7,9 @@ endDate: 2025-03-09T09:20:10.367Z
 location: Stockholm
 draft: false
 ---
-![](~/assets/images/img_4341-1-.heic)
+![]()
+
+![](~/assets/images/img_4341-1-1-.heic)
 
 <!--StartFragment-->
 
