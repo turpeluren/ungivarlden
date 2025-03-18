@@ -1,7 +1,7 @@
 ---
 title: "Andra terminen för projektet är i gång! "
 excerpt: Läs mer om vår fullspäckade workshop helg i Stockholm för de nya deltagarna!
-image: ~/assets/images/img20250308090908.jpeg
+image: ~/assets/images/screenshot-2025-03-18-143620.png
 publishDate: 2025-03-08T09:18:47.174Z
 endDate: 2025-03-09T09:20:10.367Z
 location: Stockholm
@@ -15,7 +15,7 @@ För Tema 1 - Vårterminen 2025 samlades vi i Stockholm för en fullspäckad hel
 
 Ungdomarna fick även träffa sex gästtalare inom bistånd- och utvecklingssektorn för möjligheten att samtala, nätverka få en inblick av hur branschen ser ut idag och vilka möjliga vägar som finns.
 
-![](~/assets/images/screenshot-2025-03-18-143640.png)
+![](~/assets/images/c31078bd-ad06-4662-b57f-fb228635951c.jpg)
 
 De sex grymma panelister som deltog är:
 
@@ -33,6 +33,6 @@ Kawe Khezri - Programansvarig specialist, Avdelningen för humanitärt bistånd 
 
 Vi vill tacka alla ungdomar och panelister som tog sig tid att medverka under helgen och extra tack till Kristna Fredsrörelsen och Erik Nilsson för lån av lokal och intressant genomgång av fredsbyggande arbete! 🙏
 
-![](~/assets/images/screenshot-2025-03-18-143620.png)
+![](~/assets/images/screenshot-2025-03-18-143640.png)
 
 <!--EndFragment-->
