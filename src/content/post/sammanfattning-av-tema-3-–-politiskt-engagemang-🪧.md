@@ -1,7 +1,7 @@
 ---
 title: Sammanfattning av Tema 3 – Politiskt engagemang 🪧
 excerpt: Läs mer om studiebesöken!
-image: ~/assets/images/f65850d9-523f-4809-9ae1-b3446f0e6964.jpg
+image: ~/assets/images/f65850d9-523f-4809-9ae1-b3446f0e6964-1-.jpg
 publishDate: 2025-01-26T07:30:54.509Z
 draft: false
 ---
