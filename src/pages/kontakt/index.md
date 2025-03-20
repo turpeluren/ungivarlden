@@ -27,8 +27,7 @@ individualContacts:
       src: ~/assets/images/1000013570.png
   - title: Klara Eklund 26, Ordförande
     mail: ""
-    description: Två examen i Internationell Statsvetenskap och är idag EU trainee i
-      Slovakien.
+    description: Två examen i Internationell Statsvetenskap och är idag utredare på A-kassan
     icon: tabler:armchair
     image:
       src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
