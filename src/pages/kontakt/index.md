@@ -67,6 +67,13 @@ individualContacts:
     image:
       src: ~/assets/images/img_0846.jpeg
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
+  - icon: tabler:school
+    title: Youssra Azahaf, Ledamot
+    image:
+      src: ~/assets/images/whatsapp-image-2025-03-20-at-14.45.27.jpeg
+    description: Kandidat examen i global utveckling. Nuvarande master student i
+      internationell och jämförande pedagogik
+    linkedIn: https://www.linkedin.com/in/youssra-azahaf-0b69561a9/
   - title: Ture Goldkuhl, 23, Webbansvarig
     icon: tabler:pointer
     description: Läser civilingenjör i datavetenskap vid Umeå universitet.
