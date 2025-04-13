@@ -1,7 +1,7 @@
 ---
 title: 🌍 Ung i Världen HT24 – Deltagarnas Upplevelser! ✨
 excerpt: Läs mer om vad tidigare deltagare tyckte om Ung i Världen EU projektet!
-image: ~/assets/images/screenshot-2025-03-20-153717.png
+image: ~/assets/images/namnlös-design-2-.png
 publishDate: 2025-03-20T14:31:45.260Z
 draft: false
 ---
