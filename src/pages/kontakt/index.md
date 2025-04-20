@@ -27,8 +27,7 @@ individualContacts:
       src: ~/assets/images/1000013570.png
   - title: Klara Eklund 26, Ordförande
     mail: ""
-    description: Två examen i Internationell Statsvetenskap och är idag EU trainee i
-      Slovakien.
+    description: Två examen i Internationell Statsvetenskap och är idag utredare på A-kassan
     icon: tabler:armchair
     image:
       src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
@@ -52,9 +51,8 @@ individualContacts:
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
   - title: Yousra El Mourabit, 23, Kassör
     mail: ""
-    description: Kandidat i Global Utveckling från Stockholms universitet.
-      Ungdomsambassadör för FN-förbundet och utbildningsledare på Folk och
-      Försvar.
+    description: Kandidat i Global Utveckling från Stockholms universitet. Studerar
+      master inom globalisering och är utbildningsledare på Folk och Försvar.
     icon: tabler:cash-register
     image:
       src: ~/assets/images/original-2c98cf20-e2b0-4a01-a480-2417aa4c2594.jpeg
