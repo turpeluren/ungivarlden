@@ -2,7 +2,7 @@
 title: Andra träffen – studiebesök i Stockholm!
 excerpt: Två dagar i Stockholm fyllda av studiebesök och nya insikter om
   utvecklingssektorn! 🌍✨
-image: ~/assets/images/namnlös-design-3-.png
+image: ~/assets/images/namnlös-design-4-.png
 publishDate: 2025-04-14T06:30:00.000Z
 endDate: 2025-04-15T18:46:43.135Z
 location: Stockholm
