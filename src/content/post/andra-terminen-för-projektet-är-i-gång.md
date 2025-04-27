@@ -15,7 +15,7 @@ För Tema 1 - Vårterminen 2025 samlades vi i Stockholm för en fullspäckad hel
 
 Ungdomarna fick även träffa sex gästtalare inom bistånd- och utvecklingssektorn för möjligheten att samtala, nätverka få en inblick av hur branschen ser ut idag och vilka möjliga vägar som finns.
 
-![](~/assets/images/c31078bd-ad06-4662-b57f-fb228635951c.jpg)
+![]()
 
 De sex grymma panelister som deltog är:
 
