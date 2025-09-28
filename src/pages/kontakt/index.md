@@ -18,21 +18,30 @@ individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret nedan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
-  - title: Mona Niavarani, 24 Ordförande
+  - title: Yousra El Mourabit, 23, Ordförande
+    mail: ""
+    description: Kandidat i Global Utveckling från Stockholms universitet. Studerar
+      master inom globalisering och är utbildningsledare på Folk och Försvar.
+    icon: tabler:cash-register
+    image:
+      src: ~/assets/images/original-2c98cf20-e2b0-4a01-a480-2417aa4c2594.jpeg
+    linkedIn: https://www.linkedin.com/in/yousraelmourabit/
+  - title: "Aurora  Isufi, 23, Verksamhetsansvarig "
+    mail: ""
+    description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
+      från Stockholm universitet. "
+    icon: tabler:replace
+    image:
+      src: ~/assets/images/dsc_0090.jpg
+    linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
+  - title: Mona Niavarani, 24 Sekreterare
     description: Master i internationell Utveckling och Management (LUMID) från
       Lunds universitet, arbetar idag på FN i Köpenhamn.
     linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
     icon: tabler:armchair-2
     image:
       src: ~/assets/images/1000013570.png
-  - title: Klara Eklund 26, Ordförande
-    mail: ""
-    description: Två examen i Internationell Statsvetenskap och är idag utredare på A-kassan
-    icon: tabler:armchair
-    image:
-      src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
-    linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
-  - title: Agnyeshka Nemri, 23, Projektkoordinator
+  - title: Agnyeshka Nemri, 23, Ledamot
     mail: ""
     description: Kandidat i Statsvetenskap med erfarenhet från Migrationsverket och
       UD. Nuvarande masterstudent på Science Po Paris inom Internationell
@@ -41,22 +50,13 @@ individualContacts:
     image:
       src: ~/assets/images/1000013022.jpg
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
-  - title: Aurora  Isufi, 23, Verksamhetsansvarig & projektkoordinator
+  - title: "Klara Eklund 26, "
     mail: ""
-    description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
-      från Stockholm universitet. "
-    icon: tabler:replace
+    description: Två examen i Internationell Statsvetenskap och är idag utredare på A-kassan
+    icon: tabler:armchair
     image:
-      src: ~/assets/images/dsc_0090.jpg
-    linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
-  - title: Yousra El Mourabit, 23, Kassör
-    mail: ""
-    description: Kandidat i Global Utveckling från Stockholms universitet. Studerar
-      master inom globalisering och är utbildningsledare på Folk och Försvar.
-    icon: tabler:cash-register
-    image:
-      src: ~/assets/images/original-2c98cf20-e2b0-4a01-a480-2417aa4c2594.jpeg
-    linkedIn: https://www.linkedin.com/in/yousraelmourabit/
+      src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
+    linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
   - title: Andrea Thorgren, 25, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
