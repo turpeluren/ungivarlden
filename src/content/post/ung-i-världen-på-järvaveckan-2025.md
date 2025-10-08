@@ -1,7 +1,7 @@
 ---
 title: Ung i Världen på Järvaveckan 2025!
 excerpt: Läs mer om vårt panelsamtal och den sista träffen för EU projektet!
-image: ~/assets/images/finansieras-av-erasmus-1-.png
+image: ~/assets/images/finansieras-av-erasmus-2-.png
 publishDate: 2025-06-11T16:44:05.015Z
 endDate: 2025-06-14T16:50:24.480Z
 location: Järvafältet
