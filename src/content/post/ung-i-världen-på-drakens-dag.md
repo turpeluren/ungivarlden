@@ -1,6 +1,6 @@
 ---
 title: Ung i Världen på Drakens Dag!
-excerpt: Panelsamtal om aktivism och sol
+excerpt: Panelsamtal om aktivism och unga!
 image: ~/assets/images/1748336396698.jpeg
 publishDate: 2025-06-16T16:39:25.036Z
 endDate: 2025-06-16T16:39:43.707Z
