@@ -1,9 +1,10 @@
 ---
 title: "Cv och LinkedIn workshop på solidaritetshuset "
-excerpt: Globala unga projektet första träffen!
+excerpt: Projektet Globala unga första event!
 image: ~/assets/images/1000020190.png
-publishDate: 2025-10-23T06:39:59.762Z
-draft: true
+publishDate: 2025-10-11T06:39:59.762Z
+endDate: 2025-10-11T06:42:54.957Z
+draft: false
 ---
 Den 11 oktober samlades vi i Solidaritetshuset för en lärorik och peppande CV & Linkedin-workshop inom projektet Globala unga i Stockholm!
 
