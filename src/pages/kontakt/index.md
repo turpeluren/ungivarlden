@@ -41,7 +41,7 @@ individualContacts:
       Säkerhetspolitik.
     icon: tabler:layout-2
     image:
-      src: ~/assets/images/src/assets/images/src/assets/images/Agnyeshka.png
+      src: ~/assets/images/Agnyeshka.png
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
   - icon: tabler:user
     title: Nora Sargin, Socialamedie strateg
