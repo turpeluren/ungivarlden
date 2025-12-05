@@ -57,13 +57,13 @@ individualContacts:
       utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
     image:
       src: ~/assets/images/skärmavbild-2025-12-05-kl.-17.28.10.png
-  - icon: tabler:user
+  - icon: tabler:school
     title: Theodor Wagner Robinson, Ledmot
     description: Utbildad inom statsvetenskap, offentlig politik och global
       utveckling. Tidigare arbetade med utvecklingsforskning och insamling mot
       flyktingkriser.
     image:
-      src: ~/assets/images/2-1-.png
+      src: ""
   - title: Andrea Thorgren, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
