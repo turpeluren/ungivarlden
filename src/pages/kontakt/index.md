@@ -22,7 +22,7 @@ individualContacts:
     mail: ""
     description: Kandidat i Global Utveckling från Stockholms universitet. Studerar
       master inom globalisering och är utbildningsledare på Folk och Försvar.
-    icon: tabler:cash-register
+    icon: tabler:armchair-2
     image:
       src: ~/assets/images/original-2c98cf20-e2b0-4a01-a480-2417aa4c2594.jpeg
     linkedIn: https://www.linkedin.com/in/yousraelmourabit/
@@ -30,17 +30,10 @@ individualContacts:
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
       från Stockholm universitet. "
-    icon: tabler:replace
+    icon: tabler:armchair-1
     image:
       src: ~/assets/images/dsc_0090.jpg
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
-  - title: Mona Niavarani, 24 Sekreterare
-    description: Master i internationell Utveckling och Management (LUMID) från
-      Lunds universitet, arbetar idag på FN i Köpenhamn.
-    linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
-    icon: tabler:armchair-2
-    image:
-      src: ~/assets/images/1000013570.png
   - title: Agnyeshka Nemri, 23, Ledamot
     mail: ""
     description: Kandidat i Statsvetenskap med erfarenhet från Migrationsverket och
@@ -50,13 +43,25 @@ individualContacts:
     image:
       src: ~/assets/images/1000013022.jpg
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
-  - title: "Klara Eklund 26, "
-    mail: ""
-    description: Två examen i Internationell Statsvetenskap och är idag utredare på A-kassan
-    icon: tabler:armchair
+  - icon: tabler:user
+    title: Nora Sargin, Socialamedie strateg
+    description: "Studerar Globala Utvecklingsstudier vid Södertörns högskola. "
+    linkedIn: https://www.linkedin.com/in/nora-sargin-902a3a316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
     image:
-      src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
-    linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
+      src: ~/assets/images/skärmavbild-2025-12-05-kl.-17.26.12.png
+  - icon: tabler:user
+    title: Bamo Hussein, Ekonomiansvarig
+    description: "Gymnasiestudent och är idag 2:a vice ordförande för Rädda barnens
+      ungdomsförbund och även med i Rädda barnens riksstyrelse "
+    linkedIn: "https://www.linkedin.com/in/bamo-hussein-871938316?utm_source=share&\
+      utm_campaign=share_via&utm_content=profile&utm_medium=ios_app "
+    image:
+      src: ~/assets/images/skärmavbild-2025-12-05-kl.-17.28.10.png
+  - icon: tabler:user
+    title: Theodor Wagner Robinson, Ledmot
+    description: Utbildad inom statsvetenskap, offentlig politik och global
+      utveckling. Tidigare arbetade med utvecklingsforskning och insamling mot
+      flyktingkriser.
   - title: Andrea Thorgren, 25, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
@@ -65,6 +70,21 @@ individualContacts:
     image:
       src: ~/assets/images/img_0846.jpeg
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
+  - title: Mona Niavarani, 24 Sekreterare
+    description: Master i internationell Utveckling och Management (LUMID) från
+      Lunds universitet, arbetar idag på FN i Köpenhamn.
+    linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
+    icon: tabler:armchair-2
+    image:
+      src: ~/assets/images/1000013570.png
+  - title: Klara Eklund 26, Ledamot
+    mail: ""
+    description: Statsvetare, engagerad i ungdomsfrågor och jobbar med
+      internationell facklig politik.
+    icon: tabler:armchair
+    image:
+      src: ~/assets/images/original-8fac8179-b8db-473d-b79d-6ec2f2ff3fe6.jpeg
+    linkedIn: https://www.linkedin.com/in/klara-eklund-ba4572182/
   - icon: tabler:school
     title: Youssra Azahaf, Ledamot
     image:
