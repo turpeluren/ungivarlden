@@ -30,7 +30,7 @@ individualContacts:
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
       från Stockholm universitet. "
-    icon: tabler:armchair-1
+    icon: tabler:armchair-2
     image:
       src: ~/assets/images/dsc_0090.jpg
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
