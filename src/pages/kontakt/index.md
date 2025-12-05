@@ -18,7 +18,7 @@ individualSubtitle: Styrelsens individuella kontaktuppgifter. För generella
   frågor hänvisar vi till formuläret nedan eller maila till <a class='underline'
   href='mailto:ungivarlden.org@gmail.com'>ungivarlden.org@gmail.com</a>
 individualContacts:
-  - title: Yousra El Mourabit, 23, Ordförande
+  - title: Yousra El Mourabit, Ordförande
     mail: ""
     description: Kandidat i Global Utveckling från Stockholms universitet. Studerar
       master inom globalisering och är utbildningsledare på Folk och Försvar.
@@ -26,7 +26,7 @@ individualContacts:
     image:
       src: ~/assets/images/original-2c98cf20-e2b0-4a01-a480-2417aa4c2594.jpeg
     linkedIn: https://www.linkedin.com/in/yousraelmourabit/
-  - title: "Aurora  Isufi, 23, Verksamhetsansvarig "
+  - title: "Aurora  Isufi, Verksamhetsansvarig "
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
       från Stockholm universitet. "
@@ -34,7 +34,7 @@ individualContacts:
     image:
       src: ~/assets/images/dsc_0090.jpg
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
-  - title: Agnyeshka Nemri, 23, Ledamot
+  - title: Agnyeshka Nemri, Ledamot
     mail: ""
     description: Kandidat i Statsvetenskap med erfarenhet från Migrationsverket och
       UD. Nuvarande masterstudent på Science Po Paris inom Internationell
@@ -64,7 +64,7 @@ individualContacts:
       flyktingkriser.
     image:
       src: ~/assets/images/2-1-.png
-  - title: Andrea Thorgren, 25, Kommunikationsansvarig
+  - title: Andrea Thorgren, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
       Lunds universitet, intresserad av jämställdhet och migrationsfrågor.
@@ -72,14 +72,14 @@ individualContacts:
     image:
       src: ~/assets/images/img_0846.jpeg
     linkedIn: https://www.linkedin.com/in/andrea-thorgren-87a1671a6/
-  - title: Mona Niavarani, 24 Sekreterare
+  - title: Mona Niavarani, Sekreterare
     description: Master i internationell Utveckling och Management (LUMID) från
       Lunds universitet, arbetar idag på FN i Köpenhamn.
     linkedIn: https://www.linkedin.com/in/mona-ghasemi-6269881a4/
     icon: tabler:armchair-2
     image:
       src: ~/assets/images/1000013570.png
-  - title: Klara Eklund 26, Ledamot
+  - title: Klara Eklund, Ledamot
     mail: ""
     description: Statsvetare, engagerad i ungdomsfrågor och jobbar med
       internationell facklig politik.
@@ -94,7 +94,7 @@ individualContacts:
     description: Kandidat examen i global utveckling. Nuvarande master student i
       internationell och jämförande pedagogik
     linkedIn: https://www.linkedin.com/in/youssra-azahaf-0b69561a9/
-  - title: Ture Goldkuhl, 23, Webbansvarig
+  - title: Ture Goldkuhl, Webbansvarig
     icon: tabler:pointer
     description: Läser civilingenjör i datavetenskap vid Umeå universitet.
       Utvecklare av hemsidan. Bryr sig om kultur och hållbarhet.
