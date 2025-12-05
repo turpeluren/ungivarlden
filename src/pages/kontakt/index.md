@@ -30,7 +30,7 @@ individualContacts:
     mail: ""
     description: "Kandidat i Sociologisk Samhällsanalys med statistisk fördjupning
       från Stockholm universitet. "
-    icon: tabler:armchair-2
+    icon: tabler:armchair-1
     image:
       src: ~/assets/images/dsc_0090.jpg
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
@@ -62,6 +62,8 @@ individualContacts:
     description: Utbildad inom statsvetenskap, offentlig politik och global
       utveckling. Tidigare arbetade med utvecklingsforskning och insamling mot
       flyktingkriser.
+    image:
+      src: ~/assets/images/logo.png
   - title: Andrea Thorgren, 25, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
