@@ -36,8 +36,8 @@ individualContacts:
     linkedIn: https://www.linkedin.com/in/aurora-isufi-886867218/
   - title: Agnyeshka Nemri, Ledamot
     mail: ""
-    description: Kandidat i Statsvetenskap med erfarenhet från Migrationsverket och
-      UD. Nuvarande masterstudent på Science Po Paris inom Internationell
+    description: Kandidat i Statsvetenskap med erfarenhet från Migrationsverket,
+      UD och FNs huvudkontor NewY ork. Nuvarande masterstudent på Science Po Paris inom Internationell
       Säkerhetspolitik.
     icon: tabler:layout-2
     image:
