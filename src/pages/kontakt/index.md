@@ -63,7 +63,7 @@ individualContacts:
       utveckling. Tidigare arbetade med utvecklingsforskning och insamling mot
       flyktingkriser.
     image:
-      src: ""
+      src: "src/assets/images/2-1-.png"
   - title: Andrea Thorgren, Kommunikationsansvarig
     mail: ""
     description: Master i Internationell utveckling och Management (LUMID) från
