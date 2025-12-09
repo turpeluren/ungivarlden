@@ -44,7 +44,7 @@ individualContacts:
       src: ~/assets/images/Agnyeshka.png
     linkedIn: https://www.linkedin.com/in/agnyeshka-nemri-a8b645228/
   - icon: tabler:user
-    title: Nora Sargin, Socialamedie strateg
+    title: Nora Sargin, Socialamedier-strateg
     description: "Studerar Globala Utvecklingsstudier vid Södertörns högskola. "
     linkedIn: https://www.linkedin.com/in/nora-sargin-902a3a316?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
     image:
@@ -58,7 +58,7 @@ individualContacts:
     image:
       src: ~/assets/images/skärmavbild-2025-12-05-kl.-17.28.10.png
   - icon: tabler:school
-    title: Theodor Wagner Robinson, Ledmot
+    title: Theodor Wagner Robinson, Ledamot
     description: Utbildad inom statsvetenskap, offentlig politik och global
       utveckling. Tidigare arbetade med utvecklingsforskning och insamling mot
       flyktingkriser.
