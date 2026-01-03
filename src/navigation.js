@@ -111,6 +111,7 @@ export const footerData = {
   footNote: `
     Ung i Världen · 
     2025 · 
+    Organisationsnummer: 802548-2103
     Sida av <a class="underline" href="https://turpelurpeluren.online">turpelurpeluren</a>.
   `,
 };
