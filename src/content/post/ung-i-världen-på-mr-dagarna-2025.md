@@ -4,7 +4,7 @@ excerpt: Läs mer om vårt besök på Mänskligarättighetsdagarna i Stockholm
 image: ~/assets/images/mr-dagarna.png
 publishDate: 2025-12-09T12:59:33.239Z
 endDate: 2025-12-10T13:02:06.788Z
-draft: true
+draft: false
 ---
 ## Ung i världen på MR-dagarna 2025
 
