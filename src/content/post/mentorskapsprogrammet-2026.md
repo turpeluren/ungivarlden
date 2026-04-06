@@ -1,7 +1,7 @@
 ---
 title: Mentorskapsprogrammet 2026
 excerpt: Läs mer om vårt nya projekt!
-image: ~/assets/images/inblick-i-internationellt-arbete-1-.png
+image: ~/assets/images/inblick-i-internationellt-arbete-2-.png
 publishDate: 2026-02-08T13:58:15.909Z
 endDate: 2026-07-14T13:04:37.405Z
 draft: false
