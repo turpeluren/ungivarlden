@@ -15,21 +15,17 @@ För Tema 1 - Vårterminen 2025 samlades vi i Stockholm för en fullspäckad hel
 
 Ungdomarna fick även träffa sex gästtalare inom bistånd- och utvecklingssektorn för möjligheten att samtala, nätverka få en inblick av hur branschen ser ut idag och vilka möjliga vägar som finns.
 
+De grymma panelister som deltog är:
 
+- Linda El-Naggar - Operativ chef vid Consilio International & Associerad till Utrikespolitiska institutet
 
-De sex grymma panelister som deltog är:
+- Akram Abdulrahman - Environmental advisor & desk officer - Islamic relief Sverige
 
-Essraa Hussein - Tematisk handläggare, Unga, Fred och Säkerhet - Folke Bernadotte Akademin
+- Ravneet Singh - Biträdande utredningssekreterare, expertgruppen för biståndsanalys EBA
 
-Linda El-Naggar - Operativ chef vid Consilio International & Associerad till Utrikespolitiska institutet
+- Mårten Löfberg - Tidigare diplomat och internationell politiker för Sverige och EU
 
-Akram Abdulrahman - Environmental advisor & desk officer - Islamic relief Sverige
-
-Ravneet Singh - Biträdande utredningssekreterare, expertgruppen för biståndsanalys EBA
-
-Mårten Löfberg - Tidigare diplomat och internationell politiker för Sverige och EU
-
-Kawe Khezri - Programansvarig specialist, Avdelningen för humanitärt bistånd - Sida
+- Kawe Khezri - Programansvarig specialist, Avdelningen för humanitärt bistånd - Sida
 
 Vi vill tacka alla ungdomar och panelister som tog sig tid att medverka under helgen och extra tack till Kristna Fredsrörelsen och Erik Nilsson för lån av lokal och intressant genomgång av fredsbyggande arbete! 🙏
 

@@ -15,19 +15,17 @@ I helgen fick 10 ungdomar från Stockholm, Göteborg och Malmö chansen att saml
 
 Ungdomarna fick träffa åtta grymma panelister och gästtalare inom utvecklingsbranschen för en unik möjlighet att nätverka, få en inblick av hur branschen ser ut idag och ta med sig tips och inspiration för vilka möjligheter som finns inom och utanför EU.
 
-D﻿e åtta grymma panelister deltog:
+Några av de grymma panelister som deltog:
 
-Nadya Zin Karakaya - Programme Officer/Handläggare på enheten för Östeuropa, Sida
+- Nadya Zin Karakaya - Programme Officer/Handläggare på enheten för Östeuropa, Sida
 
-Göran Holmqvist -  Före detta avdelningschef, Sida
+- Göran Holmqvist - Före detta avdelningschef, Sida
 
-Anders Pettersson - Statsvetare 
+- Anders Pettersson - Statsvetare 
 
-Linda El-Naggar - Operativ chef vid Consilio International & Associerad till Utrikespolitiska institutet. 
+- Linda El-Naggar - Operativ chef vid Consilio International & Associerad till Utrikespolitiska institutet. 
 
-Urvashi Neermul - Koordinator för Regeringens internationella MR pris
-
-Essraa Hussein - Tematisk handläggare - Unga, Fred och Säkerhet, FBA
+- Urvashi Neermul - Koordinator för Regeringens internationella MR pris
 
 ![](~/assets/images/dsc_0129.jpg)
 
